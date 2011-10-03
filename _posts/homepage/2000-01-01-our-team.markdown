@@ -3,17 +3,11 @@ name: Our team
 category: homepage
 css-class: with_padding
 date: 2000-01-03
+jobs-intro-text: |
+  It's pretty neat to work with us because we are a friendly team ☺.
+  There are eighteen of us now, but we're looking for new colleagues:
 ---
 
-
-It's pretty neat to work with us because we are a friendly team ☺. There
-are eighteen of us now, but we're looking for new colleagues:
-
-* [Python programmer][job-programmer]
-* [Bid Writer - technical][job-bid-writer]
-
-[job-programmer]: /jobs/programmer
-[job-bid-writer]: /jobs/bid-writer
 
 Maecenas ac dolor non turpis malesuada posuere. Curabitur nec sapien
 nulla. Vivamus nec ipsum ut ligula pulvinar tincidunt. Phasellus ac nibh

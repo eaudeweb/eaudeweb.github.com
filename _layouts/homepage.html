@@ -32,6 +32,19 @@ layout: base
 
       {% endfor %}
 
+    {% elsif section.name == "Our team" %}
+
+      {% if site.categories.jobs %}
+        <p>{{ section.jobs-intro-text }}</p>
+        <ul>
+        {% for job in site.categories.jobs %}
+          <li><a href="{{ job.url }}">{{ job.title }}</a></li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+
+      {{ section.content }}
+
     {% elsif section.name == "EdW news" %}
 
       <div class="content_box double_box">
