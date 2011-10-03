@@ -1,0 +1,38 @@
+---
+name: About us
+category: homepage
+---
+
+
+Eau de Web is a Romanian software company specialised in Web
+development. We're in business in this formula since 2006, but most of
+us have worked together as a team since 1999.
+
+We attend trainings and conferences all the time and we keep ourselves
+informed about new technologies, solutions and standards. This allows us
+use emerging technology when developing applications and also suggest
+the suitable solutions to our clients when we start new ones.
+
+Our products and services respect modern standards for accessibility,
+syndication and Web services. Most of our work is open source and that's
+the way we like it.
+
+Over the years we worked a lot with content management systems and
+portal toolkits so we eventually built our own. It's called Naaya, it's
+made in Zope and it's fully open source. It's our pride and joy because
+it's simple to use, simple to extend and elegant to program. We'll have
+a website for it soon.
+
+
+### The name ###
+
+Eau de Web is a paraphrase of eau de parfum, meaning a fragrance of Web,
+close to its essence.
+
+
+### Eau de Web's Manifesto ###
+
+The drives of our activities are the open source culture and the use of
+open standards due to the benefits of code reuse, openness in
+participating in projects worldwide, peer review and contributions from
+a wide community of developers.

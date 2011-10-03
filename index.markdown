@@ -1,7 +1,5 @@
 ---
 title: EdW
-layout: default
+layout: homepage
 body-class: home
 ---
-
-hello world

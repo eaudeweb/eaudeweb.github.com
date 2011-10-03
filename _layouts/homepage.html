@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{% for section in site.categories.homepage %}
+
+  <section id="{{ section.name | downcase | replace: ' ', '-' }}-container"
+           class="with_padding">
+
+    <h2>{{ section.name }}</h2>
+
+    {{ section.content }}
+
+  </section>
+
+{% endfor %}
