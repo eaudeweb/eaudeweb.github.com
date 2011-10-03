@@ -1,0 +1,46 @@
+---
+title: PyCon 2011 Atlanta
+category: news
+teaser: |
+  We went to the PyCon US 2011!
+---
+
+
+There where three of us: Alexandru Plugaru, Alex Morega and Andrei Laza.
+
+It was by far the largest PyCon and we've never seen so many python
+programmers in one place (around 1200 attendees). It was comforting to
+know that there are so many people that can share their knowledge and
+experiences as python developers and as programmers in general so close
+to each other.
+
+The conference wasn't just about Python as a programming language. It
+was much more. It was about coders, hackers, scientists, companies and
+others who use Python every day to solve their problems and are glad to
+share their knowledge with you.
+
+There was so much stuff to learn that at some point it got really
+irritating that we couldn't attend a lot of important speeches and
+discussions. Fortunately there are recordings of every speech (or
+almost) here on pycon's blip.tv [channel][].
+
+There where many great talks and lightning talks at PyCon, but there
+where a few that were more than great. To name a few:
+
+* [Reverse-engineering Ian Bicking's brain: inside pip and
+  virtualenv][pip-talk] by Carl Meyer
+* [API Design anti-patterns][antipatterns-talk] by Alex Martelli
+* [API Design: Lessons Learned][apilessons-talk] by Raymond Hettinger
+
+We also had the pleasure of participating in sprints. Alexandru Plugaru
+and Andrei Laza worked on zc.buildout with guidance from Jim Fulton and
+managed to solve a few bugs in the package. Alex Morega worked with the
+pip guys.
+
+Here are a few pictures: [Picasa album][]
+
+[channel]: http://pycon.blip.tv/
+[pip-talk]: http://us.pycon.org/2011/schedule/presentations/198/
+[antipatterns-talk]: http://us.pycon.org/2011/schedule/presentations/88/
+[apilessons-talk]: http://us.pycon.org/2011/schedule/presentations/263/
+[picasa_album]: https://picasaweb.google.com/105609546437379616640/PyCon2011?feat=directlink

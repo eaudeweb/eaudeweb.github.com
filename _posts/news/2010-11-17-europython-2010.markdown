@@ -1,0 +1,27 @@
+---
+title: EuroPython 2010
+category: news
+---
+
+
+Andrei Laza and Alex Morega from Eau de Web attended [EuroPython][] this
+year. It was held in Birmingham and drew hundreds of attendees and quite
+a few good speakers.
+
+EuroPython 2010 had four parallel tracks of talks so choosing what to
+attend was a challenge. We got to watch many of the people behind Python
+and related projects - Zope, Twisted, various testing tools, etc. We
+also stayed for the sprints and worked a bit on PyPy and Python core.
+
+A few of the talks and sessions were about local programmer user groups
+and meet-ups. These come in many shapes and sizes, from a few people
+meeting in a bar, to regular events with presentations or hacking. Since
+there's no Python user group in Bucharest, we set about organizing our
+own: [PyBucureşti][pybucuresti].
+
+We managed to sneak out and visit Birmingham itself. Here are [a few
+pictures][].
+
+[europython]: http://www.europython.eu/
+[pybucuresti]: http://pybucuresti.grep.ro/
+[a-few-pictures]: http://grep.ro/quickpub/2010_07-europython
