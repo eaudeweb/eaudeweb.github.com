@@ -1,5 +1,7 @@
 ---
 name: The European Environment Agency
+homepage: http://www.eea.europa.eu/
+logo: images/client-logos/eea.png
 category: clients
 date: 2000-01-01
 ---
