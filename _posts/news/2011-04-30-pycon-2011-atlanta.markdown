@@ -2,6 +2,7 @@
 title: PyCon 2011 Atlanta
 image: /images/dummy-news.jpg
 category: news
+layout: news
 teaser: |
   It was by far the largest PyCon and we've never seen so many python
   programmers in one place (around 1200 attendees). It was comforting to
