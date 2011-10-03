@@ -30,9 +30,43 @@
 
 <body class="edw {{ page.body-class }}">
 
-  <h1>{{ page.title }}</h1>
+  <header>
+    <nav>
+      <ul>
+        <li class="home selected"><a href="#index" title="Eau de Web"
+          ><img src="images/edw-logo.png" width="79" height="65"
+          alt="Eau de Web" />Eau de Web</a></li>
+        <li><a href="#we-work-for" title="Work">Work</a></li>
+        <li><a href="#about-us" title="About us">About us</a></li>
+        <li><a href="#our-team" title="Our team">Our team</a></li>
+        <li><a href="#contact-us" title="Contact us">Contact us</a></li>
+        <li><a href="#edw-news" title="EdW news">EdW news</a></li>
+        <li><a href="#naaya"  title="Naaya">Naaya</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  {{ content }}
+  <div id="content" class="content">
+
+    <h1>{{ page.title }}</h1>
+
+    {{ content }}
+
+    <footer>
+      <nav>
+        <ul>
+          <li class="first"><strong>Tel:</strong> +40 21 222 1522</li>
+          <li>
+            <strong>Email:</strong>
+            <a href="mailto:office@eaudeweb.ro">office@eaudeweb.ro</a>
+          </li>
+          <li class="details"><a href="single.html">Company details</a></li>
+          <li><a href="#top" id="top">Top</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+  </div>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"
     ></script>
