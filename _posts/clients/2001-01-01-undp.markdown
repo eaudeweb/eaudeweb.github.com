@@ -1,7 +1,7 @@
 ---
 name: United Nations Development Programme
 homepage: http://www.undp.org/
-logo: images/client-logos/undp.png
+logo: /images/client-logos/undp.png
 category: clients
 date: 2000-01-04
 ---

@@ -19,7 +19,7 @@ layout: base
 
         <a href="#" class="box">
           <span>{{ client.name }}</span>
-          <img src="/{{ client.logo }}" width="256" height="256" />
+          <img src="{{ client.logo }}" width="256" height="256" />
         </a>
         <div class="large_box">
           <h3>{{ client.name }}</h3>
@@ -48,7 +48,7 @@ layout: base
           <a href="{{ article.url }}">Read more</a>
         </p>
 
-        <span class="box"><img src="/{{ article.image }}"
+        <span class="box"><img src="{{ article.image }}"
           width="256" height="256" /></span>
       </article>
 
