@@ -29,4 +29,4 @@ pictures][].
 
 [europython]: http://www.europython.eu/
 [pybucuresti]: http://pybucuresti.grep.ro/
-[a-few-pictures]: http://grep.ro/quickpub/2010_07-europython
+[a_few_pictures]: http://grep.ro/quickpub/2010_07-europython
