@@ -12,6 +12,10 @@ teaser: |
 ---
 
 
+The EEA aims to support sustainable development and to help achieve
+significant and measurable improvement in Europe's environment through
+the provision of timely, targeted, relevant and reliable info.
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a
 tortor arcu. Pellentesque habitant morbi tristique senectus et netus et
 malesuada fames ac turpis egestas. Quisque congue rutrum nisl, vitae
