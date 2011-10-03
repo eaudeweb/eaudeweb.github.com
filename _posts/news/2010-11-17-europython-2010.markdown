@@ -1,6 +1,11 @@
 ---
 title: EuroPython 2010
+image: images/dummy-news.jpg
 category: news
+teaser: |
+  Andrei Laza and Alex Morega from Eau de Web attended EuroPython this
+  year. It was held in Birmingham and drew hundreds of attendees and
+  quite a few good speakers.
 ---
 
 

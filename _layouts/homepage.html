@@ -50,10 +50,14 @@ layout: base
       <article>
 
         <p>
-          <time>{{ article.date | date: "%Y.%m.%d" }}</time>
-
+          <time>{{ article.date | date: "%Y.%m.%d" }}</time><br/>
           {{ article.teaser }}
+          <a href="{{ article.url }}">Read more</a>
         </p>
+
+        <span class="box"><img src="{{ article.image }}"
+          width="256" height="256" /></span>
+      </article>
 
       {% endfor %}
 
