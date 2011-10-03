@@ -11,6 +11,16 @@ layout: default
 
     {% if section.name == "We work for" %}
 
+      {% for client in site.categories.clients reversed %}
+
+      <article>
+
+        <h3>{{ client.name }}</h3>
+
+      </article>
+
+      {% endfor %}
+
     {% elsif section.name == "EdW news" %}
 
       <div class="content_box double_box">
