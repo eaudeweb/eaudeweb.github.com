@@ -3,3 +3,8 @@ name: EdW news
 category: homepage
 date: 2000-01-05
 ---
+
+These are some of the things that have been keeping us busy lately.
+For past news please consult [the archives][].
+
+[the_archives]: /news.html

@@ -35,14 +35,7 @@ layout: base
     {% elsif section.name == "EdW news" %}
 
       <div class="content_box double_box">
-        <p>These are some of the things that have been keeping us busy lately.
-        For past news please consult the yearly achives below.</p>
-        <ul class="archive">
-          <li class="first"><a href="news-archive.html">2011</a></li>
-          <li><a href="news-archive.html">2010</a></li>
-          <li><a href="news-archive.html">2009</a></li>
-          <li><a href="news-archive.html">2008</a></li>
-        </ul>
+        {{ section.content }}
       </div>
 
       {% for article in site.categories.news limit: 4 %}
