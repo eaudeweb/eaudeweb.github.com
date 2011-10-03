@@ -1,8 +1,9 @@
 ---
-name: European Network and information Security Agency
+title: European Network and information Security Agency
 homepage: http://enisa.europa.eu/
 logo: /images/client-logos/enisa.png
 category: clients
+layout: client
 date: 2000-01-02
 ---
 

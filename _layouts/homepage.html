@@ -18,14 +18,21 @@ layout: base
       <article>
 
         <a href="#" class="box">
-          <span>{{ client.name }}</span>
+          <span>{{ client.title }}</span>
           <img src="{{ client.logo }}" width="256" height="256" />
         </a>
+
         <div class="large_box">
-          <h3>{{ client.name }}</h3>
+
+          <h3>{{ client.title }}</h3>
+
           <p><a href="{{ client.homepage }}"
                 rel="external">{{ client.homepage }}</a></p>
-          {{ client.content }}
+
+          <p>{{ client.teaser }}</p>
+
+          <p><a href="{{ client.url }}">Read more</a></p>
+
         </div>
 
       </article>

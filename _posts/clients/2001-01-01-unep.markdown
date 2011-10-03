@@ -1,8 +1,9 @@
 ---
-name: United Nations Environment Programme
+title: United Nations Environment Programme
 homepage: http://www.unep.org/
 logo: /images/client-logos/unep.png
 category: clients
+layout: client
 date: 2000-01-03
 ---
 
