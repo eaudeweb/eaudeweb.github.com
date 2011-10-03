@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% for section in site.categories.homepage %}
+{% for section in site.categories.homepage reversed %}
 
   <section id="{{ section.name | downcase | replace: ' ', '-' }}-container"
            class="with_padding">

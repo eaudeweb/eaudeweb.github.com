@@ -1,6 +1,7 @@
 ---
 name: About us
 category: homepage
+date: 2000-01-02
 ---
 
 

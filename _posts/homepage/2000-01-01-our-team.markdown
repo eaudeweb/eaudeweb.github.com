@@ -1,6 +1,7 @@
 ---
 name: Our team
 category: homepage
+date: 2000-01-03
 ---
 
 
