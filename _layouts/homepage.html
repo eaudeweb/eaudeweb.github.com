@@ -8,7 +8,17 @@ layout: base
 
   {% capture section_id %}{{ section.title | downcase | replace: ' ', '-' }}{% endcapture %}
 
-  <section id="{{ section_id }}-container" class="{{ section.css-class }}">
+  {% if section_id == "about-us" %}
+    {% assign css_class = "with_padding" %}
+  {% elsif section_id == "naaya" %}
+    {% assign css_class = "with_padding" %}
+  {% elsif section_id == "our-team" %}
+    {% assign css_class = "with_padding" %}
+  {% else %}
+    {% assign css_class = "" %}
+  {% endif %}
+
+  <section id="{{ section_id }}-container" class="{{ css_class }}">
 
     <h2>{{ section.title }}</h2>
 

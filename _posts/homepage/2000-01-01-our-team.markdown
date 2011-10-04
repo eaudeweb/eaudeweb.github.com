@@ -1,7 +1,6 @@
 ---
 title: Our team
 category: homepage
-css-class: with_padding
 date: 2000-01-03
 jobs-intro-text: |
   It's pretty neat to work with us because we are a friendly team ☺.
