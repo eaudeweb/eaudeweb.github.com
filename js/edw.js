@@ -180,9 +180,14 @@ $(document).ready(function() {
 			map: map
 		});
 		var info_window = new google.maps.InfoWindow({
-			content: $('#contact-map-infobox').html()
+			content: $('#contact-map-infobox').remove().show()[0]
 		});
 		info_window.open(map, marker);
+		// forcibly remove the close box
+		google.maps.event.addListener(info_window, 'domready', function() {
+			var parent_box = $('#contact-map-infobox').parents('div:has(>img)');
+			$('>img', parent_box).remove();
+		});
 	};
 
 });
