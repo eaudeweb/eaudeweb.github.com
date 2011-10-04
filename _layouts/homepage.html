@@ -52,10 +52,10 @@ layout: base
 
     {% elsif section.title == "Our team" %}
 
-      {% if site.categories.jobs %}
+      {% if site.categories.team %}
         <p>{{ section.jobs-intro-text }}</p>
         <ul>
-        {% for job in site.categories.jobs %}
+        {% for job in site.categories.team %}
           <li><a href="{{ job.url }}">{{ job.title }}</a></li>
         {% endfor %}
         </ul>
