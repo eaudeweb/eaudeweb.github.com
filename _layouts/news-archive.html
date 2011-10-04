@@ -9,6 +9,7 @@ layout: base
 
 {% for article in site.categories.news %}
 
+  {% if article.year == page.year %}
   <article>
 
     <p>
@@ -20,6 +21,7 @@ layout: base
     <span class="box"><img src="{{ article.image }}"
       width="256" height="256" /></span>
   </article>
+  {% endif %}
 
 {% endfor %}
 

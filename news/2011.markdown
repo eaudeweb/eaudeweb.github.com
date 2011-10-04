@@ -1,0 +1,5 @@
+---
+title: EdW news 2011
+year: 2011
+layout: news-archive
+---

@@ -2,6 +2,7 @@
 title: EuroPython 2010
 image: /images/dummy-news.jpg
 category: news
+year: 2010
 layout: news
 teaser: |
   Andrei Laza and Alex Morega from Eau de Web attended EuroPython this

@@ -2,6 +2,7 @@
 title: PyCon 2011 Atlanta
 image: /images/dummy-news.jpg
 category: news
+year: 2011
 layout: news
 teaser: |
   It was by far the largest PyCon and we've never seen so many python

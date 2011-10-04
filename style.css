@@ -127,19 +127,19 @@ p,
 		min-height:93px;
 	}
 	
-	.content .archive
+	#edw-news-container ul
 	{
 		margin:0;
 	}
 	
-	.archive li
+	#edw-news-container ul li
 	{
 		width: 45px;
 		float: left;
 		margin:0 0 9px 32px;
 	}
 	
-	.archive li:nth-of-type(5n+1)
+	#edw-news-container ul li:nth-of-type(5n+1)
 	{
 		margin-left: 0;
 	}
