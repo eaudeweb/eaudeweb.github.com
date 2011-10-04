@@ -167,4 +167,22 @@ $(document).ready(function() {
 		$(this).attr("target", "_blank");
 	});
 
+	var contact_map = $('#contact-map');
+	if(contact_map) {
+		var latlng = new google.maps.LatLng(44.4628, 26.0764);
+		var map = new google.maps.Map(contact_map[0], {
+			center: latlng,
+			zoom: 15,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		});
+		var marker = new google.maps.Marker({
+			position: latlng,
+			map: map
+		});
+		var info_window = new google.maps.InfoWindow({
+			content: $('#contact-map-infobox').html()
+		});
+		info_window.open(map, marker);
+	};
+
 });
