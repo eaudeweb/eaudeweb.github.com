@@ -1,5 +1,5 @@
 ---
-name: EdW news
+title: EdW news
 category: homepage
 date: 2000-01-05
 ---

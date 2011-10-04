@@ -6,13 +6,13 @@ layout: base
 
 {% for section in site.categories.homepage reversed %}
 
-  {% capture section-id %}{{ section.name | downcase | replace: ' ', '-' }}{% endcapture %}
+  {% capture section_id %}{{ section.title | downcase | replace: ' ', '-' }}{% endcapture %}
 
-  <section id="{{ section-id }}-container" class="{{ section.css-class }}">
+  <section id="{{ section_id }}-container" class="{{ section.css-class }}">
 
-    <h2>{{ section.name }}</h2>
+    <h2>{{ section.title }}</h2>
 
-    {% if section.name == "We work for" %}
+    {% if section.title == "We work for" %}
 
       {% for client in site.categories.clients reversed %}
 
@@ -40,7 +40,7 @@ layout: base
 
       {% endfor %}
 
-    {% elsif section.name == "Our team" %}
+    {% elsif section.title == "Our team" %}
 
       {% if site.categories.jobs %}
         <p>{{ section.jobs-intro-text }}</p>
@@ -53,7 +53,7 @@ layout: base
 
       {{ section.content }}
 
-    {% elsif section.name == "EdW news" %}
+    {% elsif section.title == "EdW news" %}
 
       <div class="content_box double_box">
         {{ section.content }}

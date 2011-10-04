@@ -46,8 +46,8 @@
           width="79" height="65" alt="Eau de Web" />Eau de Web</a></li>
 
         {% for section in site.categories.homepage reversed %}
-          {% capture section_id %}{{ section.name | downcase | replace: ' ', '-' }}{% endcapture %}
-          {% assign menu-label = section.name %}
+          {% capture section_id %}{{ section.title | downcase | replace: ' ', '-' }}{% endcapture %}
+          {% assign menu-label = section.title %}
           {% if section.menu-label %}
             {% assign menu-label = section.menu-label %}
           {% endif %}
@@ -55,7 +55,7 @@
           <li {% if current-section == section_id %}
               class="selected"{% endif %}>
             <a href="/#{{ section_id }}"
-               title="{{ section.name }}">{{ menu-label }}</a></li>
+               title="{{ section.title }}">{{ menu-label }}</a></li>
         {% endfor %}
 
       </ul>

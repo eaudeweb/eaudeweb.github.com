@@ -1,5 +1,5 @@
 ---
-name: Naaya
+title: Naaya
 category: homepage
 css-class: with_padding
 date: 2000-01-06
