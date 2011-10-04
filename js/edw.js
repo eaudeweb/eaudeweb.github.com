@@ -29,7 +29,7 @@ $(window).scroll(function()
 				var hash = $(this).attr("id").replace("-container", "")
 				
 				$("header .selected").removeClass("selected");
-				$("header a[href='#"+ hash +"']").parent("li").addClass("selected");
+				$("header a[href='/#"+ hash +"']").parent("li").addClass("selected");
 				
 				location.hash = hash;
 			}
@@ -139,7 +139,7 @@ $(document).ready(function() {
 	
 	$("header a").each(function(){
 		$(this).click(function(e){
-			var hash = $(this).attr("href");
+			var hash = $(this).attr("href").substr(1);
 			$("html,body").animate({scrollTop: $(hash + "-container").offset().top - extra_padding}, 500);
 			
 			menu_clicked = true;
