@@ -1,10 +1,9 @@
 ---
-title: United Nations Development Programme
-homepage: http://www.undp.org/
-logo: /images/client-logos/undp.png
-category: clients
+title: United Nations Environment Programme
+homepage: http://www.unep.org/
+logo: /images/client-logos/unep.png
 layout: client
-date: 2000-01-04
+date: 2000-01-03
 ---
 
 Aenean nunc nisl, semper nec suscipit vel, commodo eget dolor. Ut cursus

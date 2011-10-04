@@ -1,7 +1,6 @@
 ---
 title: EuroPython 2010
 image: /images/dummy-news.jpg
-category: news
 year: 2010
 layout: news
 teaser: |

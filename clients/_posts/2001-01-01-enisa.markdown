@@ -1,10 +1,9 @@
 ---
-title: United Nations Environment Programme
-homepage: http://www.unep.org/
-logo: /images/client-logos/unep.png
-category: clients
+title: European Network and information Security Agency
+homepage: http://enisa.europa.eu/
+logo: /images/client-logos/enisa.png
 layout: client
-date: 2000-01-03
+date: 2000-01-02
 ---
 
 Aenean nunc nisl, semper nec suscipit vel, commodo eget dolor. Ut cursus

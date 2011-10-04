@@ -1,7 +1,6 @@
 ---
 title: Python programmer
 layout: job
-category: jobs
 ---
 
 *Sine qua non* conditions:
