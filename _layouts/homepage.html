@@ -6,8 +6,9 @@ layout: base
 
 {% for section in site.categories.homepage reversed %}
 
-  <section id="{{ section.name | downcase | replace: ' ', '-' }}-container"
-           class="{{ section.css-class }}">
+  {% capture section-id %}{{ section.name | downcase | replace: ' ', '-' }}{% endcapture %}
+
+  <section id="{{ section-id }}-container" class="{{ section.css-class }}">
 
     <h2>{{ section.name }}</h2>
 
