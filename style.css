@@ -101,7 +101,8 @@ body
 	}
 
 p,
-.content ul
+.content ul,
+.news time
 {
 	margin:0 0 31px 0;
 }
@@ -183,7 +184,8 @@ h1
 		font-weight: normal;
 	}
 
-h2
+h2,
+h1.black
 {
 	width: 192px;
 	height: 192px;

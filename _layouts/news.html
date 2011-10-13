@@ -2,12 +2,12 @@
 layout: base
 ---
 
-<article class="with_padding news">
+<article class="with_padding">
 
 <span class="box"><img src="{{ page.image }}" width="256" height="256" /></span>
 
 <h1 class="no_bottom">{{ page.title }}</h1>
-<time>{{ page.date | date: "%d %B %Y" }}</time>
+<p><time>{{ page.date | date: "%d %B %Y" }}</time></p>
 
 {{ content }}
 
