@@ -198,6 +198,7 @@ h1.black
 	line-height: 51px;
 	text-transform: uppercase;
 	float: left;
+    text-decoration: none;
 }
 
 	.with_padding h2

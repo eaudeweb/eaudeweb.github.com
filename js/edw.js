@@ -137,7 +137,7 @@ $(document).ready(function() {
 		});
 	});
 	
-	$("header a").each(function(){
+	$("header a, .sections").each(function(){
 		$(this).click(function(e){
 			var hash = $(this).attr("href").substr(1);
 			$("html,body").animate({scrollTop: $(hash + "-container").offset().top - extra_padding}, 500);
@@ -145,7 +145,7 @@ $(document).ready(function() {
 			menu_clicked = true;
 			
 			$("header .selected").removeClass("selected");
-			$(this).parent("li").addClass("selected");
+			$("header a[href='/#" + hash + "']").parent("li").addClass("selected");
 			
 			waitForAnimation = setTimeout(function() {
 				menu_clicked = false;
