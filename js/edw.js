@@ -24,7 +24,7 @@ $(window).scroll(function()
 		var scroll_top = $(window).scrollTop();
 		
 		$("#content").children("h1,section").each(function(){
-			if((($(this).offset().top - extra_padding - 256) <= scroll_top) && (($(this).next().offset().top - extra_padding - 256) > scroll_top))
+			if((($(this).offset().top - extra_padding - 128) <= scroll_top) && (($(this).next().offset().top - extra_padding - 128) > scroll_top))
 			{
 				var hash = $(this).attr("id").replace("-container", "");
 				
