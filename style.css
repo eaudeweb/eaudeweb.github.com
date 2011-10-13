@@ -101,13 +101,13 @@ body
 	}
 
 p,
-.content ul,
-time
+.content ul
 {
 	margin:0 0 31px 0;
 }
 
-	* p:last-child
+	* p:last-child,
+    .last-child
 	{
 		margin:0;
 	}
@@ -455,11 +455,6 @@ header
 			left:0;
 			right:inherit;
 		}
-	
-	#edw-news-container article p
-	{
-		margin:0;
-	}
 	
 	.content_box
 	{
