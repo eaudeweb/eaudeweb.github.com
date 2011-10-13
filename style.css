@@ -102,7 +102,7 @@ body
 
 p,
 .content ul,
-.news time
+time
 {
 	margin:0 0 31px 0;
 }
@@ -159,10 +159,10 @@ a:visited
 		color: #151f06;
 	}
 	
-time
+/*time
 {
 	font-weight: bold;
-}
+}*/
 
 h1
 {
