@@ -5,13 +5,14 @@ layout: base
 
 <section id="edw-news-container">
 
-<h2>{{ page.title }}</h2>
+<h1 class="box">{{ page.title }}</h1>
 
 {% for article in site.categories.news %}
 
   {% if article.year == page.year %}
   <article>
 
+    <h3>{{ article.title }}</h3>
     <p>
       <time>{{ article.date | date: "%d %B %Y" }}</time><br/>
       {{ article.teaser }}
