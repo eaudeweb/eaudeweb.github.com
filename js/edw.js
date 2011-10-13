@@ -145,8 +145,8 @@ $(document).ready(function() {
 			menu_clicked = true;
 			
 			$("header .selected").removeClass("selected");
-			$("header a[href='/#" + hash + "']").parent("li").addClass("selected");
-			
+			$("header a[href='/" + hash + "']").parent("li").addClass("selected");
+            
 			waitForAnimation = setTimeout(function() {
 				menu_clicked = false;
 				clearTimeout(waitForAnimation);

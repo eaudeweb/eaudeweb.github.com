@@ -161,7 +161,7 @@ a:visited
     
     .sections
     {
-        display:block;
+        display:inline-block;
         width:256px;
         height:256px;
         color:#fff;
@@ -575,6 +575,12 @@ footer
 	text-align: right;
 }
 
+html.ielt8 .sections
+{
+	display: inline;
+	zoom: 1 !important;
+}
+
 /* iPad Portrait + iPhone Landscape */
 
 @media only screen and (max-width: 1023px), only screen and (max-width: 767px) {
@@ -601,6 +607,7 @@ footer
 		display: inline-block;
 	}
 	
+    /* what */
 	html.ielt8
 	{
 		display: inline;
