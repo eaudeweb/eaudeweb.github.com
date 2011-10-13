@@ -214,10 +214,16 @@ h1.black
         float:none;
     }
 
-	.with_padding h2
+	.with_padding h2,
+    .with_padding .sections
 	{
 		margin: -32px 32px 22px -32px;
 	}
+    
+    .with_padding .sections h2
+    {
+        margin: 0;
+    }
 
 h3
 {
