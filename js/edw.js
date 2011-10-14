@@ -173,6 +173,7 @@ $(document).ready(function() {
 		var map = new google.maps.Map(contact_map[0], {
 			center: latlng,
 			zoom: 15,
+            scrollwheel: false,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		});
         
