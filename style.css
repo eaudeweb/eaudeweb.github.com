@@ -758,6 +758,12 @@ footer
 	{
 		margin-top: 0 !important;
 	}
+    
+    #edw-news-container article:nth-of-type(2n) span
+    {
+        right:0;
+        left:inherit;
+    }        
 	
 	.home h1
 	{
@@ -776,7 +782,7 @@ footer
 	
 }
 
-/* iPhone Portrait */
+/* iPhone Landscape */
 
 @media only screen and (max-width: 479px) {
 	
@@ -794,7 +800,15 @@ footer
     #edw-news-container article
     {
 		margin-top:20px;
-		padding: 0 0 0 20px;
+		padding: 0 20px 0 20px;
 	}
 		
+}
+
+/* iPhone Portrait */
+
+@media only screen and (max-width: 319px) {
+
+    
+
 }

@@ -73,6 +73,7 @@ resize_magic = function() {
             if(browser_width < 480)
             {
                 $("#we-work-for-container article, .box, .box img").css("width", browser_width/2 + "px").css("height", browser_width/2 + "px");
+                $("#edw-news-container article").removeAttr("style");
             }
             else
             {
