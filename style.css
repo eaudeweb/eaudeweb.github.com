@@ -690,10 +690,15 @@ footer
         line-height:37px;
 	}
 	
+    .with_padding
+    {
+        padding: 20px 20px 77px;
+    }
+    
 	.with_padding h2,
     .with_padding .section
     {
-		margin: -32px 0 32px -32px;
+		margin: -20px 0 20px -20px;
 	}
     
         .with_padding .section h2
