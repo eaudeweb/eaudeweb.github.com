@@ -62,9 +62,23 @@ resize_magic = function() {
 		$("header").css("margin-top", 0);
 		extra_padding = header_height;
 		$("#content").css("padding-top", $("header").height() + "px");
-	    if(browser_width < 768)
+	    
+        if(browser_width < 768)
         {
             $(".sections, .with_padding h2").css("width", browser_width + "px");
+            $("body.home #we-work-for-container").masonry('destroy');
+        }
+        else
+        {
+            $(".sections, .with_padding h2").removeAttr("style");
+            if( $("body.home #we-work-for-container").hasClass("masonry") == false)
+            {
+                $("body.home #we-work-for-container").masonry({
+                    itemSelector: "article, h2",
+                    columnWidth: column_width,
+            		isAnimated: !Modernizr.csstransitions
+            	});
+            }
         }
     }
 	else
