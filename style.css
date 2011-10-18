@@ -159,7 +159,8 @@ a:visited
 		color: #151f06;
 	}
     
-    .sections
+    .sections,
+    .sections:visited
     {
         float:left;
         width:256px;
@@ -780,6 +781,9 @@ footer
 
 @media only screen and (max-width: 479px) {
 	
-
+    span.box
+    {
+        display:none;
+    } 
 		
 }
