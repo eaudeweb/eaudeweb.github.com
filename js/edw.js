@@ -70,7 +70,14 @@ resize_magic = function() {
             if($(".masonry").length)
                 $("body.home #we-work-for-container").masonry('destroy');
             
-            $("#we-work-for-container article, .box, .box img").css("width", browser_width/3 + "px").css("height", browser_width/3 + "px");
+            if(browser_width < 480)
+            {
+                $("#we-work-for-container article, .box, .box img").css("width", browser_width/2 + "px").css("height", browser_width/2 + "px");
+            }
+            else
+            {
+                $("#we-work-for-container article, .box, .box img").css("width", browser_width/3 + "px").css("height", browser_width/3 + "px");
+            }
         }
         else
         {
