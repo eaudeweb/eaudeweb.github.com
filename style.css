@@ -696,12 +696,12 @@ footer
     }
     
 	.with_padding h2,
-    .with_padding .section
+    .with_padding .sections
     {
 		margin: -20px 0 20px -20px;
 	}
     
-        .with_padding .section h2
+        .with_padding .sections h2
         {
             margin:0;
         }
