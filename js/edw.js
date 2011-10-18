@@ -70,7 +70,7 @@ resize_magic = function() {
             if($(".masonry").length)
                 $("body.home #we-work-for-container").masonry('destroy');
             
-            $("#we-work-for-container article, .box, .box img").css("width", screen_width/3 + "px").css("height", screen_width/3 + "px");
+            $("#we-work-for-container article, .box, .box img").css("width", browser_width/3 + "px").css("height", browser_width/3 + "px");
         }
         else
         {
