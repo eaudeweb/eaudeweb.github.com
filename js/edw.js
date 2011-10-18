@@ -62,7 +62,11 @@ resize_magic = function() {
 		$("header").css("margin-top", 0);
 		extra_padding = header_height;
 		$("#content").css("padding-top", $("header").height() + "px");
-	}
+	    if(browser_width < 768)
+        {
+            $(".sections, .with_padding h2").css("width", browser_width + "px");
+        }
+    }
 	else
 	{
 		$("html").removeClass("top_menu");
