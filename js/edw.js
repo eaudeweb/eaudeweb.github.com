@@ -66,8 +66,11 @@ resize_magic = function() {
         if(browser_width < 768)
         {
             $(".sections, .with_padding h2").css("width", browser_width + "px");
+            
             if($(".masonry").length)
                 $("body.home #we-work-for-container").masonry('destroy');
+            
+            $("#we-work-for-container article, .box, .box img").css("width", screen_width/3 + "px").css("height", screen_width/3 + "px");
         }
         else
         {
