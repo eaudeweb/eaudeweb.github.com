@@ -706,7 +706,8 @@ footer
             margin:0;
         }
 	
-    .box span
+    .box span,
+    .large_box
     {
         display:none;
     }
