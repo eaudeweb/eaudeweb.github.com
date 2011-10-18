@@ -706,6 +706,11 @@ footer
             margin:0;
         }
 	
+    .box span
+    {
+        display:none;
+    }
+    
 	img
 	{
 		max-width: 100%;

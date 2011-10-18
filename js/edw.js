@@ -83,6 +83,8 @@ resize_magic = function() {
             		isAnimated: !Modernizr.csstransitions
             	});
             }
+            
+            $("#we-work-for-container article, .box, .box img").removeAttr("style");
         }
     }
 	else
