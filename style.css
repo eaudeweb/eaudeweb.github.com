@@ -678,7 +678,7 @@ footer
     {
         float:none;
         width:100%;
-        height:auto;
+        height:77px;
     }
     
 	h2,
@@ -696,6 +696,11 @@ footer
     {
 		margin: -32px 0 32px -32px;
 	}
+    
+        .with_padding .section h2
+        {
+            margin:0;
+        }
 	
 	img
 	{
