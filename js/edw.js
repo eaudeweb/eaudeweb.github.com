@@ -72,6 +72,9 @@ resize_magic = function() {
 		extra_padding = header_height;
 		$("#content").css("padding-top", $("header").height() + "px");
 	    
+        if($(".masonry").length)
+            $("#we-work-for-container").masonry('reload');
+        
         if(browser_width < 768)
         {
             $(".sections").css("width", browser_width + "px");
@@ -204,7 +207,7 @@ $(document).ready(function() {
 	
 	resize_magic();
 	
-    if($("body").hasClass("home"))
+    if($("body").hasClass("home") && (browser_width >=768) )
     {
         $("#we-work-for-container").masonry({
             itemSelector: "article, h2",
