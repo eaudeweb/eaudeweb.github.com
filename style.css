@@ -788,8 +788,14 @@ footer
 	
     body
     {
-        font-size:21px;
-        line-height:28px;
+        font-size:19px;
+        line-height:26px;
+    }
+    
+    p,
+    .content ul
+    {
+        margin:0 0 26px 0;
     }
     
     span.box
