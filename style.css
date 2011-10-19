@@ -728,6 +728,12 @@ footer
         display:none;
     }
     
+    .double_box
+    {
+        padding:20px;
+        width:auto;
+    }
+    
 	img
 	{
 		max-width: 100%;
