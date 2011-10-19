@@ -80,6 +80,7 @@ resize_magic = function() {
             $(".sections").css("width", browser_width + "px");
             
             if($(".masonry").length)
+                $(".expanded").removeClass("expanded visible");
                 $("body.home #we-work-for-container").masonry('destroy');
             
             if(browser_width < 480)
