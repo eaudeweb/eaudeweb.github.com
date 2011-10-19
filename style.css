@@ -761,18 +761,19 @@ footer
 	
 	.content_box
 	{
-		min-height: inherit;
+        padding:20px;
+        width:120px;
+        min-height: inherit;
 	}
     
     .double_box
     {
-        padding:20px;
         width:auto;
     }
 	
 	#edw-news-container article
 	{
-		margin-top:20px;
+		margin-top:77px;
         min-height: auto;
 	}
 	
