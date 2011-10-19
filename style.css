@@ -696,6 +696,14 @@ footer
         height:77px;
     }
     
+    h1,
+    #we-work-for-container h3,
+    header .home a
+    {
+        font-size:25px;
+        line-height:32px;
+    }
+    
 	h2,
     h1.black
 	{
@@ -786,7 +794,12 @@ footer
     {
         right:0;
         left:inherit;
-    }        
+    }
+    
+    #edw-news-container ul li
+    {
+        margin-left:20px;
+    }
 	
 	.home h1
 	{
