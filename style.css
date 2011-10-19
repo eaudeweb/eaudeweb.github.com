@@ -706,6 +706,11 @@ footer
         line-height:37px;
 	}
 	
+    section
+    {
+        padding:0 0 77px;
+    }
+    
     .with_padding
     {
         padding: 20px 20px 77px;
@@ -726,12 +731,6 @@ footer
     .large_box
     {
         display:none;
-    }
-    
-    .double_box
-    {
-        padding:20px;
-        width:auto;
     }
     
 	img
@@ -764,10 +763,17 @@ footer
 	{
 		min-height: inherit;
 	}
+    
+    .double_box
+    {
+        padding:20px;
+        width:auto;
+    }
 	
 	#edw-news-container article
 	{
 		margin-top:20px;
+        min-height: auto;
 	}
 	
 	body.home #edw-news-container article:nth-of-type(1)
