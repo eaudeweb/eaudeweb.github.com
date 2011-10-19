@@ -739,6 +739,11 @@ footer
         {
             margin:0;
         }
+        
+    .with_padding span.box
+    {
+        margin: -20px 20px 20px -20px;
+    }
 	
     .box span,
     .large_box
