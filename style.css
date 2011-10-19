@@ -782,7 +782,7 @@ footer
 	#edw-news-container article,
     #edw-news-container article:nth-of-type(2n)
 	{
-		margin-top:20px;
+		margin-top:26px;
         min-height: auto;
 	}
 	
@@ -809,6 +809,11 @@ footer
 		vertical-align: inherit;
 		display: block;
 	}
+    
+    header .home a img
+    {
+        display:none;
+    }
     
     footer
     {
