@@ -71,13 +71,7 @@ resize_magic = function() {
 		$("header").css("margin-top", 0);
 		extra_padding = header_height;
 		$("#content").css("padding-top", $("header").height() + "px");
-	    
-        console.log($(".masonry").length);
-        if($(".masonry").length)
-        {
-            $("#we-work-for-container").masonry('reload');
-        }
-        
+	            
         if(browser_width < 768)
         {
             $(".sections").css("width", browser_width + "px");
@@ -120,6 +114,11 @@ resize_magic = function() {
 		extra_padding = 0;
 		$("#content").css("padding-top", 0);
 	}
+    
+    if($(".masonry").length)
+    {
+        $("#we-work-for-container").masonry('reload');
+    }
 	
 	// resize embeds' height
 	/*$("iframe, object, embed, video").each(function(){
