@@ -779,10 +779,12 @@ footer
         width:auto;
     }
 	
-	#edw-news-container article
+	#edw-news-container article,
+    #edw-news-container article:nth-of-type(2n)
 	{
 		margin-top:77px;
         min-height: auto;
+        padding: 0 20px 0 20px;
 	}
 	
 	body.home #edw-news-container article:nth-of-type(1)
@@ -808,6 +810,11 @@ footer
 		vertical-align: inherit;
 		display: block;
 	}
+    
+    footer
+    {
+        padding:0 20px 20px;
+    }
 	
 	.content footer li.details
 	{
@@ -827,13 +834,7 @@ footer
         display:none;
     }
     
-    #edw-news-container article,
-    #edw-news-container article:nth-of-type(2n)
-    {
-		margin-top:20px;
-		padding: 0 20px 0 20px;
-	}
-    
+    .content footer li.first,
     .content footer li.email
     {
         float:none;
@@ -842,12 +843,4 @@ footer
 		background: transparent;
 	}
 		
-}
-
-/* iPhone Portrait */
-
-@media only screen and (max-width: 319px) {
-
-    
-
 }
