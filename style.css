@@ -592,9 +592,9 @@ footer
 	text-align: right;
 }
 
-/* iPad Portrait + iPhone Landscape */
+/* iPad Portrait */
 
-@media only screen and (max-width: 1023px), only screen and (max-width: 767px) {
+@media only screen and (max-width: 1023px) {
 
 	body
 	{
@@ -671,6 +671,8 @@ footer
 	}
 	
 }
+
+/* iPhone Landscape */
 
 @media only screen and (max-width: 767px) {
 
@@ -782,7 +784,7 @@ footer
 	
 }
 
-/* iPhone Landscape */
+/* iPhone Portrait */
 
 @media only screen and (max-width: 479px) {
 	
