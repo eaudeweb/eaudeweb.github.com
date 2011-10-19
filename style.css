@@ -600,6 +600,13 @@ footer
 	{
 		background-image: none;
 	}
+    
+    .content
+    {
+		width: 768px;
+		margin: 0 auto;
+		position: relative;
+	}
 	
 	header
 	{
@@ -661,21 +668,22 @@ footer
 	}
 }
 
-@media only screen and (max-width: 1023px) {
-
-	.content
-	{
-		width: 768px;
-		margin: 0 auto;
-		position: relative;
-	}
-	
-}
-
 /* iPhone Landscape */
 
 @media only screen and (max-width: 767px) {
-
+    
+    body
+    {
+        font-size:19px;
+        line-height:26px;
+    }
+    
+    p,
+    .content ul
+    {
+        margin:0 0 26px 0;
+    }
+    
 	.content
 	{
 		margin: 0;
@@ -787,18 +795,6 @@ footer
 /* iPhone Portrait */
 
 @media only screen and (max-width: 479px) {
-	
-    body
-    {
-        font-size:19px;
-        line-height:26px;
-    }
-    
-    p,
-    .content ul
-    {
-        margin:0 0 26px 0;
-    }
     
     span.box
     {
