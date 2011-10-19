@@ -200,7 +200,7 @@ $(document).ready(function() {
 	resize_magic();
 	
 	$(".masonry-brick .box").each(function(){
-		$(this).click(function(e){
+		$(this).live("click", function(e){
 			$(".expanded").removeClass("expanded visible");
 			var current_article = $(this).parent();
 			
