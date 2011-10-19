@@ -227,6 +227,7 @@ $(document).ready(function() {
     		
     		current_article.addClass("expanded");
     		
+            $("#we-work-for-container").masonry( 'option', { isAnimated: true });
             $("#we-work-for-container").masonry('reload');
             
     		waitForAnimation = setTimeout(function() {
