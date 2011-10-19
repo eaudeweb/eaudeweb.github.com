@@ -199,7 +199,7 @@ $(document).ready(function() {
 	
 	resize_magic();
 	
-	$(".masonry-brick .box").each(function(){
+	$(".masonry .box").each(function(){
 		$(this).live("click", function(e){
 			$(".expanded").removeClass("expanded visible");
 			var current_article = $(this).parent();
