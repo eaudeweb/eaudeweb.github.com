@@ -3,7 +3,8 @@ var browser_width,
 	menu_clicked = false,
 	touch_enabled = false,
 	extra_padding = 0,
-	column_width = 256;
+	column_width = 256,
+    map;
 
 iOS_position_fixed = function() {
 
@@ -199,7 +200,7 @@ $(document).ready(function() {
 	var contact_map = $('#contact-map');
 	if(contact_map.length) {
 		var latlng = new google.maps.LatLng(44.4628, 26.0764);
-		var map = new google.maps.Map(contact_map[0], {
+		map = new google.maps.Map(contact_map[0], {
 			center: latlng,
 			zoom: 15,
             scrollwheel: false,
