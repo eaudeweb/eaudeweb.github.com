@@ -113,7 +113,11 @@ resize_magic = function() {
 		$("html").removeClass("top_menu");
 		extra_padding = 0;
 		$("#content").css("padding-top", 0);
-	}
+        if(browser_height < $("header").height())
+            $(".home a").addClass("lessPadding");
+	    else
+            $(".home a").removeClass("lessPadding");
+    }
     
     if($(".masonry").length)
     {

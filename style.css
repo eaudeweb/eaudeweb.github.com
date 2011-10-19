@@ -308,6 +308,11 @@ header
 					{
 						margin: 0 auto 9px;
 					}
+                    
+                    header .home a.lessPadding
+                    {
+                        padding: 20px 0;   
+                    }
 
 .content
 {
