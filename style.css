@@ -820,7 +820,7 @@ footer
         height:32px;
         width:auto;
         float:left;
-        margin-right:20px;
+        margin:0 20px 0 0;
     }
     
     footer
