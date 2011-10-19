@@ -72,16 +72,21 @@ resize_magic = function() {
 		extra_padding = header_height;
 		$("#content").css("padding-top", $("header").height() + "px");
 	    
+        console.log($(".masonry").length);
         if($(".masonry").length)
+        {
             $("#we-work-for-container").masonry('reload');
+        }
         
         if(browser_width < 768)
         {
             $(".sections").css("width", browser_width + "px");
             
             if($(".masonry").length)
+            {
                 $(".expanded").removeClass("expanded visible");
-                $("body.home #we-work-for-container").masonry('destroy');
+                $("#we-work-for-container").masonry('destroy');
+            }
             
             if(browser_width < 480)
             {
