@@ -95,7 +95,7 @@ resize_magic = function() {
             $(".sections, .with_padding h2, #edw-news-container article").removeAttr("style");
             if($("body.home #we-work-for-container").length && ($("body.home #we-work-for-container").hasClass("masonry") == false))
             {
-                $("body.home #we-work-for-container").masonry({
+                $("#we-work-for-container").masonry({
                     itemSelector: "article, h2",
                     columnWidth: column_width,
             		isAnimated: !Modernizr.csstransitions
@@ -207,10 +207,10 @@ $(document).ready(function() {
     if($("body").hasClass("home"))
     {
         $("#we-work-for-container").masonry({
-    		itemSelector: "article, h2",
+            itemSelector: "article, h2",
             columnWidth: column_width,
-			isAnimated: true
-		});
+        	isAnimated: !Modernizr.csstransitions
+    	});
     
         $(".masonry .box").live("click", function(e){
         	$(".expanded").removeClass("expanded visible");
