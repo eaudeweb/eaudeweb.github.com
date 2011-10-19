@@ -212,7 +212,7 @@ $(document).ready(function() {
 			isAnimated: true
 		});
     
-        $(".masonry").delegate(".box", "click", function(e){
+        $(".masonry .box").live("click", function(e){
         	$(".expanded").removeClass("expanded visible");
     		var current_article = $(this).parent();
     		
