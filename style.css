@@ -704,6 +704,15 @@ footer
         line-height:32px;
     }
     
+    header a,
+    header a:visited
+	{
+		line-height:21px;
+        padding: 5px 0;
+		margin: 0 5px;
+		border: 0;
+	}
+    
     header .home a
     {
         line-height:27px;
