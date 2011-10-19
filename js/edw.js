@@ -199,7 +199,7 @@ $(document).ready(function() {
           position: latlng
         });
         
-		var info_window = new google.maps.InfoWindow({
+		/*var info_window = new google.maps.InfoWindow({
 			content: $('#contact-map-infobox').remove().show()[0]
 		});
 		info_window.open(map, marker);
@@ -207,7 +207,7 @@ $(document).ready(function() {
 		google.maps.event.addListener(info_window, 'domready', function() {
 			var parent_box = $('#contact-map-infobox').parents('div:has(>img)');
 			$('>img', parent_box).remove();
-		});
+		});*/
         
     }
 	
