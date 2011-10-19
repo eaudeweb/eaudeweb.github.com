@@ -801,7 +801,8 @@ footer
         display:none;
     }
     
-    #edw-news-container article
+    #edw-news-container article,
+    #edw-news-container article:nth-of-type(2n)
     {
 		margin-top:20px;
 		padding: 0 20px 0 20px;
