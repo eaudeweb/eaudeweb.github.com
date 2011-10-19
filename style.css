@@ -803,7 +803,7 @@ footer
 	
 	.home h1
 	{
-		padding:77px 20px 77px;
+		padding:20px 20px 77px;
 		height: auto;
 		vertical-align: inherit;
 		display: block;
@@ -832,6 +832,14 @@ footer
     {
 		margin-top:20px;
 		padding: 0 20px 0 20px;
+	}
+    
+    .content footer li
+    {
+        float:none;
+		margin-left: 0;
+		padding: 0;
+		background: transparent;
 	}
 		
 }
