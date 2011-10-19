@@ -804,7 +804,7 @@ footer
 	
 	.home h1
 	{
-		padding:67px 20px 67px;
+		padding:65px 20px 65px;
 		height: auto;
 		vertical-align: inherit;
 		display: block;
@@ -812,7 +812,10 @@ footer
     
     header .home a img
     {
-        display:none;
+        height:32px;
+        width:auto;
+        float:left;
+        margin-right:20px;
     }
     
     footer
