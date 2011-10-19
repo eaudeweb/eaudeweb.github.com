@@ -204,7 +204,7 @@ $(document).ready(function() {
 	
 	resize_magic();
 	
-	$(".masonry").delegate(".box", "click", function(e){
+	$("body").delegate(".masonry .box", "click", function(e){
 		$(".expanded").removeClass("expanded visible");
 		var current_article = $(this).parent();
 		
