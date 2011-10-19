@@ -56,6 +56,8 @@ resize_magic = function() {
 	
 	var header_height = $("header").height();
 	
+    google.maps.event.trigger(map, "resize");
+    
 	if(browser_width < 1024)
 	{
 		$("html").addClass("top_menu");
@@ -243,9 +245,6 @@ $(document).ready(function() {
 			$('>img', parent_box).remove();
 		});
         
-        GEvent.addListener(map, 'resize', function() {                        
-            map.setCenter(map._lastCenter);
-        }); 
     }
 
 });
