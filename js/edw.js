@@ -242,6 +242,10 @@ $(document).ready(function() {
 			var parent_box = $('#contact-map-infobox').parents('div:has(>img)');
 			$('>img', parent_box).remove();
 		});
+        
+        GEvent.addListener(map, 'resize', function() {                        
+            map.setCenter(map._lastCenter);
+        }); 
     }
 
 });
