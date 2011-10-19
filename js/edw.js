@@ -48,7 +48,12 @@ $(window).load(function(){
 	{
 		$("html,body").animate({scrollTop: $(hash + "-container").offset().top - extra_padding}, 500);
 		iOS_position_fixed();
-	}	
+	}
+    
+    if(browser_width < 1024)
+	{
+		$("#content").css("padding-top", $("header").height() + "px");
+	}
 });
 
 resize_magic = function() {
