@@ -209,8 +209,8 @@ $(document).ready(function() {
         $("#we-work-for-container").masonry({
             itemSelector: "article, h2",
             columnWidth: column_width,
-        	isAnimated: !Modernizr.csstransitions
-    	});
+            isAnimated: !Modernizr.csstransitions
+        });
     
         $(".masonry .box").live("click", function(e){
         	$(".expanded").removeClass("expanded visible");
@@ -218,6 +218,8 @@ $(document).ready(function() {
     		
     		current_article.addClass("expanded");
     		
+            $("#we-work-for-container").masonry('reload');
+            
     		waitForAnimation = setTimeout(function() {
     			current_article.addClass("visible");
     			clearTimeout(waitForAnimation);
