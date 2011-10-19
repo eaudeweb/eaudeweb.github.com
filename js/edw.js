@@ -118,7 +118,7 @@ resize_magic = function() {
     if($(".masonry").length)
     {
         $("#we-work-for-container").masonry( 'option', { isAnimated: false });
-        ("#we-work-for-container").masonry('reload');
+        $("#we-work-for-container").masonry('reload');
     }
 	
 	// resize embeds' height
