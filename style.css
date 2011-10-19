@@ -782,9 +782,8 @@ footer
 	#edw-news-container article,
     #edw-news-container article:nth-of-type(2n)
 	{
-		margin-top:77px;
+		margin-top:20px;
         min-height: auto;
-        padding: 0 20px 0 20px;
 	}
 	
 	body.home #edw-news-container article:nth-of-type(1)
@@ -841,6 +840,12 @@ footer
 		margin-left: 0;
 		padding: 0;
 		background: transparent;
+	}
+    
+    #edw-news-container article,
+    #edw-news-container article:nth-of-type(2n)
+    {
+        padding: 0 20px 0 20px;
 	}
 		
 }
