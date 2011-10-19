@@ -693,7 +693,7 @@ footer
     .sections
     {
         width:100%;
-        height:77px;
+        height:67px;
     }
     
     h1,
@@ -710,18 +710,18 @@ footer
 		width:auto;
         height:auto;
         padding:20px;
-        font-size:30px;
-        line-height:37px;
+        font-size:25px;
+        line-height:27px;
 	}
 	
     section
     {
-        padding:0 0 77px;
+        padding:0 0 67px;
     }
     
     .with_padding
     {
-        padding: 20px 20px 77px;
+        padding: 20px 20px 67px;
     }
     
 	.with_padding h2,
@@ -804,7 +804,7 @@ footer
 	
 	.home h1
 	{
-		padding:20px 20px 77px;
+		padding:67px 20px 67px;
 		height: auto;
 		vertical-align: inherit;
 		display: block;
