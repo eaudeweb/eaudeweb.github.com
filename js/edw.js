@@ -81,7 +81,7 @@ resize_magic = function() {
             else
             {
                 $("#we-work-for-container article, .box, .box img").css("width", browser_width/3 + "px").css("height", browser_width/3 + "px");
-                $("#edw-news-container article").css("padding", "0 " + (browser_width/3 + 20) + "px 0 20px");
+                $("#edw-news-container article").css("padding", "0 " + (browser_width/3 + 20) + "px 0 20px").css("min-height", (browser_width/3) + "px");
             }
         }
         else
