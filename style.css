@@ -704,6 +704,11 @@ footer
         line-height:32px;
     }
     
+    header .home a
+    {
+        line-height:27px;
+    }
+    
 	h2,
     h1.black
 	{
@@ -817,10 +822,10 @@ footer
     
     header .home a img
     {
-        height:32px;
+        height:27px;
         width:auto;
         float:left;
-        margin:0 20px 0 0;
+        margin:0 10px 0 0;
     }
     
     footer
