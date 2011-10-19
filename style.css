@@ -834,7 +834,7 @@ footer
 		padding: 0 20px 0 20px;
 	}
     
-    .content footer li
+    .content footer li:not(.top)
     {
         float:none;
 		margin-left: 0;
