@@ -790,8 +790,8 @@ footer
 	embed,
 	iframe
 	{
-		max-width: 512px;
-		height: 340px;
+		max-width: 100%;
+		height: auto;
 	}
 	
 	span.box,
