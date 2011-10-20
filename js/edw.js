@@ -123,7 +123,6 @@ resize_magic = function() {
         else
         {
             $(".sections, .with_padding h2, #edw-news-container article").removeAttr("style");
-            $("header").css("margin-top", 0);
             if($("body.home #we-work-for-container").length && ($("body.home #we-work-for-container").hasClass("masonry") == false))
             {
                 $("#we-work-for-container").masonry({
