@@ -37,6 +37,11 @@ $(window).scroll(function()
 			}
 		});
 	}
+    
+    if((browser_width < 1024) && ($(window).scrollTop() < ($(".home a").height() + 1)))
+    {
+        $("header").css("margin-top", -$(window).scrollTop() +"px");
+    }
 		
 	iOS_position_fixed();
 });
