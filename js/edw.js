@@ -38,7 +38,7 @@ $(window).scroll(function()
 		});
 	}
     
-    if(browser_width < 1024)
+    if((browser_width >= 768) && (browser_width < 1024))
     {
         if($(window).scrollTop() < ($(".home a").innerHeight() + 1))
             $("header").css("margin-top", -$(window).scrollTop() +"px");
@@ -88,6 +88,8 @@ resize_magic = function() {
 	            
         if(browser_width < 768)
         {
+            $("header").css("margin-top", 0);
+            
             $(".sections").css("width", browser_width + "px");
             
             if($(".masonry").length)
@@ -110,6 +112,7 @@ resize_magic = function() {
         else
         {
             $(".sections, .with_padding h2, #edw-news-container article").removeAttr("style");
+            $("header").css("margin-top", 0);
             if($("body.home #we-work-for-container").length && ($("body.home #we-work-for-container").hasClass("masonry") == false))
             {
                 $("#we-work-for-container").masonry({
