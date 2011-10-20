@@ -4,7 +4,8 @@ var browser_width,
 	touch_enabled = false,
 	extra_padding = 0,
 	column_width = 256,
-    map;
+    map,
+    header_height;
 
 iOS_position_fixed = function() {
 
@@ -114,7 +115,7 @@ resize_magic = function() {
 		extra_padding = 0;
 		$("#content").css("padding-top", 0);
         
-        if(browser_height < $("header").height())
+        if(browser_height < header_height)
             $(".home a").addClass("lessPadding");
 	    else
             $(".home a").removeClass("lessPadding");
@@ -146,6 +147,8 @@ $(document).ready(function() {
 	{
 		$("html").addClass("iOS5");
 	}
+    
+    header_height = $("header").height();
 			
 	if($("html").hasClass("touch"))
 	{
