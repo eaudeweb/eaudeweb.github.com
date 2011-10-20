@@ -40,10 +40,10 @@ $(window).scroll(function()
     
     if((browser_width >= 768) && (browser_width < 1024))
     {
-        if($(window).scrollTop() < ($(".home a").innerHeight() + 1))
-            $("header").css("margin-top", -$(window).scrollTop() +"px");
-        else
+        if($(window).scrollTop())
             $("header").css("margin-top", -$(".home a").innerHeight() - 1 +"px");
+        else
+            $("header").css("margin-top", 0);
     }
 		
 	iOS_position_fixed();
