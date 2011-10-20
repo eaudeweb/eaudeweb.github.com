@@ -65,7 +65,11 @@ resize_magic = function() {
     {
         google.maps.event.trigger(map, "resize");
         google.maps.event.addListener(map, 'resize', function() 
-        { map.setCenter(map.getCenter()); });
+        { 
+            var mapCenter = map.getCenter();
+            console.log(mapCenter);
+            map.setCenter(mapCenter);
+        });
     }
     
 	if(browser_width < 1024)
