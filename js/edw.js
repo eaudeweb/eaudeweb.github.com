@@ -63,7 +63,6 @@ resize_magic = function() {
 	
     if(map)
     {
-        console.log("resize");
         google.maps.event.trigger(map, "resize");
     }
     

@@ -701,6 +701,11 @@ footer
         height:67px;
     }
     
+    #contact-map
+    {
+        width:100%;
+    }
+    
     h1,
     #we-work-for-container h3,
     header .home a
