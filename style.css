@@ -311,13 +311,7 @@ header
                     
                     header .home a.lessPadding
                     {
-                        padding: 20px 0;
-                        
-                        -webkit-transition: padding 0s linear !important;
-                        -moz-transition: padding 0s linear !important;
-                    	-o-transition: padding 0s linear !important;
-                    	-ms-transition: padding 0s linear !important;
-                    	transition: padding 0s linear !important;
+                        padding: 21px 0;
                     }
 
 .content
