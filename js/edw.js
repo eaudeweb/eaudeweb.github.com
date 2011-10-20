@@ -40,14 +40,20 @@ $(window).scroll(function()
     
     if((browser_width >= 768) && (browser_width < 1024))
     {
-        if($(window).scrollTop())
-            $("header").css("margin-top", -$(".home a").innerHeight() - 1 +"px");
-        else
-            $("header").css("margin-top", 0);
+        positionHorizontalMenu();
     }
 		
 	iOS_position_fixed();
 });
+
+positionHorizontalMenu = function(){
+
+    if($(window).scrollTop() < ($(".home a").innerHeight() + 1))
+        $("header").css("margin-top", -$(window).scrollTop() +"px");
+    else
+        $("header").css("margin-top", -$(".home a").innerHeight() - 1 +"px");
+    
+}
 
 $(window).load(function(){
 	
@@ -79,16 +85,18 @@ resize_magic = function() {
         });
     }
     
+    positionHorizontalMenu();
+    
 	if(browser_width < 1024)
 	{
-		$("html").addClass("top_menu");
-		$("header").css("margin-top", 0);
+		
+        $("html").addClass("top_menu");
+		//$("header").css("margin-top", 0);
 		extra_padding = header_height;
 		$("#content").css("padding-top", $("header").height() + "px");
 	            
         if(browser_width < 768)
         {
-            $("header").css("margin-top", 0);
             
             $(".sections").css("width", browser_width + "px");
             
