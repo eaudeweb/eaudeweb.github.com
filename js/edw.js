@@ -38,9 +38,12 @@ $(window).scroll(function()
 		});
 	}
     
-    if((browser_width < 1024) && ($(window).scrollTop() < ($(".home a").innerHeight() + 1)))
+    if(browser_width < 1024)
     {
-        $("header").css("margin-top", -$(window).scrollTop() +"px");
+        if($(window).scrollTop() < ($(".home a").innerHeight() + 1))
+            $("header").css("margin-top", -$(window).scrollTop() +"px");
+        else
+            $("header").css("margin-top", -$(".home a").innerHeight() - 1 +"px");
     }
 		
 	iOS_position_fixed();
