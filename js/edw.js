@@ -64,7 +64,7 @@ resize_magic = function() {
     if(map)
     {
         google.maps.event.trigger(map, "resize");
-        google.maps.event.addListener(map, 'center_changed', function() 
+        google.maps.event.addListener(map, "resize", function() 
         { 
             var mapCenter = map.getCenter();
             map.setCenter(mapCenter);
