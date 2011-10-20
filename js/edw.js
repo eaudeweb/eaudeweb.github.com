@@ -62,7 +62,10 @@ resize_magic = function() {
 	browser_height = $(window).height();
 	
     if(map)
+    {
+        console.log("resize");
         google.maps.event.trigger(map, "resize");
+    }
     
 	if(browser_width < 1024)
 	{
