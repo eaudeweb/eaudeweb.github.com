@@ -210,7 +210,10 @@ $(document).ready(function() {
     var contact_map = $('#contact-map');
     if(contact_map.length) {
 		map = new google.maps.Map(contact_map[0], {
-            scrollwheel: false,
+			scrollwheel: false,
+			disableDefaultUI: true,
+			disableDoubleClickZoom: true,
+			draggable: false,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		});
         set_map_center();
