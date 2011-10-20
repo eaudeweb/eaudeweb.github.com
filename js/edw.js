@@ -61,8 +61,6 @@ resize_magic = function() {
 	browser_width = $(window).width();
 	browser_height = $(window).height();
 	
-	var header_height = $("header").height();
-	
     if(map)
         google.maps.event.trigger(map, "resize");
     
