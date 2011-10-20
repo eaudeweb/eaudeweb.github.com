@@ -116,7 +116,19 @@ resize_magic = function() {
     }
 	else
 	{
-		$("html").removeClass("top_menu");
+		$(".sections, .with_padding h2, #edw-news-container article").removeAttr("style");
+        if($("body.home #we-work-for-container").length && ($("body.home #we-work-for-container").hasClass("masonry") == false))
+        {
+            $("#we-work-for-container").masonry({
+                itemSelector: "article, h2",
+                columnWidth: column_width,
+            	isAnimated: !Modernizr.csstransitions
+        	});
+        }
+        
+        $("#we-work-for-container article, .box, .box img").removeAttr("style");
+        
+        $("html").removeClass("top_menu");
 		extra_padding = 0;
 		$("#content").css("padding-top", 0);
         
