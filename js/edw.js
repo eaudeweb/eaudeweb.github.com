@@ -38,21 +38,24 @@ $(window).scroll(function()
 		});
 	}
     
-    if((browser_width >= 768) && (browser_width < 1024))
-    {
-        positionHorizontalMenu();
-    }
+    positionHorizontalMenu();
 		
 	iOS_position_fixed();
 });
 
 positionHorizontalMenu = function(){
 
-    if($(window).scrollTop() < ($(".home a").innerHeight() + 1))
-        $("header").css("margin-top", -$(window).scrollTop() +"px");
+    if(browser_width < 1024)
+    {
+        if($(window).scrollTop() < ($(".home a").innerHeight() + 1))
+            $("header").css("margin-top", -$(window).scrollTop() +"px");
+        else
+            $("header").css("margin-top", -$(".home a").innerHeight() - 1 +"px");
+    }
     else
-        $("header").css("margin-top", -$(".home a").innerHeight() - 1 +"px");
-    
+    {
+        $("header").css("margin-top", 0);
+    }
 }
 
 $(window).load(function(){
