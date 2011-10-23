@@ -501,10 +501,10 @@ header
 	
 	.content_box
 	{
-		width: 188px;
-		min-height: 188px;
+		width: 192px;
+		min-height: 193px;
         height: auto !important;
-        height: 188px;
+        height: 192px;
 		float: left;
 		padding: 32px;
 	}
