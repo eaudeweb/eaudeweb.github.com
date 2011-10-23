@@ -287,28 +287,28 @@ $(document).ready(function() {
     		
     		e.preventDefault();
     	});
-    }
 	
-	$("header a, .sections").each(function(){
-		$(this).click(function(e){
-			var hash = $(this).attr("href").substr(1);
-			$("html,body").animate({scrollTop: $(hash + "-container").offset().top - extra_padding}, 500);
-			
-			menu_clicked = true;
-			
-			$("header .selected").removeClass("selected");
-			$("header a[href='/" + hash + "']").parent("li").addClass("selected");
-            
-			waitForAnimation = setTimeout(function() {
-				menu_clicked = false;
-				clearTimeout(waitForAnimation);
-			}, 500);
-			
-			iOS_position_fixed();
-			
-			e.preventDefault();
-		});
-	});
+    	$("header a, .sections").each(function(){
+    		$(this).click(function(e){
+    			var hash = $(this).attr("href").substr(1);
+    			$("html,body").animate({scrollTop: $(hash + "-container").offset().top - extra_padding}, 500);
+    			
+    			menu_clicked = true;
+    			
+    			$("header .selected").removeClass("selected");
+    			$("header a[href='/" + hash + "']").parent("li").addClass("selected");
+                
+    			waitForAnimation = setTimeout(function() {
+    				menu_clicked = false;
+    				clearTimeout(waitForAnimation);
+    			}, 500);
+    			
+    			iOS_position_fixed();
+    			
+    			e.preventDefault();
+    		});
+    	});
+    }
 	
 	$("#top").click(function(e){
 		$("html,body").animate({scrollTop: 0}, 500);
