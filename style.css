@@ -908,11 +908,10 @@ footer
 
 @media only screen and (max-width: 479px) {
     
-    span.box
+    span.box,
+    span.box img
     {
         display:none;
-        width:0 !important;
-        opacity:0;
     }
     
     .content footer li.first,
