@@ -78,7 +78,8 @@ $(window).load(function(){
 resize_magic = function() {
 	browser_width = $(window).width();
 	browser_height = $(window).height();
-	
+	header_height = $("header").height();
+    
     if(map)
     {
         set_map_center();
@@ -92,7 +93,7 @@ resize_magic = function() {
         $("html").addClass("top_menu");
 		//$("header").css("margin-top", 0);
 		extra_padding = header_height;
-		$("#content").css("padding-top", $("header").height() + "px");
+		$("#content").css("padding-top", header_height + "px");
 	            
         if(browser_width < 768)
         {
