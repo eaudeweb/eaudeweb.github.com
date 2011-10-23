@@ -644,8 +644,7 @@ footer
 		display: inline-block;
 	}
 	
-    /* what */
-	html.ielt8
+	html.ielt8 header li
 	{
 		display: inline;
 		zoom: 1 !important;
