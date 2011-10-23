@@ -503,6 +503,8 @@ header
 	{
 		width: 188px;
 		min-height: 188px;
+        height: auto !important;
+        height: 188px;
 		float: left;
 		padding: 32px;
 	}
