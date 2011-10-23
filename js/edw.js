@@ -5,7 +5,8 @@ var browser_width,
 	extra_padding = 0,
 	column_width = 256,
     map,
-    header_height;
+    header_height,
+    latlng = new google.maps.LatLng(44.4628, 26.0764);
 
 iOS_position_fixed = function() {
 
@@ -80,12 +81,7 @@ resize_magic = function() {
 	
     if(map)
     {
-        google.maps.event.trigger(map, "resize");
-        google.maps.event.addListener(map, "resize", function() 
-        { 
-            var mapCenter = map.getCenter();
-            map.setCenter(mapCenter);
-        });
+        set_map_center();
     }
     
     positionHorizontalMenu();
@@ -172,6 +168,11 @@ resize_magic = function() {
 
 };
 
+function set_map_center() {
+    map.setCenter(latlng);
+    map.setZoom(15);
+}
+
 // Ready to go
 
 $(document).ready(function() {
@@ -208,13 +209,14 @@ $(document).ready(function() {
     
     var contact_map = $('#contact-map');
     if(contact_map.length) {
-		var latlng = new google.maps.LatLng(44.4628, 26.0764);
 		map = new google.maps.Map(contact_map[0], {
-			center: latlng,
-			zoom: 15,
-            scrollwheel: false,
+			scrollwheel: false,
+			disableDefaultUI: true,
+			disableDoubleClickZoom: true,
+			draggable: false,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		});
+        set_map_center();
         
         var image = new google.maps.MarkerImage(
           'images/marker.png',
