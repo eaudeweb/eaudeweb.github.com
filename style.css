@@ -258,10 +258,6 @@ header
     top:0;
     left:0;
 }
-
-	header ul
-	{
-	}
 	
 		header li
 		{
@@ -915,6 +911,7 @@ footer
     span.box
     {
         display:none;
+        width:0;
     }
     
     .content footer li.first,
