@@ -6,7 +6,7 @@ var browser_width,
 	column_width = 256,
     map,
     header_height,
-    latlng = new google.maps.LatLng(44.4628, 26.0764);
+    latlng;
 
 iOS_position_fixed = function() {
 
@@ -217,6 +217,8 @@ $(document).ready(function() {
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		});
         set_map_center();
+        
+        latlng = new google.maps.LatLng(44.4628, 26.0764);
         
         var image = new google.maps.MarkerImage(
           'images/marker.png',
