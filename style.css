@@ -493,6 +493,7 @@ header
 		/*float: left;*/
         clear: both;
 		padding:24px 288px 32px 32px;
+        width:448px;
 		min-height: 200px;
 		position: relative;
 	}
@@ -852,6 +853,7 @@ footer
 	{
 		margin-top:26px;
         min-height: auto;
+        width:auto;
 	}
 	
 	body.home #edw-news-container article:nth-of-type(1)
