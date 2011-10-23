@@ -22,7 +22,6 @@ iOS_position_fixed = function() {
 
 $(window).scroll(function()
 {
-	extra_padding = $("header").height() + parseInt($("header").css("margin-top").replace("px",""));
     
     if(!menu_clicked)
 	{
@@ -94,8 +93,7 @@ resize_magic = function() {
 		
         $("html").addClass("top_menu");
 		//$("header").css("margin-top", 0);
-		extra_padding = $("header").height() + parseInt($("header").css("margin-top").replace("px",""));
-        console.log(extra_padding);
+		extra_padding = $("header").height() - ($(".home a").innerHeight() + 1);
 		$("#content").css("padding-top", $("header").height() + "px");
 	            
         if(browser_width < 768)
