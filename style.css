@@ -375,6 +375,8 @@ header
 		#we-work-for-container article.expanded .box
 		{
 			opacity: 0;
+            -ms-filter: "alpha (opacity=0)"; 
+            filter: alpha (opacity=0);
 		}
 	
 		.box span
@@ -390,6 +392,8 @@ header
 			color:#fff;
 			background: #7db621;
 			opacity: 0;
+            -ms-filter: "alpha (opacity=0)"; 
+            filter: alpha (opacity=0);
 			z-index: 1;
 			text-decoration: none;
 			-webkit-transition: opacity 0.25s cubic-bezier(0, 0, 0.25, 1);
@@ -402,6 +406,8 @@ header
 			html.no-touch .box:hover span
 			{
 				opacity: 1;
+                -ms-filter: "alpha (opacity=100)"; 
+                filter: alpha (opacity=100);
 			}
 
 	.masonry,
@@ -441,6 +447,8 @@ header
 	.large_box
 	{
 		opacity: 0;
+        -ms-filter: "alpha (opacity=0)"; 
+        filter: alpha (opacity=0);
 		position: absolute;
 		top:0;
 		left:0;
@@ -460,6 +468,8 @@ header
 		#we-work-for-container article.visible .large_box
 		{
 			opacity: 1;
+            -ms-filter: "alpha (opacity=100)"; 
+            filter: alpha (opacity=100);
 			z-index:10;
 		}
 		
