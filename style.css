@@ -808,7 +808,7 @@ footer
     .box span,
     .large_box
     {
-        display:none;
+        display:none !important;
     }
     
 	img
