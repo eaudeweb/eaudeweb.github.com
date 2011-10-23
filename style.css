@@ -911,7 +911,8 @@ footer
     span.box
     {
         display:none;
-        width:0;
+        width:0 !important;
+        opacity:0;
     }
     
     .content footer li.first,
