@@ -22,7 +22,9 @@ iOS_position_fixed = function() {
 
 $(window).scroll(function()
 {
-	if(!menu_clicked)
+	extra_padding = $("header").height() + parseInt($("header").css("margin-top").replace("px",""));
+    
+    if(!menu_clicked)
 	{
 		var scroll_top = $(window).scrollTop();
 		
