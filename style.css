@@ -490,7 +490,8 @@ header
 		
 	#edw-news-container article
 	{
-		float: left;
+		/*float: left;*/
+        clear: both;
 		padding:24px 288px 32px 32px;
 		min-height: 200px;
 		position: relative;
