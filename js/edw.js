@@ -213,6 +213,7 @@ $(document).ready(function() {
     if(contact_map.length) {
 		map = new google.maps.Map(contact_map[0], {
 			scrollwheel: false,
+            zoomControl: true,
 			disableDoubleClickZoom: false,
 			draggable: true,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
