@@ -110,12 +110,12 @@ resize_magic = function() {
             if(browser_width < 480)
             {
                 $("#we-work-for-container article, .box, .box img").css("width", browser_width/2 + "px").css("height", browser_width/2 + "px");
-                $("#edw-news-container article").removeAttr("style");
+                $("#edw-news-container article").css("padding", "").css("min-height", "").css("width", browser_width - 40 + "px");
             }
             else
             {
                 $("#we-work-for-container article, .box, .box img").css("width", browser_width/3 + "px").css("height", browser_width/3 + "px");
-                $("#edw-news-container article").css("padding", "0 " + (browser_width/3 + 20) + "px 0 20px").css("min-height", (browser_width/3) + "px");
+                $("#edw-news-container article").css("padding", "0 " + (browser_width/3 + 20) + "px 0 20px").css("width", browser_width - (browser_width/3 + 40) + "px").css("min-height", (browser_width/3) + "px");
             }
         }
         else
