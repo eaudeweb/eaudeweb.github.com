@@ -213,8 +213,8 @@ $(document).ready(function() {
     if(contact_map.length) {
 		map = new google.maps.Map(contact_map[0], {
 			scrollwheel: false,
-			disableDoubleClickZoom: true,
-			draggable: false,
+			disableDoubleClickZoom: false,
+			draggable: true,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		});
         set_map_center();
