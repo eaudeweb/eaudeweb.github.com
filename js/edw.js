@@ -252,7 +252,11 @@ $(document).ready(function() {
         });
         
         contact_map[0].addEventListener('touchmove',function(e){
-            e.preventDefault(); 
+            e.preventDefault();
+            curX = e.targetTouches[0].pageX - startX;
+            curY = e.targetTouches[0].pageY - startY;
+            e.targetTouches[0].target.style.webkitTransform =
+                'translate(' + curX + 'px, ' + curY + 'px)';
         }, true);
         
         contact_map[0].addEventListener('touchstart',function(e){
