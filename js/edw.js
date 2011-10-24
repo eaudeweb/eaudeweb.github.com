@@ -251,8 +251,7 @@ $(document).ready(function() {
           position: latlng
         });
         
-        contact_map[0].ontouchstart = function (e) {
-            console.log("touch");
+        contact_map[0].ontouchmove = function (e) {
             e.preventDefault();   
         };
         
