@@ -210,9 +210,11 @@ $(document).ready(function() {
 	}
     
     var contact_map = $('#contact-map');
+    var streetViewControl = touch_enabled == true ? false : true;
     if(contact_map.length) {
 		map = new google.maps.Map(contact_map[0], {
 			scrollwheel: false,
+            streetViewControl: streetViewControl,
 			disableDoubleClickZoom: true,
 			draggable: true,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
