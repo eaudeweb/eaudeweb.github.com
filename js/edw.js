@@ -255,6 +255,10 @@ $(document).ready(function() {
             e.preventDefault();   
         };
         
+        contact_map[0].ontouchstart = function (e) {
+            e.preventDefault();   
+        };
+        
 		/*var info_window = new google.maps.InfoWindow({
 			content: $('#contact-map-infobox').remove().show()[0]
 		});
