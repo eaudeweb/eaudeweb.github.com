@@ -251,9 +251,9 @@ $(document).ready(function() {
           position: latlng
         });
         
-        google.maps.event.addListener(map, function(e){
-            e.preventDefault();
-        }, mapTouchStart);
+        contact_map[0].ontouchstart = function (e) {
+            e.preventDefault();    
+        };
         
 		/*var info_window = new google.maps.InfoWindow({
 			content: $('#contact-map-infobox').remove().show()[0]
