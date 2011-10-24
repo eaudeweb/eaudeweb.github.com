@@ -10,13 +10,13 @@ var browser_width,
 
 iOS_position_fixed = function() {
 
-	if($("html").hasClass("iOS") && !$("html").hasClass("iOS5") && !$("html").hasClass("top_menu"))
+	/*if($("html").hasClass("iOS") && !$("html").hasClass("iOS5") && !$("html").hasClass("top_menu"))
 	{
 		waitForScroll = setTimeout(function() {
 			$("header").css("margin-top", $(document).scrollTop() + "px");
 			clearTimeout(waitForScroll);
 		}, 500);
-	}
+	}*/
 
 };
 
