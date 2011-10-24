@@ -214,6 +214,7 @@ $(document).ready(function() {
 		map = new google.maps.Map(contact_map[0], {
 			scrollwheel: false,
             zoomControl: true,
+            panControl: true,
 			disableDoubleClickZoom: false,
 			draggable: true,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
