@@ -243,11 +243,16 @@ $(document).ready(function() {
         var marker = new google.maps.Marker({
           draggable: false,
           raiseOnDrag: false,
+          clickable: false,
           icon: image,
           shadow: shadow,
           shape: shape,
           map: map,
           position: latlng
+        });
+        
+        google.maps.event.addListener(map, 'customTouchStart', function(e){
+            e.preventDefault();
         });
         
 		/*var info_window = new google.maps.InfoWindow({
