@@ -252,7 +252,8 @@ $(document).ready(function() {
         });
         
         contact_map[0].ontouchstart = function (e) {
-            e.preventDefault();    
+            console.log("touch");
+            e.preventDefault();   
         };
         
 		/*var info_window = new google.maps.InfoWindow({
