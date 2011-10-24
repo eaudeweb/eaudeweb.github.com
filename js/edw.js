@@ -251,13 +251,17 @@ $(document).ready(function() {
           position: latlng
         });
         
-        contact_map[0].ontouchmove = function (e) {
-            e.preventDefault();   
-        };
+        contact_map[0].addEventListener('touchmove',function(e){
+            e.preventDefault(); 
+        }, true);
         
-        contact_map[0].ontouchstart = function (e) {
-            e.preventDefault();   
-        };
+        contact_map[0].addEventListener('touchstart',function(e){
+            e.preventDefault(); 
+        }, true);
+        
+        contact_map[0].addEventListener('touchend',function(e){
+            e.preventDefault(); 
+        }, true);
         
 		/*var info_window = new google.maps.InfoWindow({
 			content: $('#contact-map-infobox').remove().show()[0]
