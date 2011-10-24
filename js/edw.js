@@ -251,9 +251,14 @@ $(document).ready(function() {
           position: latlng
         });
         
-        google.maps.event.addListener(map, 'customTouchStart', function(e){
+        if(touch_enabled)
+        {
+            contact_map.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+        }
+        
+        /*google.maps.event.addListener(map, 'customTouchStart', function(e){
             e.preventDefault();
-        });
+        });*/
         
 		/*var info_window = new google.maps.InfoWindow({
 			content: $('#contact-map-infobox').remove().show()[0]
