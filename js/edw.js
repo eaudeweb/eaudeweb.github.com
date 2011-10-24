@@ -268,6 +268,7 @@ $(document).ready(function() {
             
             contact_map[0].addEventListener('touchmove',function(e){
                 if ( !dragFlag ) return;
+                e.preventDefault();
                 end = touch_enabled == true ? e.touches[0].pageY : e.clientY;   
                 window.scrollBy( 0,( start - end ) ); 
             }, true);
