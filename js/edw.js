@@ -251,14 +251,9 @@ $(document).ready(function() {
           position: latlng
         });
         
-        if(touch_enabled)
-        {
-            contact_map.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
-        }
-        
-        /*google.maps.event.addListener(map, 'customTouchStart', function(e){
+        google.maps.event.addListener(map, function(e){
             e.preventDefault();
-        });*/
+        }, mapTouchStart);
         
 		/*var info_window = new google.maps.InfoWindow({
 			content: $('#contact-map-infobox').remove().show()[0]
