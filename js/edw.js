@@ -251,21 +251,27 @@ $(document).ready(function() {
           position: latlng
         });
         
-        contact_map[0].addEventListener('touchmove',function(e){
-            e.preventDefault();
-            curX = e.targetTouches[0].pageX - startX;
-            curY = e.targetTouches[0].pageY - startY;
-            e.targetTouches[0].target.style.webkitTransform =
-                'translate(' + curX + 'px, ' + curY + 'px)';
-        }, true);
-        
-        contact_map[0].addEventListener('touchstart',function(e){
-            e.preventDefault(); 
-        }, true);
-        
-        contact_map[0].addEventListener('touchend',function(e){
-            e.preventDefault(); 
-        }, true);
+        if(touch_enabled)
+        {
+            var dragFlag = false,
+            start = 0,
+            end = 0;
+            
+            contact_map[0].addEventListener('touchstart', function(e){
+                dragFlag = true;
+                start = events == 'touch' ? e.touches[0].pageY : e.clientY; 
+            },true);
+            
+            contact_map[0].addEventListener('touchend', function(){ 
+                dragFlag = false; 
+            }, true);
+            
+            contact_map[0].addEventListener('touchmove',function(e){
+                if ( !dragFlag ) return;
+                end = events == 'touch' ? e.touches[0].pageY : e.clientY;   
+                window.scrollBy( 0,( start - end ) ); 
+            }, true);
+        }
         
 		/*var info_window = new google.maps.InfoWindow({
 			content: $('#contact-map-infobox').remove().show()[0]
