@@ -334,7 +334,7 @@ header
 			margin-left:-32px;
 		}
 	
-	#we-work-for-container article
+    #we-work-for-container article
 	{
 		width: 256px;
 		height: 256px;
@@ -697,6 +697,12 @@ footer
 	{
 		padding: 73px 32px 72px;
 	}
+    
+    h1#index-container 
+    {
+        padding: 73px 0 0 0;
+        display: inline;
+    }
 }
 
 /* iPhone Landscape */
