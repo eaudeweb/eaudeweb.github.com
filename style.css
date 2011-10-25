@@ -22,7 +22,7 @@ a,a:hover,a:visited:hover,a:active,a:active:hover{outline:none}
 ::-webkit-scrollbar-thumb:vertical
 { 
     background-color:#7db621;
-    height:100px;
+	height:100px;
 }
 ::-webkit-scrollbar-thumb:horizontal
 { 
@@ -191,11 +191,17 @@ h1
 	{
 		margin-bottom: 0;
 	}
-	
+
 	.home h1
 	{
-		font-weight: normal;
+		padding: 73px 32px 123px;
 		margin: 0;
+		font-weight: normal;
+	}
+
+	#index-container h1
+	{
+		font-weight: normal;
 		/*padding: 73px 32px 72px;*/
 		padding: 73px 32px 0;
 		display: inline !important;
