@@ -8,20 +8,11 @@ teaser: |
   The EEA is an European Commission agency, which aims to support sustainable development and to help achieve
   significant and measurable improvement in Europe's environment through
   the provision of timely, targeted, relevant and reliable info.
+  
+  We undertake framework contracts for <a href="http://www.zope.org">Zope</a> Web developments and for the <a href="http://www.eionet.europa.eu/seis/">Shared Environmental Information System (SEIS)</a> implementation.
 ---
-
 
 The EEA is the largest European Commission agency, which aims to support sustainable development and to help achieve
 significant and measurable improvement in Europe's environment through
 the provision of timely, targeted, relevant and reliable info.
 
-Nulla facilisi. Cornel was here. Aenean leo turpis, faucibus condimentum 
-facilisis ac, facilisis ultricies diam. Etiam iaculis lacinia enim faucibus 
-vulputate. Aenean scelerisque interdum metus, eu bibendum nisi tempus eget. 
-Aliquam at ante ac justo placerat tincidunt hendrerit at quam. Nunc neque nisi,
-tempor quis lobortis euismod, cursus molestie nisl. Nulla magna turpis,
-porta sed tristique sed, vestibulum quis metus. Maecenas vel tellus id
-mi hendrerit consequat. Sed cursus, urna malesuada pharetra interdum,
-tortor erat ultrices nulla, non mattis eros elit sit amet urna. In orci
-neque, aliquam rhoncus tristique id, aliquam eu lacus. Donec metus
-sapien, bibendum non consectetur rhoncus, suscipit eget mauris.
