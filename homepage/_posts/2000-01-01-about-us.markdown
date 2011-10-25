@@ -23,6 +23,10 @@ made in Zope and it's fully open source. It's our pride and joy because
 it's simple to use, simple to extend and elegant to program. We'll have
 a website for it soon.
 
+Web applications’ interoperability is a big component of our work, so we’ve 
+been increasingly involved into the Semantic Web principles and tools, working with
+<a href="http://ec.europa.eu/environment/seis/">SEIS</a> and 
+<a href="http://en.wikipedia.org/wiki/Open_data">Open Data</a> guidelines and implementations.
 
 ### Eau de Web's Manifesto ###
 
