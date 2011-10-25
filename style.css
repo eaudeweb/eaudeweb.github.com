@@ -695,12 +695,8 @@ footer
 	
 	.home h1
 	{
-		padding: 73px 32px 72px;
-	}
-    
-    h1#index-container 
-    {
-        padding: 73px 0 0 0;
+		/*padding: 73px 32px 72px;*/
+        padding: 73px 0 0 32px;
         display: inline;
     }
 }
