@@ -199,7 +199,7 @@ h1
 		font-weight: normal;
 	}
 
-	#index-container h1
+	h1#index-container
 	{
 		font-weight: normal;
 		/*padding: 73px 32px 72px;*/
