@@ -194,7 +194,7 @@ h1
 
 	.home h1
 	{
-		padding: 73px 32px 123px;
+		/*padding: 73px 32px 123px;*/
 		margin: 0;
 		font-weight: normal;
 	}
@@ -202,11 +202,16 @@ h1
 	h1#index-container
 	{
 		font-weight: normal;
-		/*padding: 73px 32px 72px;*/
-		padding: 73px 32px 0;
+		/*padding: 73px 32px 72px;
+		padding: 73px 32px 0;*/
 		display: inline !important;
 		line-height: 37px;
 		margin-bottom: 31px;
+	}
+
+    #home-container h3
+	{
+		font-weight: normal;
 	}
 
 h2,

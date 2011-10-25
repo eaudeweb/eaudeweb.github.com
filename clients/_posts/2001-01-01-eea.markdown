@@ -5,27 +5,15 @@ logo: /images/client-logos/eea.png
 layout: client
 date: 2000-01-01
 teaser: |
-  The EEA aims to support sustainable development and to help achieve
+  The EEA is an European Commission agency, which aims to support sustainable development and to help achieve
   significant and measurable improvement in Europe's environment through
   the provision of timely, targeted, relevant and reliable info.
 ---
 
 
-The EEA aims to support sustainable development and to help achieve
+The EEA is the largest European Commission agency, which aims to support sustainable development and to help achieve
 significant and measurable improvement in Europe's environment through
 the provision of timely, targeted, relevant and reliable info.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a
-tortor arcu. Pellentesque habitant morbi tristique senectus et netus et
-malesuada fames ac turpis egestas. Quisque congue rutrum nisl, vitae
-consequat magna feugiat a. Vivamus nisl arcu, posuere a fermentum non,
-bibendum non urna. Sed non orci est. In sem dui, laoreet et auctor ut,
-viverra quis est. Curabitur semper augue non nunc pretium vulputate.
-Donec in erat turpis. Fusce pulvinar felis sit amet sapien bibendum ac
-interdum augue pharetra. Quisque ut accumsan sem. Fusce vel neque non
-eros tristique tincidunt. Sed aliquet enim id quam aliquet et blandit
-libero tincidunt. Pellentesque non nibh ante, et posuere ligula. Etiam
-eu felis velit. Praesent ullamcorper pharetra nibh eget semper.
 
 Nulla facilisi. Cornel was here. Aenean leo turpis, faucibus condimentum 
 facilisis ac, facilisis ultricies diam. Etiam iaculis lacinia enim faucibus 
