@@ -27,10 +27,10 @@ eros tristique tincidunt. Sed aliquet enim id quam aliquet et blandit
 libero tincidunt. Pellentesque non nibh ante, et posuere ligula. Etiam
 eu felis velit. Praesent ullamcorper pharetra nibh eget semper.
 
-Nulla facilisi. Aenean leo turpis, faucibus condimentum facilisis ac,
-facilisis ultricies diam. Etiam iaculis lacinia enim faucibus vulputate.
-Aenean scelerisque interdum metus, eu bibendum nisi tempus eget. Aliquam
-at ante ac justo placerat tincidunt hendrerit at quam. Nunc neque nisi,
+Nulla facilisi. Cornel was here. Aenean leo turpis, faucibus condimentum 
+facilisis ac, facilisis ultricies diam. Etiam iaculis lacinia enim faucibus 
+vulputate. Aenean scelerisque interdum metus, eu bibendum nisi tempus eget. 
+Aliquam at ante ac justo placerat tincidunt hendrerit at quam. Nunc neque nisi,
 tempor quis lobortis euismod, cursus molestie nisl. Nulla magna turpis,
 porta sed tristique sed, vestibulum quis metus. Maecenas vel tellus id
 mi hendrerit consequat. Sed cursus, urna malesuada pharetra interdum,
