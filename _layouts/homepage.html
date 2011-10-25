@@ -1,101 +1,930 @@
----
-layout: base
----
+/* CSS RESET */
 
-<h1 id="index-container">{{ page.title }}</h1>
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,acronym,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,img,object,embed,iframe{display:block}
+address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}
+nav ul,nav li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;width:auto}
+q:before,q:after{content:"";}
+abbr,acronym {font-variant:normal;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+legend{color:#000;}
+a,a:hover,a:visited:hover,a:active,a:active:hover{outline:none}
+::selection { background: #cbe2a6; }
+::-moz-selection { background: #cbe2a6; }
+::-webkit-selection { background: #cbe2a6; }
 
-<section id="home-container">
-    {{content}}
-</section>
+::-webkit-scrollbar-thumb:vertical
+{ 
+    background-color:#7db621;
+	height:100px;
+}
+::-webkit-scrollbar-thumb:horizontal
+{ 
+	background-color:#7db621;
+	height:16px !important;
+}
 
-{% for section in site.categories.homepage reversed %}
+::-webkit-scrollbar
+{ 
+	height:16px;
+	width:16px; 
+	background-color:#e9ece4;
+}
 
-  {% capture section_id %}{{ section.title | downcase | replace: ' ', '-' }}{% endcapture %}
+::-webkit-scrollbar-corner
+{
+	background-color:#e9ece4;
+}
 
-  {% if section_id == "about-us" %}
-    {% assign css_class = "with_padding" %}
-  {% elsif section_id == "naaya" %}
-    {% assign css_class = "with_padding" %}
-  {% elsif section_id == "our-team" %}
-    {% assign css_class = "with_padding" %}
-  {% else %}
-    {% assign css_class = "" %}
-  {% endif %}
+/* WEB FONTS */
 
-  <section id="{{ section_id }}-container" class="{{ css_class }}">
+@font-face {
+    font-family: 'Trade Gothic';
+    src: url('fonts/tradegothicltstd-bdcn20obl-webfont.eot?') format('eot'),
+         url('fonts/tradegothicltstd-bdcn20obl-webfont.woff') format('woff'),
+         url('fonts/tradegothicltstd-bdcn20obl-webfont.ttf') format('truetype'),
+         url('fonts/tradegothicltstd-bdcn20obl-webfont.svg#Trade Gothic') format('svg');
+    font-weight: bold;
+    font-style: italic, oblique;
+}
 
-    <a href="/#{{ section_id }}" class="sections"><h2>{{ section.title }}</h2></a>
+@font-face {
+    font-family: 'Trade Gothic';
+    src: url('fonts/tradegothicltstd-bdcn20-webfont.eot?') format('eot'),
+         url('fonts/tradegothicltstd-bdcn20-webfont.woff') format('woff'),
+         url('fonts/tradegothicltstd-bdcn20-webfont.ttf') format('truetype'),
+         url('fonts/tradegothicltstd-bdcn20-webfont.svg#Trade Gothic') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
 
-    {% if section.title == "We work for" %}
+@font-face {
+    font-family: 'Trade Gothic';
+    src: url('fonts/tradegothicltstd-cn18obl-webfont.eot?') format('eot'),
+         url('fonts/tradegothicltstd-cn18obl-webfont.woff') format('woff'),
+         url('fonts/tradegothicltstd-cn18obl-webfont.ttf') format('truetype'),
+         url('fonts/tradegothicltstd-cn18obl-webfont.svg#Trade Gothic') format('svg');
+    font-weight: normal;
+    font-style: italic, oblique;
+}
 
-      {% for client in site.categories.clients reversed %}
+@font-face {
+    font-family: 'Trade Gothic';
+    src: url('fonts/tradegothicltstd-cn18-webfont.eot?') format('eot'),
+         url('fonts/tradegothicltstd-cn18-webfont.woff') format('woff'),
+         url('fonts/tradegothicltstd-cn18-webfont.ttf') format('truetype'),
+         url('fonts/tradegothicltstd-cn18-webfont.svg#Trade Gothic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
-      <article>
+body
+{
+	font:24px/31px "Trade Gothic", sans-serif;
+	text-align: left;
+	background:#e9ece4 url("images/bg.png") 0 0 repeat-y;
+	color:#151f06;
+	-webkit-tap-highlight-color: #ddd;
+	-webkit-font-smoothing:antialiased;
+}
 
-        <a href="{{ client.url }}" class="box">
-          <span>{{ client.title }}</span>
-          <img src="{{ client.logo }}" width="256" height="256" />
-        </a>
+	html.touch body
+	{
+		-webkit-text-size-adjust:none;
+        -ms-text-size-adjust:none;
+	}
 
-        <div class="large_box">
+p,
+.content ul
+{
+	margin:0 0 31px 0;
+}
 
-          <h3>{{ client.title }}</h3>
+	* p:last-child,
+    .last-child
+	{
+		margin:0;
+	}
 
-          <p><a href="{{ client.homepage }}"
-                rel="external">{{ client.homepage }}</a></p>
+.content ul
+{
+	overflow: hidden;
+}
 
-          <p>{{ client.teaser }}</p>
+.content li
+{
+	padding-left: 19px;
+	list-style: none;			
+	background: transparent 0 11px url("images/green-bullet.png") no-repeat;
+}
 
-          <p><a href="{{ client.url }}">Read more</a></p>
+	#our-team-container ul
+	{
+		min-height:93px;
+	}
+	
+	#edw-news-container ul
+	{
+		margin:0;
+	}
+	
+	#edw-news-container ul li
+	{
+		width: 45px;
+		float: left;
+		margin:0 0 9px 32px;
+	}
+	
+	#edw-news-container ul li:nth-of-type(5n+1)
+	{
+		margin-left: 0;
+	}
 
-        </div>
+a,
+a:visited 
+{
+	color:#7db621;
+	text-decoration: underline;
+}
 
-      </article>
+	html.no-touch a:hover,
+	html.no-touch a:visited:hover
+	{
+		color: #151f06;
+	}
+    
+    .sections
+    {
+        float:left;
+        width:256px;
+        height:256px;
+        color:#fff;
+        text-decoration:none;
+    }
+    
+        .sections:visited,
+        .sections:hover,
+        .section:visited:hover
+        {
+            color:#fff;
+        }	
+/*time
+{
+	font-weight: bold;
+}*/
 
-      {% endfor %}
+h1
+{
+	font-size:30px;
+	line-height: 37px;
+	font-weight: bold;
+	margin-bottom: 31px;
+}
+	
+	h1.no_bottom
+	{
+		margin-bottom: 0;
+	}
+	
+	.home h1
+	{
+		font-weight: normal;
+		margin: 0;
+		/*padding: 73px 32px 72px;*/
+		padding: 73px 32px 0;
+		display: inline !important;
+		line-height: 37px;
+		margin-bottom: 31px;
+	}
 
-    {% elsif section.title == "Our team" %}
+h2,
+h1.black
+{
+	width: 192px;
+	height: 192px;
+	display: block;
+	padding: 32px;
+	margin: 0;
+	color: #fff;
+	background: #151f06;
+	font-size: 48px;
+	line-height: 51px;
+	text-transform: uppercase;
+	float: left;
+}
 
-      {% if site.categories.team %}
-        <p>{{ section.jobs-intro-text }}</p>
-        <ul>
-        {% for job in site.categories.team %}
-          <li><a href="{{ job.url }}">{{ job.title }}</a></li>
-        {% endfor %}
-        </ul>
-      {% endif %}
+    .sections h2
+    {
+        float:none;
+    }
 
-      {{ section.content }}
+	.with_padding h2,
+    .with_padding .sections
+	{
+		margin: -32px 32px 22px -32px;
+	}
+    
+    .with_padding .sections h2
+    {
+        margin: 0;
+    }
 
-    {% elsif section.title == "EdW news" %}
+h3
+{
+	text-transform: uppercase;
+}
 
-      <div class="content_box double_box">
-        {{ section.content }}
-      </div>
+	#we-work-for-container h3
+	{
+		font-size:30px;
+		line-height: 37px;
+		text-transform: none;
+	}
 
-      {% for article in site.categories.news limit: 4 %}
+h4
+{
+	font-weight: bold;
+}
 
-      <article>
-        <h3>{{ article.title }}</h3>
-        <p>
-            <time>{{ article.date | date: "%d %B %Y" }}</time>
-        </p>
+#home-container
+{
+	padding: 0 23px 0 0;
+}
+
+header
+{
+	width: 256px;
+	text-align: center;
+	line-height: 24px;
+	font-weight: bold;
+	position: fixed;
+    top:0;
+    left:0;
+}
+	
+		header li
+		{
+			color: #d5fa3b;
+		}
+		
+			header a,
+			header a:visited
+			{
+				color: #d5fa3b;
+				text-decoration: none;
+				text-transform: uppercase;
+				display: block;
+				margin: 0 16px;
+				padding: 13px 0;
+				border-bottom: 1px solid #aad82f;
+				
+				-webkit-transition: all 0.25s cubic-bezier(0, 0, 0.25, 1);
+			       -moz-transition: all 0.25s cubic-bezier(0, 0, 0.25, 1);
+			        -ms-transition: all 0.25s linear;
+			         -o-transition: all 0.25s cubic-bezier(0, 0, 0.25, 1);
+			            transition: all 0.25s cubic-bezier(0, 0, 0.25, 1);
+			}
+			
+				html.no-touch header a:hover,
+				html.no-touch header a:visited:hover
+				{
+					color: #fff;
+				}
+				
+				header .selected a
+				{
+					color: #fff;
+					border-bottom-color: #fff;
+				}
+				
+				header .home a
+				{
+					text-transform: none;
+					font-size: 30px;
+					line-height: 37px;
+					padding: 73px 0 72px;
+				}
+				
+					header .home a img
+					{
+						margin: 0 auto 9px;
+					}
+                    
+                    header .home a.lessPadding
+                    {
+                        padding: 20px 0;
+                    }
+
+.content
+{
+	width: 768px;
+	margin-left: 256px;
+}
+	
+	section
+	{
+		overflow: hidden;
+		padding:0 0 128px;
+	}
+	
+		.with_padding
+		{
+			padding:32px 32px 128px;
+		}
+		
+		.with_padding img
+		{
+			margin-left:-32px;
+		}
+	
+    #we-work-for-container article
+	{
+		width: 256px;
+		height: 256px;
+		float: left;
+	}
+	
+		#we-work-for-container article.expanded
+		{
+			width: 512px;
+			height: 512px;
+		}
+	
+	.box
+	{
+		width: 256px;
+		height: 256px;
+		display: block;
+		background: #fff url("images/box-bg.png") 0 0 no-repeat;
+		position: relative;
+		text-decoration: none;
+	}
+	
+		.with_padding span.box
+		{
+			margin: -32px 32px 22px -32px;
+			float:left;
+		}
+		
+			.with_padding span.box img
+			{
+				margin: 0;
+			}
+	
+		#we-work-for-container article.expanded .box
+		{
+			opacity: 0;
+		}
         
-        <p class="last-child">
-            {{ article.teaser }}
-            <a href="{{ article.url }}">Read more</a>
-        </p>
+        html.ielt9 #we-work-for-container article.expanded .box
+        {
+            display:none;
+        }
+	
+		.box span
+		{
+			display: block;
+			position: absolute;
+			top:0;
+			left:0;
+			width: 192px;
+			height: 192px;
+			padding: 32px;
+			font-weight: bold;
+			color:#fff;
+			background: #7db621;
+			opacity: 0;
+			z-index: 1;
+			text-decoration: none;
+			-webkit-transition: opacity 0.25s cubic-bezier(0, 0, 0.25, 1);
+		       -moz-transition: opacity 0.25s cubic-bezier(0, 0, 0.25, 1);
+		        -ms-transition: opacity 0.25s linear;
+		         -o-transition: opacity 0.25s cubic-bezier(0, 0, 0.25, 1);
+		            transition: opacity 0.25s cubic-bezier(0, 0, 0.25, 1);
+		}
+        
+            html.ielt9 .box span
+            {
+                display:none;
+            }
+		
+			html.no-touch .box:hover span
+			{
+				opacity: 1;
+			}
+            
+             html.ielt9 .box:hover span
+             {
+                 display:block;
+             }
 
-        <span class="box"><img src="{{ article.image }}"
-          width="256" height="256" /></span>
-      </article>
+	.masonry,
+	.masonry .masonry-brick
+	{
+	  -webkit-transition-duration: 0.25s;
+	     -moz-transition-duration: 0.25s;
+	      -ms-transition-duration: 0.25s;
+	       -o-transition-duration: 0.25s;
+	          transition-duration: 0.25s;
+	          
+	  -webkit-transition-timing-function: cubic-bezier(0, 0, 0.25, 1);
+	     -moz-transition-timing-function: cubic-bezier(0, 0, 0.25, 1);
+	      -ms-transition-timing-function: linear;
+	       -o-transition-timing-function: cubic-bezier(0, 0, 0.25, 1);
+	          transition-timing-function: cubic-bezier(0, 0, 0.25, 1);
+	}
+	
+	.masonry
+	{
+	  -webkit-transition-property: height, width;
+	     -moz-transition-property: height, width;
+	      -ms-transition-property: height, width; 
+	       -o-transition-property: height, width;
+	          transition-property: height, width;
+	}
+	
+	.masonry .masonry-brick
+	{
+	  -webkit-transition-property: left, right, top;
+	     -moz-transition-property: left, right, top;
+	      -ms-transition-property: left, right, top;
+	       -o-transition-property: left, right, top;
+	          transition-property: left, right, top;
+	}
+	
+	.large_box
+	{
+		opacity: 0;
+		position: absolute;
+		top:0;
+		left:0;
+		padding: 32px;
+		width: 448px;
+		height: 448px;
+		background: #fff url("images/box-large-bg.png") 0 0 no-repeat;
+		overflow: hidden;
+		
+		-webkit-transition: opacity 0.25s cubic-bezier(0, 0, 0.25, 1);
+	       -moz-transition: opacity 0.25s cubic-bezier(0, 0, 0.25, 1);
+	        -ms-transition: opacity 0.25s linear;
+	         -o-transition: opacity 0.25s cubic-bezier(0, 0, 0.25, 1);
+	            transition: opacity 0.25s cubic-bezier(0, 0, 0.25, 1);
+	}
 
-      {% endfor %}
+	html.ielt9 .large_box
+	{
+		display:none;
+	}
 
-    {% else %}
-      {{ section.content }}
-    {% endif %}
+		#we-work-for-container article.visible .large_box
+		{
+			opacity: 1;
+			z-index:10;
+		}
+		
+		html.ielt9 #we-work-for-container article.visible .large_box
+		{
+			display:block;
+		}
+		
+	#edw-news-container article
+	{
+		/*float: left;*/
+		clear: both;
+		padding:24px 288px 32px 32px;
+		width:448px;
+		min-height: 200px;
+		position: relative;
+	}
+	
+		#edw-news-container article span
+		{
+			position: absolute;
+			top:0;
+			right:0;
+		}
+	
+	#edw-news-container article:nth-of-type(2n)
+	{
+		padding: 24px 32px 32px 288px;
+	}
+	
+		#edw-news-container article:nth-of-type(2n) span
+		{
+			left:0;
+			right:inherit;
+		}
+	
+	.content_box
+	{
+		width: 192px;
+		min-height: 192px;
+		height: auto !important;
+		height: 192px;
+		float: left;
+		padding: 32px;
+	}
+	
+	.double_box
+	{
+		width: 448px;
 
-  </section>
+	}
+	
+		.with_padding .double_box
+		{
+			margin:-32px 0 0 -32px;
+		}
 
-{% endfor %}
+#contact-map {
+	width: 768px;
+	height: 512px;
+}
+
+footer
+{
+	padding: 0 32px 32px;
+	color: #b6b6b6;
+}
+
+	footer a,
+	footer a:visited
+	{
+		color: #b6b6b6;
+		text-decoration: none;
+	}
+		
+		html.no-touch footer a:hover,
+		html.no-touch footer a:visited:hover
+		{
+			text-decoration: underline;
+		}
+	
+	.content footer ul
+	{
+		overflow: auto;
+		white-space: nowrap;
+		margin: 0;
+		display: block;
+	}
+	
+		.content footer li
+		{
+			float: left;
+			margin-left: 11px;
+			background-image: url("images/grey-bullet.png");
+		}
+		
+			.content footer li.first
+			{
+				margin-left: 0;
+				padding: 0;
+				background: transparent;
+			}
+
+.no_transition
+{
+	-webkit-transition: none 0s linear !important;
+	-moz-transition: none 0s linear !important;
+	-o-transition: none 0s linear !important;
+	-ms-transition: none 0s linear !important;
+	transition: none 0s linear !important;
+}
+
+.hide_scroll
+{
+	overflow:hidden !important;
+}
+
+.hidden
+{
+	display:none;
+}
+
+.clear
+{
+	width:100%;
+	overflow:hidden;
+}
+
+.vcard
+{
+	display: inline-block;
+}
+
+.float_left
+{
+	float:left;
+}
+
+.float_right
+{
+	float:right;
+}
+
+.text_right
+{
+	text-align: right;
+}
+
+/* iPad Portrait */
+
+@media only screen and (max-width: 1023px) {
+
+	body
+	{
+		background-image: none;
+	}
+    
+    .content
+    {
+		width: 768px;
+		margin: 0 auto;
+		position: relative;
+	}
+	
+	header
+	{
+		width: 100%;
+		background: #7db621;
+		z-index: 100;
+	}
+	
+	header ul
+	{
+		padding-bottom: 8px;
+	}
+	
+	header li
+	{
+		display: inline-block;
+	}
+	
+	html.ielt8 header li
+	{
+		display: inline;
+		zoom: 1 !important;
+	}
+	
+	header a,
+	header a:visited
+	{
+		padding: 8px 0;
+		margin: 0 8px;
+		border: 0;
+	}
+	
+	header .home
+	{
+		display: block;
+		position: relative;
+		margin:0 auto 8px;
+		border-bottom: 1px solid #aad82f;
+	}
+	
+	header .home a,
+	header .home a:visited
+	{
+		padding: 16px 0;
+		display: inline-block;
+	}
+	
+	html.ielt8 header .home a,
+	html.ielt8 header .home a:visited
+	{
+		display: inline;
+		zoom: 1 !important;
+	}
+	
+}
+
+/* iPhone Landscape */
+
+@media only screen and (max-width: 767px) {
+    
+    body
+    {
+        font-size:19px;
+        line-height:26px;
+    }
+    
+    p,
+    .content ul
+    {
+        margin:0 0 26px 0;
+    }
+    
+	.content
+	{
+		margin: 0;
+		width: 100%;
+	}
+	
+    .sections
+    {
+        width:100%;
+        height:67px;
+    }
+    
+    #contact-map
+    {
+        width:100%;
+    }
+    
+    h1,
+    #we-work-for-container h3,
+    header .home a
+    {
+        font-size:25px;
+        line-height:32px;
+    }
+    
+    header a,
+    header a:visited
+	{
+		line-height:21px;
+        padding: 4px 0;
+		margin: 0 5px;
+		border: 0;
+	}
+    
+    header .home
+    {
+        margin: 0 auto 12px;
+        width: 100%;
+    }
+    
+    header .home a
+    {
+        line-height:27px;
+    }
+    
+    header ul
+    {
+        padding-bottom:12px;
+    }
+    
+	h2,
+    h1.black
+	{
+		width:100%;
+        height:auto;
+        padding:20px;
+        font-size:25px;
+        line-height:27px;
+	}
+	
+    section
+    {
+        padding:0 0 67px;
+    }
+    
+    .with_padding
+    {
+        padding: 20px 20px 67px;
+    }
+    
+	.with_padding h2,
+    .with_padding .sections
+    {
+		margin: -20px 0 20px -20px;
+	}
+    
+        .with_padding .sections h2
+        {
+            margin:0;
+        }
+        
+    .with_padding span.box
+    {
+        margin: -20px 20px 20px -20px;
+    }
+	
+    .box span,
+    .large_box
+    {
+        display:none !important;
+    }
+    
+	img
+	{
+		max-width: 100%;
+		height: auto;
+	}
+	
+	video,
+	embed,
+	iframe
+	{
+		max-width: 100%;
+		height: auto;
+	}
+	
+	span.box,
+	span.box img
+	{
+		width: 128px;
+		height: 128px;
+	}
+	
+	#our-team-container ul
+	{
+		min-height: inherit;
+	}
+	
+	.content_box
+	{
+        padding:20px;
+        width:120px;
+        min-height: inherit;
+	}
+    
+    .double_box
+    {
+        width:auto;
+    }
+	
+	#edw-news-container article,
+    #edw-news-container article:nth-of-type(2n)
+	{
+		margin-top:26px;
+        min-height: auto;
+        width:auto;
+	}
+	
+	body.home #edw-news-container article:nth-of-type(1)
+	{
+		margin-top: 0 !important;
+	}
+    
+    #edw-news-container article:nth-of-type(2n) span
+    {
+        right:0;
+        left:inherit;
+    }
+    
+    #edw-news-container ul li
+    {
+        margin-left:20px;
+    }
+	
+    
+    header .home
+    {
+        white-space:nowrap;
+    }
+    
+    header .home a img
+    {
+        height:27px;
+        width:auto;
+        float:left;
+        margin:0 10px 0 0;
+    }
+    
+    footer
+    {
+        padding:0 20px 20px;
+    }
+	
+	.content footer li.details
+	{
+		margin-left: 0;
+		padding: 0;
+		background: transparent;
+	}
+	
+}
+
+/* iPhone Portrait */
+
+@media only screen and (max-width: 479px) {
+    
+    span.box,
+    span.box img
+    {
+        display:none;
+    }
+    
+    .content footer li.first,
+    .content footer li.email
+    {
+        float:none;
+		margin-left: 0;
+		padding: 0;
+		background: transparent;
+	}
+    
+    #edw-news-container article,
+    #edw-news-container article:nth-of-type(2n)
+    {
+        padding: 0 20px 0 20px;
+	}
+		
+}

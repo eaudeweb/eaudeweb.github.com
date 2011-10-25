@@ -21,7 +21,7 @@ a,a:hover,a:visited:hover,a:active,a:active:hover{outline:none}
 
 ::-webkit-scrollbar-thumb:vertical
 { 
-	background-color:#7db621;
+    background-color:#7db621;
 	height:100px;
 }
 ::-webkit-scrollbar-thumb:horizontal
@@ -194,9 +194,13 @@ h1
 	
 	.home h1
 	{
-		padding: 73px 32px 123px;
-		margin: 0;
 		font-weight: normal;
+		margin: 0;
+		/*padding: 73px 32px 72px;*/
+		padding: 73px 32px 0;
+		display: inline !important;
+		line-height: 37px;
+		margin-bottom: 31px;
 	}
 
 h2,
@@ -467,29 +471,29 @@ header
 	         -o-transition: opacity 0.25s cubic-bezier(0, 0, 0.25, 1);
 	            transition: opacity 0.25s cubic-bezier(0, 0, 0.25, 1);
 	}
-    
-    html.ielt9 .large_box
-    {
-        display:none;
-    }
+
+	html.ielt9 .large_box
+	{
+		display:none;
+	}
 
 		#we-work-for-container article.visible .large_box
 		{
 			opacity: 1;
 			z-index:10;
 		}
-        
-        html.ielt9 #we-work-for-container article.visible .large_box
-        {
-            display:block;
-        }
+		
+		html.ielt9 #we-work-for-container article.visible .large_box
+		{
+			display:block;
+		}
 		
 	#edw-news-container article
 	{
 		/*float: left;*/
-        clear: both;
+		clear: both;
 		padding:24px 288px 32px 32px;
-        width:448px;
+		width:448px;
 		min-height: 200px;
 		position: relative;
 	}
@@ -516,8 +520,8 @@ header
 	{
 		width: 192px;
 		min-height: 192px;
-        height: auto !important;
-        height: 192px;
+		height: auto !important;
+		height: 192px;
 		float: left;
 		padding: 32px;
 	}
@@ -693,12 +697,6 @@ footer
 		zoom: 1 !important;
 	}
 	
-	.home h1
-	{
-		/*padding: 73px 32px 72px;*/
-        padding: 73px 0 0 32px;
-        display: inline;
-    }
 }
 
 /* iPhone Landscape */
@@ -871,13 +869,6 @@ footer
         margin-left:20px;
     }
 	
-	.home h1
-	{
-		padding:65px 20px 65px;
-		height: auto;
-		vertical-align: inherit;
-		display: block;
-	}
     
     header .home
     {
