@@ -241,8 +241,13 @@ h3
 }
 
     #home-container
-	{
+    {
 		padding: 73px 32px 123px;
+	}
+
+    #home-container h3
+    {
+		font-weight: normal;
 	}
 
 	#we-work-for-container h3
