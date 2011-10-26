@@ -201,10 +201,16 @@ h1
 	{
 		font-weight: normal;
 		margin: 0;
-		display: inline ;
+		display: inline;
 		line-height: 37px;
-		margin-bottom: 31px;
+        float: left;
 	}
+    
+    #index-container p:first-child
+    {
+        font-size:30px;
+        line-height: 37px;
+    }
 
 h2,
 h1.black
