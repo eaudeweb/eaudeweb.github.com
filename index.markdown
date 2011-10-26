@@ -1,6 +1,5 @@
 ---
-title: |
-  Eau de Web  
+title: Eau de Web  
   
 layout: homepage
 body-class: home
