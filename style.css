@@ -192,13 +192,16 @@ h1
 		margin-bottom: 0;
 	}
 	
+    #index-container
+    {
+        padding: 73px 32px 0;
+    }
+    
 	.home h1
 	{
 		font-weight: normal;
 		margin: 0;
-		/*padding: 73px 32px 72px;*/
-		padding: 73px 32px 0;
-		display: inline !important;
+		display: inline ;
 		line-height: 37px;
 		margin-bottom: 31px;
 	}
