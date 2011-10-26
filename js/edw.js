@@ -294,7 +294,7 @@ $(document).ready(function() {
 	
     if($("body").hasClass("home"))
     {
-        $("#intro-container p:nth-of-type(1)").addClass("first");
+        $("#index-container p:nth-of-type(1)").addClass("first");
 
         if(browser_width >=768)
         {
