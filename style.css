@@ -196,8 +196,8 @@ h1
 	{
 		font-weight: normal;
 		margin: 0;
-		/*padding: 73px 32px 72px;
-		padding: 73px 32px 0;*/
+		/*padding: 73px 32px 72px;*/
+		padding: 73px 32px 0;
 		display: inline !important;
 		line-height: 37px;
 		margin-bottom: 31px;
@@ -239,16 +239,6 @@ h3
 {
 	text-transform: uppercase;
 }
-
-    #home-container
-    {
-		padding: 73px 32px 123px;
-	}
-
-    #home-container h3
-    {
-		font-weight: normal;
-	}
 
 	#we-work-for-container h3
 	{

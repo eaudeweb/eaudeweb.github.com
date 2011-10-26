@@ -25,11 +25,11 @@ All Naaya components are released under the [Mozilla Public License][]
 portal.
 
 
-### Source code, issue tracker and documentation ###
+### Features, source code, issue tracker and documentation ###
 
-Use [this page][] to find out how to get the source code, documentation
-and where the tickets are posted.
+Use [this page][] to find out how to get the functionalities offered, 
+source code, documentation and where the development tickets are posted.
 
-[mozilla_public_license]: #
-[license_explained]: #
-[this_page]: #
+[mozilla_public_license]: http://www.mozilla.org/MPL/MPL-1.1.html
+[license_explained]: http://www.eionet.europa.eu/software/licenseexplained.html
+[this_page]: http://naaya.eaudeweb.ro/
