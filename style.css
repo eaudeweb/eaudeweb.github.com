@@ -206,7 +206,7 @@ h1
         float: left;
 	}
     
-    #index-container p:first-child
+    #index-container p:nth-of-type(1)
     {
         font-size:30px;
         line-height: 37px;
