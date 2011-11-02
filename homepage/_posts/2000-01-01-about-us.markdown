@@ -28,6 +28,11 @@ been increasingly involved into the Semantic Web principles and tools, working w
 <a href="http://ec.europa.eu/environment/seis/">SEIS</a> and 
 <a href="http://en.wikipedia.org/wiki/Open_data">Open Data</a> guidelines and implementations.
 
+### The name ###
+
+Eau de Web is a paraphrase of *eau de parfum*, meaning a fragrance of Web, close to its essence.
+
+
 ### Eau de Web's Manifesto ###
 
 The drives of our activities are the open source culture and the use of
