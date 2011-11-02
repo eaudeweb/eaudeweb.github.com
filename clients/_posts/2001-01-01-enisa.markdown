@@ -4,11 +4,18 @@ homepage: http://enisa.europa.eu/
 logo: /images/client-logos/enisa.png
 layout: client
 date: 2000-01-02
+teaser: |
+  ENISA is the EU’s response to these cyber security issues of the European Union.
+  As such, it is the *pace-setter* for Information Security in Europe, and a centre of expertise.
+  ENISA’s website is the European *hub* for exchange of information, best practices
+  and knowledge in the field of Information Security.
+  
+  We undertake framework contracts for Zope/Plone Web development and hosting for ENISA.
 ---
 
-Aenean nunc nisl, semper nec suscipit vel, commodo eget dolor. Ut cursus
-auctor luctus. Pellentesque lacinia malesuada odio eu pharetra. Maecenas
-eget enim orci, bibendum sit amet tempus at, vehicula dapibus massa.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut massa ante,
-lacinia ac vulputate in, bibendum vitae velit.
+ENISA is the EU’s response to these cyber security issues of the European Union.
+As such, it is the *pace-setter* for Information Security in Europe, and a centre of expertise.
+ENISA’s website is the European ‘hub’ for exchange of information, best practices
+and knowledge in the field of Information Security.
+  
+We undertake framework contracts for Zope/Plone Web development and hosting for ENISA.

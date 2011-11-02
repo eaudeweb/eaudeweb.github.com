@@ -7,15 +7,4 @@ jobs-intro-text: |
 ---
 
 
-Maecenas ac dolor non turpis malesuada posuere. Curabitur nec sapien
-nulla. Vivamus nec ipsum ut ligula pulvinar tincidunt. Phasellus ac nibh
-quis odio convallis consectetur id ut neque. Proin nulla erat, venenatis
-quis venenatis eget, luctus et justo. Donec id mollis tellus.
-Pellentesque habitant morbi tristique senectus et netus et malesuada
-fames ac turpis egestas.
 
-Integer euismod sollicitudin euismod. Maecenas egestas tincidunt elit,
-eget venenatis tortor posuere at. Nullam rhoncus tellus risus.
-Suspendisse potenti. In lectus odio, feugiat id dapibus non, aliquet
-adipiscing odio. Sed bibendum orci arcu. Nullam convallis augue nec
-neque facilisis nec ornare ligula gravida.

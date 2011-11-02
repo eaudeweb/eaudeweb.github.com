@@ -9,11 +9,16 @@ teaser: |
   significant and measurable improvement in Europe's environment through
   the provision of timely, targeted, relevant and reliable info. 
 
+  We undertake framework contracts for [Zope][] Web developments and for the
+  [Shared Environmental Information System (SEIS)][seis] implementation.
 ---
 
 The EEA is the largest European Commission agency, which aims to support sustainable development and to help achieve
 significant and measurable improvement in Europe's environment through
 the provision of timely, targeted, relevant and reliable info.
 
-We undertake framework contracts for <a href="http://www.zope.org">Zope</a> Web developments and for the <a href="http://www.eionet.europa.eu/seis/">Shared Environmental Information System (SEIS)</a> implementation.
+We undertake framework contracts for [Zope][] Web developments and for the
+[Shared Environmental Information System (SEIS)][seis] implementation.
 
+[zope]: http://www.zope.org
+[seis]: http://www.eionet.europa.eu/seis/
