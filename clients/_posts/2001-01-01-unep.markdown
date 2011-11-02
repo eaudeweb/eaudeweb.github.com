@@ -1,8 +1,15 @@
 ---
 title: United Nations Environment Programme
-homepage: http://www.unep.org/
+homepage: http://www.unep.org
 logo: /images/client-logos/unep.png
 layout: client
 date: 2000-01-03
+teaser |
+  UNEP is the voice for the environment within the United Nations system.
+  UNEP acts as a catalyst, advocate, educator and facilitator to promote the wise
+  use and sustainable development of the global environment.
+
 ---
+
+Eau de Web builds 
 

@@ -3,7 +3,7 @@ title: Our team
 date: 2000-01-03
 jobs-intro-text: |
   It's pretty neat to work with us because we are a friendly team ☺.
-  There are eighteen of us now, but we're looking for new colleagues:
+  There are twenty of us now, but we're looking for new colleagues:
 ---
 
 

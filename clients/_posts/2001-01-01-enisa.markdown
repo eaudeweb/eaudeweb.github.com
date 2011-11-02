@@ -9,13 +9,6 @@ teaser: |
   As such, it is the *pace-setter* for Information Security in Europe, and a centre of expertise.
   ENISA’s website is the European *hub* for exchange of information, best practices
   and knowledge in the field of Information Security.
-  
-  We undertake framework contracts for Zope/Plone Web development and hosting for ENISA.
 ---
 
-ENISA is the EU’s response to these cyber security issues of the European Union.
-As such, it is the *pace-setter* for Information Security in Europe, and a centre of expertise.
-ENISA’s website is the European ‘hub’ for exchange of information, best practices
-and knowledge in the field of Information Security.
-  
 We undertake framework contracts for Zope/Plone Web development and hosting for ENISA.

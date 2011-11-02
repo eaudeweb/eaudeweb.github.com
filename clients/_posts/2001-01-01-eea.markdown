@@ -5,17 +5,12 @@ logo: /images/client-logos/eea.png
 layout: client
 date: 2000-01-01
 teaser: |
-  The EEA is an European Commission agency, which aims to support sustainable development and to help achieve
-  significant and measurable improvement in Europe's environment through
-  the provision of timely, targeted, relevant and reliable info. 
+  The EEA is the largest European Commission agency, which aims to support 
+  sustainable development and to help achieve significant and measurable
+  improvement in Europe's environment through the provision of timely, targeted,
+  relevant and reliable info.
 
-  We undertake framework contracts for [Zope][] Web developments and for the
-  [Shared Environmental Information System (SEIS)][seis] implementation.
 ---
-
-The EEA is the largest European Commission agency, which aims to support sustainable development and to help achieve
-significant and measurable improvement in Europe's environment through
-the provision of timely, targeted, relevant and reliable info.
 
 We undertake framework contracts for [Zope][] Web developments and for the
 [Shared Environmental Information System (SEIS)][seis] implementation.
