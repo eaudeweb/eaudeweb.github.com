@@ -3,12 +3,16 @@ title: United Nations Development Programme
 homepage: http://www.undp.org/
 logo: /images/client-logos/undp.png
 layout: client
-date: 2000-01-04
+date: 2011-10-01
+teaser: |
+  UNDP is the United Nation's global development network, an organization advocating
+  for change and connecting countries to knowledge, experience and resources to help
+  people build a better life.
 ---
 
-Aenean nunc nisl, semper nec suscipit vel, commodo eget dolor. Ut cursus
-auctor luctus. Pellentesque lacinia malesuada odio eu pharetra. Maecenas
-eget enim orci, bibendum sit amet tempus at, vehicula dapibus massa.
+We build collaborative portals for the Romanian public institutions, such as the
+[Clearing house mechanism for Biodiversity][chmbio] and the upcoming Clearinghouse
+mechanism for the reporting under the Rio Conventions.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut massa ante,
-lacinia ac vulputate in, bibendum vitae velit.
+[chmbio]: http://biodiversitate.mmediu.ro
+

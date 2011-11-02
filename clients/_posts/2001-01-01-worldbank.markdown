@@ -3,8 +3,8 @@ title: The World Bank
 homepage: http://www.worldbank.org/
 logo: /images/client-logos/world-bank.png
 layout: client
-date: 2000-01-03
-teaser |
+date: 2011-10-01
+teaser: |
   The World Bank is a vital source of financial and technical assistance to
   developing countries around the world.
 ---

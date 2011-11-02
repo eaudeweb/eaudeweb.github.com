@@ -1,15 +1,20 @@
 ---
 title: United Nations Environment Programme
-homepage: http://www.unep.org
+homepage: http://www.unep.org/
 logo: /images/client-logos/unep.png
 layout: client
-date: 2000-01-03
-teaser |
+date: 2011-10-01
+teaser: |
   UNEP is the voice for the environment within the United Nations system.
   UNEP acts as a catalyst, advocate, educator and facilitator to promote the wise
   use and sustainable development of the global environment.
-
 ---
 
-Eau de Web builds 
+We build several Web applications for UNEP, from which the [InforMEA][], a platform
+that harvests COP decisions, news, events, membership, national focal points and
+reports from MEAs and the [CITES Virtual College][vc], a learning management system
+containing training courses for CITES Parties.
+
+[informea]: http://www.informea.org
+[vc]: http://campusvirtual.unia.es/cites/
 
