@@ -12,13 +12,7 @@ Software][arnia].
 It was a difficult job, but we made it to the finish line. The team of supporters
 was exhausted after all that expectation in the sun, with only cold beers to comfort them. 
 
-<img src="/images/news/marathon1.jpg" />
-<img src="/images/news/marathon2.jpg" />
-<img src="/images/news/marathon3.jpg" /><br />
-<img src="/images/news/marathon4.jpg" />
-<img src="/images/news/marathon5.jpg" />
-<img src="/images/news/marathon6.jpg" /><br />
-<img src="/images/news/marathon7.jpg" />
+<img src="/images/news/colaj-marathon.png" alt="us in the marathon" style="margin-top: 20px; margin-left: 50px" />
 
 [See all photos][photos]
 
