@@ -14,7 +14,6 @@ to the Sheraton Tower. [The show][conf] was started by none other than Jeffrey Z
 Eric Meyer, who were just the tip of the iceberg of a 2 day marathon about web design,
 web apps, usability, CSS and plenty of more awesome stuff.
 
-<img src="/images/news/an-event-apart-2.jpg" alt="chicago" style="margin-left: 20px" />
 <img src="/images/news/an-event-apart-3.jpg" alt="chicago" style="margin-left: 20px" />
 
 

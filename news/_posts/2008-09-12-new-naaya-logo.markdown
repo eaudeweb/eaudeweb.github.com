@@ -1,14 +1,13 @@
 ---
 title: New Naaya logo
-image: /images/dummy-news.jpg
+image: /images/generic-news.png
 year: 2008
 layout: news
 teaser: |
-  Our web designer attended the Chicago "event apart", which seems to be the highlight 
-  of the year in terms of design
+  The content management system we proudly build for a few years now has a new logo
 ---
 
-We have a new logo for our Python friendly Naaya CMS, thanks to Razvan, our web designer.
+We have a new logo for our friendly Naaya CMS, thanks to Razvan, our web designer.
 [Naaya][] is built in [Python][] on top of Zope, so we put a python wrapped around the name ;-)
 
 <img src="/images/news/naaya-logo-mediu.gif" style="margin-top: 50px; margin-left: 300px" alt="New Naaya logo" />
