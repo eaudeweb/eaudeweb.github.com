@@ -10,12 +10,12 @@ teaser: |
 Plone Conference details can be found at 
 <a href="http://plone.org/events/conferences/2008-washington-dc">http://plone.org/events/conferences/2008-washington-dc</a>
 
-Here are some photos we took during the sessions and after, while exploring the goys of Washington.
-See more photos on our [photo gallery][].
+Here are some photos we took during the sessions and after, while exploring the joys of Washington.
+See more photos on our <a href="http://forum.eaudeweb.ro/photos/plone-conference-washington-dc-usa">photo gallery</a>.
 
 <img src="/images/news/plone2008-2.jpg" style="margin-top: 30px; margin-left: 10px; float: left" alt="" />
 <img src="/images/news/plone2008-3.jpg" style="margin-top: 30px; margin-left: 10px; float: left" alt="" />
 <img src="/images/news/plone2008-4.jpg" style="margin-top: 30px; margin-left: 10px; float: left" alt="" />
 <img src="/images/news/plone2008-5.jpg" style="margin-top: 30px; margin-left: 10px; float: left" alt="" />
 
-[photo-gallery]: http://forum.eaudeweb.ro/photos/plone-conference-washington-dc-usa
+<div style="clear: left"> </div>
