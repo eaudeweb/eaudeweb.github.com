@@ -7,12 +7,21 @@ jobs-intro-text: |
 ---
 
 
-<img src="/images/team/team2011-1.jpg" alt="Eau de Web team 2011" style="width: 250px; float:left; margin:5px" />
-<img src="/images/team/team2011-2.jpg" alt="Eau de Web team 2011" style="width: 250px; float:left; margin:5px" />
-<img src="/images/team/team2011-3.jpg" alt="Eau de Web team 2011" style="width: 250px; float:left; margin:5px" />
-<img src="/images/team/team2011-4.jpg" alt="Eau de Web team 2011" style="width: 250px; float:left; margin:5px" />
-<img src="/images/team/team2011-5.jpg" alt="Eau de Web team 2011" style="width: 250px; float:left; margin:5px" />
-<img src="/images/team/team2011-6.jpg" alt="Eau de Web team 2011" style="width: 250px; float:left; margin:5px" />
+<img src="/images/team/team2011-1.jpg" alt="Eau de Web team 2011" style="width: 240px; float:left;" />
+<img src="/images/team/team2011-2.jpg" alt="Eau de Web team 2011" style="width: 240px; float:left; margin-left:5px" />
+<img src="/images/team/team2011-3.jpg" alt="Eau de Web team 2011" style="width: 240px; float:left; margin-left:5px" />
+<img src="/images/team/team2011-4.jpg" alt="Eau de Web team 2011" style="width: 240px; float:left;" />
+<img src="/images/team/team2011-5.jpg" alt="Eau de Web team 2011" style="width: 240px; float:left; margin-left:5px" />
+<img src="/images/team/team2011-6.jpg" alt="Eau de Web team 2011" style="width: 240px; float:left; margin-left:5px" />
+<img src="/images/team/team2011-7.jpg" alt="Eau de Web team 2011" style="width: 240px; float:left;" />
+<img src="/images/team/team2011-8.jpg" alt="Eau de Web team 2011" style="width: 240px; float:left; margin-left:5px" />
+<img src="/images/team/team2011-9.jpg" alt="Eau de Web team 2011" style="width: 240px; float:left; margin-left:5px" />
+<img src="/images/team/team2011-10.jpg" alt="Eau de Web team 2011" style="width: 240px; float:left;" />
+<img src="/images/team/team2011-11.jpg" alt="Eau de Web team 2011" style="width: 240px; float:left; margin-left:5px" />
+<img src="/images/team/team2011-12.jpg" alt="Eau de Web team 2011" style="width: 240px; float:left; margin-left:5px" />
+<img src="/images/team/team2011-13.jpg" alt="Eau de Web team 2011" style="width: 240px; float:left;" />
+<img src="/images/team/team2011-14.jpg" alt="Eau de Web team 2011" style="width: 240px; float:left; margin-left:5px" />
+<img src="/images/team/team2011-15.jpg" alt="Eau de Web team 2011" style="width: 240px; float:left; margin-left:5px" />
 
 <div style="clear: left"> </div>
 
