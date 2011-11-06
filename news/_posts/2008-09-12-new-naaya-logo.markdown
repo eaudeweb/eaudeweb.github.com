@@ -1,6 +1,6 @@
 ---
 title: New Naaya logo
-image: /images/generic-news.png
+image: /images/news/generic-news.png
 year: 2008
 layout: news
 teaser: |
