@@ -8,6 +8,10 @@ teaser: |
   gathered in Busteni to celebrate the event
 ---
 
+We rented a cabin for the weekend where we barbecued, walked around in Busteni,
+went by telecabin up to 2000 meters, and spent the evenings playing board games
+and drinking wine with spices.
+
 <img alt="Busteni" src="/images/news/busteni-2.jpg" style="margin-top: 30px; margin-left: 10px; float: left" />
 <img alt="Busteni" src="/images/news/busteni-4.jpg" style="margin-top: 30px; margin-left: 10px; float: left" />
 <img alt="Busteni" src="/images/news/busteni-5.jpg" style="margin-top: 30px; margin-left: 10px; float: left" />
@@ -20,6 +24,3 @@ teaser: |
 <img alt="Busteni" src="/images/news/busteni-12.jpg" style="margin-top: 30px; margin-left: 10px; float: left" />
 
 <div style="clear: left"> </div>
-
-[eea]: http://www.eea.europa.eu/
-[photos]: http://forum.eaudeweb.ro/photos/plone-conference-2009-budapest-hungary
