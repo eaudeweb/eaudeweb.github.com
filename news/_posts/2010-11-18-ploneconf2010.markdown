@@ -15,7 +15,7 @@ components we develop and by providing help in using them.
 
 Here is Alin's presentation:
 
-<iframe src="http://blip.tv/play/hrhTgo%2B5IAI.html" width="550" height="339" frameborder="0" allowfullscreen=""></iframe><embed type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#hrhTgo+5IAI" style="display:none"></embed>
+<iframe src="http://blip.tv/play/hrhTgo%2B5IAI.html" width="550" height="339" frameborder="0" allowfullscreen=""><embed type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#hrhTgo+5IAI" style="display:none"></embed></iframe>
 
 See all presentation on the [blip.tv][presentations] website.
 
