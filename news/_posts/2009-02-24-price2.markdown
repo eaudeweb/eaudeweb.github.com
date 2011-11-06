@@ -1,0 +1,20 @@
+---
+title: PRINCE2 certification
+image: /images/news/generic-news.png
+year: 2009
+layout: news
+teaser: |
+  Our colleague Andreea Teodorescu got certified in project management
+---
+
+After having spent four intensive training days in a fairytale location in Neuhaus,
+Germany, Andreea became a certified [PRINCE2][prince2] project manager.
+
+The training was provided by Peter Krischel from the Trans-Atlantic Consulting Group.
+
+Being concerned with the proper handling of the risk and quality assurance management,
+we can now apply them *by the book*.
+
+<img src="/images/news/prince2.jpg" style="margin-left: 200px; margin-top: 50px" alt="prince2" />
+
+[prince2]: http://www.prince2.co.uk/

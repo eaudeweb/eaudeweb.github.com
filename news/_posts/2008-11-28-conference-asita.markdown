@@ -11,10 +11,10 @@ A paper on the rules of web services compliant both to INSPIRE and to SPCoop
 (the network of the italian administrations) was presented by Corrado Iannucci.
 Also, a poster on the GPS data quality assessment was present at the exhibition. 
 
-Read the [presentation][] and the [conference program][].
+Read the [presentation][] and the [conference program][program].
 
 [ASITA][] is the main Italian association for IT applications to geography, environment and territory.
 
 [presentation]: http://forum.eaudeweb.ro/files/presentazioneASITA2008-106-818.ppt
-[conference-program]: http://forum.eaudeweb.ro/files/Programma.pdf
+[program]: http://forum.eaudeweb.ro/files/Programma.pdf
 [asita]: http://www.asita.it/cms/

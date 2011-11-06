@@ -1,0 +1,23 @@
+---
+title: Plone Conference 2009
+image: /images/dummy-news.jpg
+year: 2009
+layout: news
+teaser: |
+  We attended the Plone Conf 2009 in Budapest and delivered a presentation on
+  Faceted Navigation implemented in Plone
+---
+
+Antonio de Marinis (European Environment Agency) and Alin Voinea (Eau de Web)
+delivered a presentation of their faceted navigation implementation on the [EEA website][eea].
+See more photos [on our photo gallery][photos].
+
+<object height="405" width="500"><param name="movie" value="http://www.youtube.com/v/pxDr9H-sUNI&amp;hl=en&amp;fs=1&amp;rel=0&amp;color1=0x234900&amp;color2=0x4e9e00&amp;border=1" />
+<param name="allowFullScreen" value="true" />
+<param name="allowscriptaccess" value="always" />
+<embed src="http://www.youtube.com/v/pxDr9H-sUNI&amp;hl=en&amp;fs=1&amp;rel=0&amp;color1=0x234900&amp;color2=0x4e9e00&amp;border=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" height="405" width="500" /></object></div>
+
+
+
+[eea]: http://www.eea.europa.eu/
+[photos]: http://forum.eaudeweb.ro/photos/plone-conference-2009-budapest-hungary
