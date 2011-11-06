@@ -1,0 +1,20 @@
+---
+title: Plone Conference 2010
+image: /images/plone2010.png
+year: 2010
+layout: news
+teaser: |
+  We attended the Plone Conf 2010 in Bristol and delivered a presentation on
+  Faceted Navigation implementation in Plone
+---
+
+Our work in [Plone][] is quite entensive, so we take a keen interest in seeing what
+are the trends, how is the community evolving, and what components Plone programmers
+are using. We do our part of contribution to the CMS, by making available the 
+components we develop and by providing help in using them. 
+
+Here is Alin's presentation:
+
+<iframe src="http://blip.tv/play/hrhTgo%2B5IAI.html" width="550" height="339" frameborder="0" allowfullscreen></iframe><embed type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#hrhTgo+5IAI" style="display:none"></embed>
+
+[plone]: http://www.plone.org

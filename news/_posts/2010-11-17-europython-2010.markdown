@@ -19,6 +19,8 @@ attend was a challenge. We got to watch many of the people behind Python
 and related projects - Zope, Twisted, various testing tools, etc. We
 also stayed for the sprints and worked a bit on PyPy and Python core.
 
+<img src="/images/news/europython2010.png" alt="EuroPython" style="margin-top: 20px; margin-left: 200px" />
+
 A few of the talks and sessions were about local programmer user groups
 and meet-ups. These come in many shapes and sizes, from a few people
 meeting in a bar, to regular events with presentations or hacking. Since
