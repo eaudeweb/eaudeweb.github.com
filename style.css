@@ -465,6 +465,7 @@ header
         .thumbs img
         {
             width:256px;
+            height:auto;
             margin:0;
         }
     
