@@ -364,13 +364,17 @@ header
 	{
 		width: 256px;
 		height: 256px;
-        line-height: 256px;
-        text-align:center;
 		display: block;
 		background: #fff;
 		position: relative;
 		text-decoration: none;
 	}
+    
+        span.box
+        {
+            line-height: 256px;
+            text-align:center;
+        }
     
         #we-work-for-container .box
         {
