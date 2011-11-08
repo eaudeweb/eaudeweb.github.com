@@ -430,6 +430,7 @@ header
     
     .thumbs
     {
+        width:768px;
         margin:0 0 0 -32px;
         overflow:hidden;
     }
