@@ -367,10 +367,15 @@ header
         line-height: 256px;
         text-align:center;
 		display: block;
-		background: #fff url("images/box-bg.png") 0 0 no-repeat;
+		background: #fff;
 		position: relative;
 		text-decoration: none;
 	}
+    
+        #we-work-for-container .box
+        {
+            background: #fff url("images/box-bg.png") 0 0 no-repeat;
+        }
 	
 		.with_padding span.box
 		{
