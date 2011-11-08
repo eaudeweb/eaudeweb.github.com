@@ -453,11 +453,18 @@ header
         margin:0 0 31px -32px;
         overflow:hidden;
     }
-    
+        
+        .thumbs div
+        {
+            width:256px;
+            height:170px;
+            overflow:hidden;
+            float:left;
+        }
+        
         .thumbs img
         {
-            max-width:256px;
-            float:left;
+            width:256px;
             margin:0;
         }
     
