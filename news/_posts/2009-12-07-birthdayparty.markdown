@@ -13,14 +13,14 @@ went by telecabin up to 2000 meters, and spent the evenings playing board games
 and drinking wine with spices.
 
 <div class="thumbs">
-<img alt="Busteni" src="/images/news/busteni-2.jpg" />
-<img alt="Busteni" src="/images/news/busteni-4.jpg" />
-<img alt="Busteni" src="/images/news/busteni-5.jpg" />
-<img alt="Busteni" src="/images/news/busteni-6.jpg" />
-<img alt="Busteni" src="/images/news/busteni-7.jpg" />
-<img alt="Busteni" src="/images/news/busteni-8.jpg" />
-<img alt="Busteni" src="/images/news/busteni-9.jpg" />
-<img alt="Busteni" src="/images/news/busteni-10.jpg" />
-<img alt="Busteni" src="/images/news/busteni-11.jpg" />
-<img alt="Busteni" src="/images/news/busteni-12.jpg" />
+    <div><img alt="Busteni" src="/images/news/busteni-2.jpg" /></div>
+    <div><img alt="Busteni" src="/images/news/busteni-4.jpg" /></div>
+    <div><img alt="Busteni" src="/images/news/busteni-5.jpg" /></div>
+    <div><img alt="Busteni" src="/images/news/busteni-6.jpg" /></div>
+    <div><img alt="Busteni" src="/images/news/busteni-7.jpg" /></div>
+    <div><img alt="Busteni" src="/images/news/busteni-8.jpg" /></div>
+    <div><img alt="Busteni" src="/images/news/busteni-9.jpg" /></div>
+    <div><img alt="Busteni" src="/images/news/busteni-10.jpg" /></div>
+    <div><img alt="Busteni" src="/images/news/busteni-11.jpg" /></div>
+    <div><img alt="Busteni" src="/images/news/busteni-12.jpg" /></div>
 </div>
