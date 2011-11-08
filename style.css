@@ -446,13 +446,13 @@ header
     .thumbs
     {
         width:768px;
-        margin:0 0 0 -32px;
+        margin:0 0 31px -32px;
         overflow:hidden;
     }
     
         .thumbs img
         {
-            width:256px;
+            max-width:256px;
             float:left;
             margin:0;
         }
