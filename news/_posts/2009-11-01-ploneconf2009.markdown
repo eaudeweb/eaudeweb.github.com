@@ -15,8 +15,8 @@ See more photos [on our photo gallery][photos].
 <object height="405" width="500"><param name="movie" value="http://www.youtube.com/v/pxDr9H-sUNI&amp;hl=en&amp;fs=1&amp;rel=0&amp;color1=0x234900&amp;color2=0x4e9e00&amp;border=1" />
 <param name="allowFullScreen" value="true" />
 <param name="allowscriptaccess" value="always" />
-<embed src="http://www.youtube.com/v/pxDr9H-sUNI&amp;hl=en&amp;fs=1&amp;rel=0&amp;color1=0x234900&amp;color2=0x4e9e00&amp;border=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" height="405" width="500" /></object></div>
+<embed src="http://www.youtube.com/v/pxDr9H-sUNI&amp;hl=en&amp;fs=1&amp;rel=0&amp;color1=0x234900&amp;color2=0x4e9e00&amp;border=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" height="405" width="500" /></object> 
 
 
 [eea]: http://www.eea.europa.eu/
-[photos]: http://forum.eaudeweb.ro/photos/plone-conference-2009-budapest-hungary
+[photos]: http://forum.eaudeweb.ro/photos/plone-conference-2009-budapest-hungar
