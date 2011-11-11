@@ -19,4 +19,4 @@ See more photos [on our photo gallery][photos].
 
 
 [eea]: http://www.eea.europa.eu/
-[photos]: http://forum.eaudeweb.ro/photos/plone-conference-2009-budapest-hungar
+[photos]: http://forum.eaudeweb.ro/photos/plone-conference-2009-budapest-hungary
