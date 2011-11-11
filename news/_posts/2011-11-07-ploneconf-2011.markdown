@@ -1,6 +1,6 @@
 ---
 title: Plone Conference 2011, San Francisco
-image: /images/news/plone2010.png
+image: /images/news/ploneconf-2011.png
 year: 2011
 layout: news
 teaser: |
