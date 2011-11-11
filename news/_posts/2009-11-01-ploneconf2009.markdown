@@ -1,6 +1,6 @@
 ---
 title: Plone Conference 2009
-image: /images/dummy-news.jpg
+image: /images/ploneconf-2011.png
 year: 2009
 layout: news
 teaser: |
