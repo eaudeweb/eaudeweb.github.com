@@ -1,0 +1,25 @@
+---
+title: Plone Conference 2011, San Francisco
+image: /images/news/plone2010.png
+year: 2011
+layout: news
+teaser: |
+  This year's Plone Conference in San Francisco included two days of training, four
+  days of main conference and then two days of sprints. It is always awesome, and
+  highly recommended for all Plone developers and customers alike
+---
+
+This was our (Alec and Alin's) 5th Plone Conference in a row. As always was very nice
+to keep in touch with the Plone community, to do our usual lighting talks and attend
+the sprint sessions.
+
+The talk were interesting and there was an increased interest in [pylonsproject.org][prj]
+
+During sprint sessions we focused on releasing a set of new packages on [plone.org][plone] and
+[pypi.python.org][pypi], including updated documentation and final testing on the last Plone
+release. By now eea.tags, eea.geotags, eea.relations, eea.daviz, eea.facetednavigation
+are into the wild :)
+
+[prj]: http://pylonsproject.org
+[plone]: http://www.plone.org
+[pypi]: http://pypi.python.org
