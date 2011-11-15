@@ -16,7 +16,7 @@ layout: base
     {% assign css_class = "with_padding" %}
   {% elsif section_id == "naaya" %}
     {% assign css_class = "with_padding" %}
-  {% elsif section_id == "our-team" %}
+  {% elsif section_id == "work-with-us" %}
     {% assign css_class = "with_padding" %}
   {% else %}
     {% assign css_class = "" %}
@@ -56,18 +56,21 @@ layout: base
 
       {% endfor %}
 
-    {% elsif section.title == "Our team" %}
+    {% elsif section.title == "Work with us" %}
 
+      {% capture job_listing %}
       {% if site.categories.team %}
-        <p>{{ section.jobs-intro-text }}</p>
+      <div class="jobs-box">
+        <h3>Open positions</h3>
         <ul>
         {% for job in site.categories.team %}
           <li><a href="{{ job.url }}">{{ job.title }}</a></li>
         {% endfor %}
         </ul>
+      </div>
       {% endif %}
-
-      {{ section.content }}
+      {% endcapture %}
+      {{ section.content | replace: '<!-- JOB LISTING -->', job_listing }}
 
     {% elsif section.title == "EdW news" %}
 

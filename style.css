@@ -124,7 +124,7 @@ p,
 	background: transparent 0 11px url("images/green-bullet.png") no-repeat;
 }
 
-	#our-team-container ul
+	#work-with-us-container ul
 	{
 		min-height:93px;
 	}
@@ -880,7 +880,7 @@ footer
 		height: 128px;
 	}
 	
-	#our-team-container ul
+	#work-with-us-container ul
 	{
 		min-height: inherit;
 	}
