@@ -15,6 +15,8 @@ when you put quarters in it? No? Well, that's what you see at a toy store.
 And you must think you're in a toy store, because you're here shopping for an 
 infant named Jeb.
 
+<span class="box"><img src="/images/team/team2011-1.jpg" /></span>
+
 ### Why work at Eau de Web? ###
 
 <!-- start slipsum code -->
@@ -24,3 +26,5 @@ to pull this shit while I'm in a transitional period so I don't wanna kill you,
 I wanna help you. But I can't give you this case, it don't belong to me. 
 Besides, I've already been through too much shit this morning over this case to 
 hand it over to your dumb ass.
+
+<span class="box"><img src="/images/team/team2011-3.jpg" /></span>
