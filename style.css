@@ -373,8 +373,9 @@ header
         span.box
         {
             line-height: 256px;
-            text-align:center;
-            font-size:0;
+            text-align: center;
+            font-size: 0;
+            line-height: 0;
         }
     
         #we-work-for-container .box
