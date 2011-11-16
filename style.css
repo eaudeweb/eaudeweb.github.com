@@ -374,6 +374,7 @@ header
         {
             line-height: 256px;
             text-align:center;
+            font-size:0;
         }
     
         #we-work-for-container .box
