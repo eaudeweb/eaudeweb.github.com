@@ -947,6 +947,7 @@ footer
 		margin-left: 0;
 		padding: 0;
 		background: transparent;
+        clear: left;
 	}
 	
 }
