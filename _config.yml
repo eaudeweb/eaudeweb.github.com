@@ -1,2 +1,3 @@
 permalink: none
 user: devel
+exclude: fabfile.py
