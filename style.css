@@ -301,6 +301,15 @@ header
 					color: #fff;
 				}
 				
+                header a span
+                {
+                    background:#d5fa3b;
+                    width:14px;
+                    height:14px;
+                    border-radius:7px;
+                    color:#7db621;
+                }
+                
 				header .selected a
 				{
 					color: #fff;
