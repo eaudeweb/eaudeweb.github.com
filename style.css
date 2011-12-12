@@ -316,10 +316,10 @@ header
                     top:-3px;
                 }
                 
-                html.no-touch header a:hover
-				{
-					background: #fff;
-				}
+                    html.no-touch header a:hover span
+    				{
+    					background: #fff;
+    				}
                 
 				header .selected a
 				{
