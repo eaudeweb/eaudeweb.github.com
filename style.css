@@ -301,7 +301,8 @@ header
 					color: #fff;
 				}
 				
-                header a span
+                header a span,
+                h2 span
                 {
                     background:#d5fa3b;
                     width:18px;
@@ -316,7 +317,14 @@ header
                     top:-3px;
                 }
                 
-                    html.no-touch header a:hover span
+                h2.span
+                {
+                    background: #000;
+                    color: #fff;
+                }
+                
+                    html.no-touch header a:hover span,
+                    html.no-touch header .selected a span
     				{
     					background: #fff;
     				}
