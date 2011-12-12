@@ -314,9 +314,10 @@ header
                     display:inline-block;
                     position:relative;
                     top:-3px;
+                    text-align:center;
                 }
                 
-                h2.span
+                h3 span
                 {
                     background: #000;
                     color: #fff;
