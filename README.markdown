@@ -55,6 +55,10 @@ which needs to be removed when deploying to production, by running
 `jekyll --user=production`. Afterwards the site in `_site` is ready to
 be copied on production.
 
+Deployment is automated, just run:
+
+    fab deploy -H eaudeweb.ro
+
 ## External documentation ##
 
 * [Markdown syntax](http://daringfireball.net/projects/markdown/syntax)
