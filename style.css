@@ -304,11 +304,11 @@ header
                 header a span,
                 h3 span
                 {
-                    background:#fff;
+                    background:#000;
                     width:18px;
                     height:18px;
                     border-radius:9px;
-                    color:#7db621;
+                    color:#fff;
                     font-size:15px;
                     line-height:18px;
                     display:inline-block;
@@ -327,6 +327,7 @@ header
                     html.no-touch header .selected a span
     				{
     					background: #fff;
+                        color:#7db621;
     				}
                 
 				header .selected a
