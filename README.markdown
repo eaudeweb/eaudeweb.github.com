@@ -57,7 +57,7 @@ be copied on production.
 
 Deployment is automated, just run:
 
-    fab deploy -H eaudeweb.ro
+    fab deploy
 
 ## External documentation ##
 

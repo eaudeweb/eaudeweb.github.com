@@ -1,4 +1,8 @@
-from fabric.api import run, cd
+from fabric.api import run, cd, env
+
+env['hosts'] = ['eaudeweb.ro']
+env['use_ssh_config'] = True
+
 
 def deploy():
     with cd('edw-website'):
