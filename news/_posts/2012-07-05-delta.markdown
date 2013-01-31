@@ -1,0 +1,22 @@
+---
+title: Our trip to the Danube Delta
+image: /images/news/delta.jpg
+year: 2012
+layout: news
+teaser: |
+  We had a kick-off summer teambuilding on boat in the Delta for a couple of
+  days, a small preview to vacations time...
+---
+
+Most of us squeezed on a big hotel-boat and travelled the Delta for a couple of
+days. Nothing to do but lay on sun-beds, drink, eat fish and take boat rides on
+small channels of the Delta. At night you could hear thousands of frogs and
+other creatures chirping in the dark - good time to have a boat night ride and
+stop off the engine in the middle of nowhere... or to sit down inside, away from
+mosquitoes, and play board games ;-)
+
+Some photos on [Facebook][fb]
+
+<p><img src="/images/news/delta2.JPG" alt="On boat in the Danube Delta" /></p>
+
+[fb]: http://www.facebook.com/media/set/?set=a.382439745158899.83622.269622413107300&type=1
