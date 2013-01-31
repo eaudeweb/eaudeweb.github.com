@@ -1,12 +1,11 @@
 ---
-title: UX Lx: User Experience Lisbon
+title: User Experience Lisbon
 image: /images/news/uxlisbon.jpg
 year: 2012
 layout: news
 teaser: |
-  UX Lx is a premier User Experience Conference, held every year in Lisbon since
-  2008. Its fifth edition gathered speakers from Europe and USA and about 290
-  2009. participants, if Sonia counted well.
+  UX Lx is a premier User Experience Conference, held every year in Lisbon since 2008.
+  Its fifth edition gathered speakers from Europe and USA and about 290 participants, if Sonia counted well.
 ---
 
 During 2 days of workshops and one day of presentations, Sonia learned to listen
