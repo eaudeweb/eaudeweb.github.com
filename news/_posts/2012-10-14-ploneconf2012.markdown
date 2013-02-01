@@ -1,0 +1,21 @@
+---
+title: Plone Conf 2012, Arnhem, the Netherlands
+image: /images/news/ploneconf2012.png
+year: 2012
+layout: news
+teaser: |
+  In October 2012, the city of Arnhem was the center of the Plone universe for
+  several days. We've been there and presented some of our work during the past year
+---
+
+David spoke about ["Empowered widgets and portal searches with eea.packages"][]david],
+a set of Plone components he's been working on for some time.
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/aZYiHreDbUw" frameborder="0" allowfullscreen></iframe>
+
+Alin presented ["Data visualization in Plone"][alin], showcasing [DaViz][daviz],
+the first Semantic web data visualisation tool for Plone, entirely web-based! 
+
+[david]: http://www.ploneconf.org/the-event/talks/conference-talks/empowered-widgets-and-portal-searches-with-eea.-packages
+[daviz]: http://daviz.eionet.europa.eu/
+[alin]: http://www.slideshare.net/avoinea/data-visualization-in-plone-14675171
