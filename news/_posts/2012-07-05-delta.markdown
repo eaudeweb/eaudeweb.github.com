@@ -17,6 +17,6 @@ mosquitoes, and play board games ;-)
 
 Some photos on [Facebook][fb]
 
-<p><img src="/images/news/delta2.JPG" alt="On boat in the Danube Delta" /></p>
+<p><img src="/images/news/delta2.jpg" alt="On boat in the Danube Delta" /></p>
 
 [fb]: http://www.facebook.com/media/set/?set=a.382439745158899.83622.269622413107300&type=1

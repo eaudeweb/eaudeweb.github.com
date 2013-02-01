@@ -11,3 +11,6 @@
 {"ts":1359733193868,"patch":[[{"diffs":[[0,"ntations"],[1," on our work during the year"],[0,".\n---\n\nD"]],"start1":250,"start2":250,"length1":16,"length2":44}]],"length":969,"saved":false}
 {"ts":1359733213853,"patch":[[{"diffs":[[0,"and "],[-1,"gave "],[0,"present"],[-1,"ations on"],[1,"ed some of"],[0," our"]],"start1":236,"start2":236,"length1":29,"length2":25},{"diffs":[[0,"the year"],[-1,"."],[0,"\n---\n\nDa"]],"start1":274,"start2":274,"length1":17,"length2":16}]],"length":964,"saved":false}
 {"ts":1359733219798,"patch":[[{"diffs":[[0,"ing the "],[1,"past "],[0,"year\n---"]],"start1":270,"start2":270,"length1":16,"length2":21}]],"length":969,"saved":false}
+{"ts":1359733523382,"patch":[[{"diffs":[[0,"llscreen"],[1,"=\"allowfullscreen\""],[0,"></ifram"]],"start1":546,"start2":546,"length1":16,"length2":34}]],"length":987,"saved":false}
+{"ts":1359733586386,"patch":[[{"diffs":[[0,"en=\""],[-1,"allowfullscreen"],[0,"\">"],[1,"\n"],[0,"</if"]],"start1":552,"start2":552,"length1":25,"length2":11}]],"length":973,"saved":false}
+{"ts":1359733726191,"patch":[[{"diffs":[[0,"een=\"\">\n"],[1,"  <embed type=\"application/x-shockwave-flash\" src=\"http://www.youtube.com/embed/aZYiHreDbUw\" style=\"display:none\"> </embed>\n"],[0,"</iframe"]],"start1":551,"start2":551,"length1":16,"length2":140}]],"length":1097,"saved":false}
