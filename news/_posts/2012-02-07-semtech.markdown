@@ -1,0 +1,27 @@
+---
+title: SemTech Berlin 2012 Conference
+image: /images/news/semtech.png
+year: 2012
+layout: news
+teaser: |
+  We went to SemTechBiz for practical advice, hands-on guidance and meaningful
+  takeaways that the business luminaries and subject matter veterans in the area
+  of semantic technologies usually bring to the table
+---
+
+Organised in Europe for the first time, we expected from the conference in 
+[Berlin][smb] something like the San Francisco
+version, but it turned out to be a bit less.
+
+The Semantic Tech & Business conferences are designed to educate individuals
+whose firms are learning what semantic technologies are, as well as
+organizations who wish to enhance ongoing efforts to leverage semantics in their
+enterprise and web-based systems.
+Through more than 35 panels, roundtables, plenaries, keynotes and lightning
+sessions, SemTechBiz provides an interactive experience and delivers business
+value by helping to turn your newly acquired knowledge into actionable results.
+
+Here we are during a break :)
+<p><img src="/images/news/semtech2.jpg" alt="Cornel, Miruna, Enriko, Risto and Søren" /></p>
+
+[smb]: http://semtechbizberlin2012.semanticweb.com/
