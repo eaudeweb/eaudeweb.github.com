@@ -15,9 +15,13 @@ a set of Plone components he's been working on for some time.
   <embed type="application/x-shockwave-flash" src="http://www.youtube.com/embed/aZYiHreDbUw" style="display:none"> </embed>
 </iframe>
 
+<br />
+
 Alin presented ["Data visualization in Plone"][alin], showcasing [DaViz][daviz],
-the first Semantic web data visualisation tool for Plone, entirely web-based! 
+the first Semantic web data visualisation tool for Plone, entirely web-based! See
+his presentation on the [conference website][alinpres]
 
 [david]: http://www.ploneconf.org/the-event/talks/conference-talks/empowered-widgets-and-portal-searches-with-eea.-packages
 [daviz]: http://daviz.eionet.europa.eu/
 [alin]: http://www.slideshare.net/avoinea/data-visualization-in-plone-14675171
+[alinpres]: http://www.ploneconf.org/the-event/talks/conference-talks/data-visualization-in-plone
