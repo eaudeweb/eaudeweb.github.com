@@ -1,0 +1,26 @@
+---
+title: RuPy 2012
+image: /images/news/rupy-2012.png
+year: 2012
+layout: news
+teaser: |
+  We got to mingle with our Ruby brothers and learn each others' ways.
+---
+
+In a few short years [RuPy][] has turned into a serious conference about
+dynamic languages. The Eau de Web sent a decent-sized delegation (Mihai
+Dincă, Bogdan Tănase, Alex Morega) and we came back with new knowledge:
+
+* Upcoming languages (Rust, Dart)
+* Application architecture (James Coglan described how they split up a
+  big monolithic Rails application at Songkick)
+* Good and bad use of relational databases (Andrew Godwin)
+* Documenting REST APIs (Lukáš Linhart)
+* Packaging code, templates and stylesheets for a single-page app (Nick
+  Fisher, SoundCloud)
+
+... and much more. Conference organizers had enough foresight to
+distribute annotated maps of beer places in central Brno so we got a
+good sampling of local beer and quisine.
+
+[RuPy]: http://12.rupy.eu/
