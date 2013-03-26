@@ -28,6 +28,6 @@ specialized people for testing and system administration. We also have
 close, long-term relationships with our [clients][] , and we work in
 small iterations with quick feedback.
 
-[eionet_svn]: http://svn.eionet.europa.eu/projects/Naaya/browser
+[eionet_svn]: http://taskman.eionet.europa.eu/projects/naaya/repository/show/trunk/eggs
 [edw_github]: https://github.com/eaudeweb
 [clients]: /#we-work-for
