@@ -8,7 +8,7 @@ you probably heard of [Stagii pe Bune][].
 
 We offer two internship positions for PHP web-development: Drupal, Wordpress.
 All details, including requirements and benefits, are available
-on [Stagii pe Bune - PHP Internship][].
+on [Stagii pe Bune - PHP Internship][stagii_pe_bune_php_internship].
 
 Don't forget to checkout [who we are][] and [what we do][].
 

@@ -8,7 +8,7 @@ you probably heard of [Stagii pe Bune][].
 
 We offer two internship positions for Python web-development: Django, Flask,
 Zope. All details, including requirements and benefits, are available
-on [Stagii pe Bune - Python Internship][].
+on [Stagii pe Bune - Python Internship][stagii_pe_bune_python_internship].
 
 Don't forget to checkout [who we are][] and [what we do][].
 
