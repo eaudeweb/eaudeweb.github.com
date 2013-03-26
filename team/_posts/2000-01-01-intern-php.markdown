@@ -15,4 +15,4 @@ Don't forget to checkout [who we are][] and [what we do][].
 [who_we_are]: http://www.eaudeweb.ro/#work-with-us
 [what_we_do]: http://www.eaudeweb.ro/#we-work-for
 [stagii_pe_bune]: http://www.stagiipebune.ro
-[stagii_pe_bune_php_internship]: hhttp://www.stagiipebune.ro/stagii.html&id=1261&category=71
+[stagii_pe_bune_php_internship]: http://www.stagiipebune.ro/stagii.html&id=1261&category=71
