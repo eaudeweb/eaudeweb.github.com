@@ -1,0 +1,17 @@
+---
+title: PLOG 2013, Sorrento, Italy
+image: /images/news/Plog2013.jpg
+year: 2013
+layout: news
+teaser: |
+  PLOG is the Plone meeting that, like a good espresso, best matches the definition of "italian style".
+---
+
+We've got a great deal of fun at this Plone event, attending presentations, on sprints and enjoing the beautiful suroundings there in Sorrento. Eau de Web was present at PLOG 2013 with a team of four: Alec Ghica, Alin Voinea, David Batrânu and David Ichim.
+
+Alec Ghica presented ["EEA add-ons overview"][EEAaddons],
+an overview of some EEA add-ons developed by Eau de Web, including old and new features, new packages and ideas for the future.
+
+We did a couple of sprints on making some add-ons Dexterity aware, updating http://plone.ro and on releasing and uploading some new add-ong on http://plone.org/products. 
+
+[EEAaddons]: http://www.slideshare.net/alecghica/plog-2013-eea-add-ons-overview
