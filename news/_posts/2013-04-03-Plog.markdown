@@ -7,7 +7,7 @@ teaser: |
   PLOG is the Plone meeting that, like a good espresso, best matches the definition of "italian style".
 ---
 
-We've got a great deal of fun at this Plone event, attending presentations, on sprints and enjoing the beautiful suroundings there in Sorrento. Eau de Web was present at PLOG 2013 with a team of four: Alec Ghica, Alin Voinea, David Batr‚nu and David Ichim.
+We've got a great deal of fun at this Plone event, attending presentations, on sprints and enjoing the beautiful suroundings there in Sorrento. Eau de Web was present at PLOG 2013 with a team of four: Alec Ghica, Alin Voinea, David Batr√¢nu and David Ichim.
 
 Alec Ghica presented ["EEA add-ons overview"][EEAaddons],
 an overview of some EEA add-ons developed by Eau de Web, including old and new features, new packages and ideas for the future.
