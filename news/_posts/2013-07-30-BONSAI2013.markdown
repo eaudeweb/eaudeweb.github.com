@@ -1,0 +1,17 @@
+---
+title: BONSAI 2013, Râşnov, Romania
+image: /images/news/Plog2013.jpg
+year: 2013
+layout: news
+teaser: |
+  Eau de Web supported BONSAI, Bridging Organizations and National Societies in Artificial Intelligence. We spent a few days in the mountains surrounded by wonderful people from France, Greece, Italy, Romania and Spain, highly skilled in AI.
+---
+["BONSAI"][bonsai] is about young researchers and innovators with a passion for Artificial Intelligence. While we were mostly interested in connecting to people working with Semantic Web,
+it was a trully staggering experience to communicate, think and work at various innovating AI projects amongst researchers and teachers from France, Greece, Italy, Spain and from our country.
+
+The event Eau de Web supported took place at ["Pănicel"][panicel]. While there was no time for riding horses, the people enjoyed presentations from researchers, teachers, businesses and organisations
+working for EU funded projects, and of course the last day when the nearby sites were visited: Râşnov citadel, Bran castle, Braşov city.
+
+
+[bonsai]: http://bonsai.aria-romania.org/
+[panicel]: http://panicel.ro/en/
