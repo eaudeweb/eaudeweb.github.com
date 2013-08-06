@@ -1,6 +1,6 @@
 ---
 title: BONSAI 2013, Râşnov, Romania
-image: /images/news/bonsai213.jpg
+image: /images/news/bonsai2013.jpg
 year: 2013
 layout: news
 teaser: |
