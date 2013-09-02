@@ -1,0 +1,16 @@
+---
+title: Plone
+date: 2000-01-07
+---
+
+
+### Plone Advocacy ###
+
+
+Eau de Web continues to demonstrate a long-term commitment
+to share and contribute the knowledge, software and resources
+to benefit others through Plone's open source community.
+
+Some of our efforts to evolve and promote Plone include:
+
+[plone]: http://plone.org
