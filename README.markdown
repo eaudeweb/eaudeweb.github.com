@@ -49,15 +49,16 @@ the website on port 4000 and automatically pick up any changes.
 ## Deployment ##
 
 A Jekyll site is a collection of static files, so it can be served
-straight from the filesystem by a web server like Apache. However, to
-keep search engines from the draft website, a meta tag is inserted,
-which needs to be removed when deploying to production, by running
-`jekyll --user=production`. Afterwards the site in `_site` is ready to
-be copied on production.
+straight from the filesystem by a web server like Apache.
 
-Deployment is automated, just run:
+To update the server:
 
-    fab deploy
+1. Log in to the webserver
+2. su -
+3. cd /var/local/edw-website
+4. git pull
+5. jekyll build _config_production.yml
+
 
 ## External documentation ##
 

@@ -1,0 +1,4 @@
+permalink: none
+user: production
+exclude: fabfile.py
+
