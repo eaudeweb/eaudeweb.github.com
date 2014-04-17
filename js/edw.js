@@ -223,7 +223,7 @@ $(document).ready(function() {
 		});
         set_map_center();
         
-        latlng = new google.maps.LatLng(44.463834, 26.0764);
+        latlng = new google.maps.LatLng(44.466116, 26.082385);
         
         var image = new google.maps.MarkerImage(
           'images/marker.png',
