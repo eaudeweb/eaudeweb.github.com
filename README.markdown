@@ -58,6 +58,7 @@ To update the server:
 3. cd /var/local/edw-website
 4. git pull
 5. jekyll build _config_production.yml
+
 If you have an error like "Could not find a JavaScript runtime" when you build
 you should install a javascript runtime library like nodejs
 
