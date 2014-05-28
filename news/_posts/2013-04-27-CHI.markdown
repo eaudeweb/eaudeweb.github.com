@@ -1,0 +1,15 @@
+---
+title: CHI 2013, Paris, France 
+image: /images/news/chi2013.png
+year: 2013
+layout: news
+teaser: |
+  Designer’s exquisite choice for the 2013 training program: a Human-Computer Interaction (HCI) conference held in one of the world’s fashion capitals. 
+---
+["CHI 2013"][CHI2013]   was the 31st Annual CHI Conference on Human Factors in Computing Systems, organised by ACM (["Association for Computing Machinery"][ACM] ) and sponsored by ACM’s Special Interest Group on Computer-Human Interaction (ACM SIGCHI).
+It addressed research on all aspects of human-computer interaction (HCI), case studies of interactive system designs, proof-of-concept innovative systems, and presentations on the challenges and innovations in the field.  In addition to a long-standing focus on professionals in design, engineering, management, and user experience, the conference has made special efforts to serve communities in: Child-Computer Interaction, Digital Arts, Games & Entertainment, Health, Sustainability, and HCI4D.
+ 
+CHI 2013 broke all records, with 3442 attendees from 54 countries, half of whom attended CHI for the first time. Sonia was among them and she learned about User Interface Design and Adaptation for Multi-Device Environments, Choice and Decision Making for HCI, Card Sorting for Navigation Design, Empirical Research Methods for Human-Computer Interaction, Designing Search Usability.
+
+[CHI2013]: http://chi2013.acm.org/ 
+[ACM]: http://www.acm.org/

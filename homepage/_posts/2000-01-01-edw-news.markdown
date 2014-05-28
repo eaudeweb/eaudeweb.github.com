@@ -6,6 +6,7 @@ date: 2000-01-05
 These are some of the things that have been keeping us busy lately.
 For past news please consult the yearly archives below.
 
+* [2014](/news/2014.html)
 * [2013](/news/2013.html)
 * [2012](/news/2012.html)
 * [2011](/news/2011.html)
