@@ -53,7 +53,7 @@ straight from the filesystem by a web server like Apache.
 
 To update the server:
 
-1. Log in to the webserver
+1. Log in to the webserver(ssh eaudeweb.ro)
 2. su -
 3. cd /var/local/edw-website
 4. git pull
