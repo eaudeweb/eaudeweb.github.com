@@ -15,7 +15,7 @@ mental models when she puts herself in a certain web visitor’s shoes.
 She came back from this conference with 3 big wishes: to read by the end of the
 year all the UX books she bought from the UX Book Fair, to organize gamestorming
 sessions with her co-workers from time to time and
-to return to the UX Lx next year.
+to return to UX-Lx Lisbon someday.
 
 Photos and more at [http://www.facebook.com/UXLisbon][fb]
 
