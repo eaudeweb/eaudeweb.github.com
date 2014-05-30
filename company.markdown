@@ -5,7 +5,7 @@ title: EAU DE WEB S.R.L.
 
 ### Headoffice: ###
 
-Clucerului 55, ap 7, 011364, Bucharest, Romania
+Maior Gheorghe Șonțu 8, et 1, ap 3, 011448, Bucharest, Romania
 
 
 ### Registered office: ###
