@@ -1,8 +1,9 @@
 ---
-title: WISS 2014 - « Web of Data », 25t-29 August 2014, Saint-Étienne, France
+title: "WISS 2014 - « Web of Data », 25t-29 August 2014, Saint-Étienne, France"
+image: ""
 year: 2014
 layout: news
-teaser: 
+teaser: ""
 ---
 
 WISS 2014 was the sixth edition of the Web Intelligence Summer School. The topic for this year's edition was the Web of Data. The Web Intelligence community in Rhône Alpes and Universität Bonn brought together experts on various aspects of the Web of data in order to inform, teach and train attendees in the technologies that will enable them to both contribute to and take advantage of the Web of data to its full potential. During one week students, phd's and software developers learned from formal presentations and hands-on sessions about:
