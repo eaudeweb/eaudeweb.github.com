@@ -8,11 +8,11 @@ teaser: "WISS 2014 was the sixth edition of the Web Intelligence Summer School."
 
 WISS 2014 was the sixth edition of the Web Intelligence Summer School. The topic for this year's edition was the Web of Data. The Web Intelligence community in Rhône Alpes and Universität Bonn brought together experts on various aspects of the Web of data in order to inform, teach and train attendees in the technologies that will enable them to both contribute to and take advantage of the Web of data to its full potential. During one week students, phd's and software developers learned from formal presentations and hands-on sessions about:
 
- * publishing and organising the Web of data
- * querying and structuring the Web of data
- * reasoning on the Web of data
- * mining the Web of data
- * visualising the Web of data
- * protecting data in the Web of data
+ + publishing and organising the Web of data
+ + querying and structuring the Web of data
+ + reasoning on the Web of data
+ + mining the Web of data
+ + visualising the Web of data
+ + protecting data in the Web of data
  
 Eau de Web participated to the poster session with three projects: EEA Elasticsearch River Plugin, The Digital Agenda Data Visualisation Tool and EEA DaViz. We were delighted to present our work in Semantic web with so many fascinating people who were highly interested by this topic, and of curse, to make new friends while enjoying the French cuisine or playing games.
