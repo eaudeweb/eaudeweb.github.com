@@ -392,7 +392,7 @@ header
 	.box
 	{
 		width: 256px;
-		height: 256px;
+		height: auto;
 		display: block;
 		background: #E9ECE4;
 		position: relative;
