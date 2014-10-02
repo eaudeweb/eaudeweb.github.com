@@ -22,7 +22,7 @@ to conferences and regularly order technical books.
 Over time we learned to work profesionally. All code is under version
 control ([Eionet's svn repository][eionet_svn], [our github
 account][edw_github]), we write unit tests, any important change goes
-through peer code review, and we pair programm when it makes sense.
+through peer code review, and we pair program when it makes sense.
 Deployment to staging and production is automated, and we have
 specialized people for testing and system administration. We also have
 close, long-term relationships with our [clients][] , and we work in
