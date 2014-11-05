@@ -1,0 +1,18 @@
+---
+title: "Plone Conference 2014 - Bristol, U.K"
+image: "https://www.flickr.com/photos/50587980@N02/15696007215"
+year: 2014
+layout: news
+teaser: "In November 2014, the city of Bristol was the center of the Plone universe for several days. We've been there and presented some of our work during the past years."
+---
+
+David presented ["Data visualization in Plone - new features"][david], showcasing DaViz, the first Semantic web data visualisation tool for Plone, entirely web-based!
+Alin spoke about ["New EEA add-ons to improve Plone UX"][alin], a new set of Plone add-ons he's been working on for some time.
+Iulia lighting talked the ["EEA's semantic stack"][iulia]: Plone + Virtuoso + ElasticSearch. See also http://github.com/eea/eea.elasticsearch
+Alec announced the next annual Plone conference to he held in Bucharest: ["Plone conference 2015 - Bucharest"][alec]
+
+
+[david]: http://vimeo.com/110565790
+[alin]: http://vimeo.com/110647114
+[iulia]: https://www.youtube.com/watch?v=GPzmcczNh2c&feature=youtu.be
+[alec]: https://www.youtube.com/watch?v=BUjK6e1zmkM&feature=youtu.be
