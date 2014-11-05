@@ -16,6 +16,6 @@ Alec announced the next annual Plone conference to he held in Bucharest: ["Plone
 
 
 [david]: http://vimeo.com/110565790
-[alin]: http://vimeo.com/110647114
+[alin]: http://vimeo.com/110982540
 [iulia]: https://www.youtube.com/watch?v=GPzmcczNh2c&feature=youtu.be
 [alec]: https://www.youtube.com/watch?v=BUjK6e1zmkM&feature=youtu.be
