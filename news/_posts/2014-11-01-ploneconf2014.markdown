@@ -8,7 +8,7 @@ teaser: "In November 2014, the city of Bristol was the center of the Plone unive
 
 David presented ["Data visualization in Plone - new features"][david], showcasing DaViz, the first Semantic web data visualisation tool for Plone, entirely web-based!
 Alin spoke about ["New EEA add-ons to improve Plone UX"][alin], a new set of Plone add-ons he's been working on for some time.
-Iulia lighting talked the ["EEA's semantic stack"][iulia]: Plone + Virtuoso + ElasticSearch. See also http://github.com/eea/eea.elasticsearch
+Iulia lighting talked the ["EEA's semantic stack"][iulia]: Plone + Virtuoso + ElasticSearch. See also http://github.com/eea/eea.elasticsearch.
 Alec announced the next annual Plone conference to he held in Bucharest: ["Plone conference 2015 - Bucharest"][alec]
 
 
