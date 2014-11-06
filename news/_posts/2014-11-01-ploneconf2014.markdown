@@ -12,7 +12,7 @@ Alin spoke about ["New EEA add-ons to improve Plone UX"][alin], a new set of Plo
 
 Iulia lighting talked the ["EEA's semantic stack"][iulia]: Plone + Virtuoso + ElasticSearch. See also <a href="http://github.com/eea/eea.elasticsearch">http://github.com/eea/eea.elasticsearch</a>.
 
-Alec announced the next annual Plone conference to he held in Bucharest: ["Plone conference 2015 - Bucharest"][alec]
+Alec announced the next annual Plone conference to be held in Bucharest: ["Plone conference 2015 - Bucharest"][alec]
 
 
 [david]: http://vimeo.com/110565790
