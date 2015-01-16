@@ -1,0 +1,11 @@
+---
+title: Meetings Registration Tool
+homepage:
+logo: 
+layout: product
+date: 2011-10-01
+---
+
+Meetings Registration Tool (MRT) is a platform for conference management.
+
+For technical support, contact us at: [meetings-helpdesk@eaudeweb.ro](mailto:meetings-helpdesk@eaudeweb.ro)
