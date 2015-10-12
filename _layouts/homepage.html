@@ -49,7 +49,7 @@ layout: base
           <p>{{ client.teaser }}</p>
 
           <!-- p><a href="{{ client.url }}">Read more</a></p -->
-          
+
           {{ client.content }}
 
         </div>
@@ -63,7 +63,7 @@ layout: base
       {% capture job_listing %}
       {% if site.categories.team %}
       <div class="jobs-box">
-        <h3>Open positions <span>2</span></h3>
+        <h3>Open positions <span>3</span></h3>
         <ul>
         {% for job in site.categories.team %}
           <li><a href="{{ job.url }}">{{ job.title }}</a></li>
@@ -87,7 +87,7 @@ layout: base
         <p>
             <time>{{ article.date | date: "%d %B %Y" }}</time>
         </p>
-        
+
         <p class="last-child">
             {{ article.teaser }}
             <a href="{{ article.url }}">Read more</a>
