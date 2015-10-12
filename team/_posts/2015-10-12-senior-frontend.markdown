@@ -1,9 +1,9 @@
 ---
-title: Senior Frontend Developer (1)
+title: Frontend Developer (1)
 layout: job
 ---
 
-We are looking for a Frontend Senior Developer, with solid experience in JavaScript, able to work with, and/or learn, React, Angular, Meteor or any other library, according to our project’s requirements.
+We are looking for a Frontend Developer, with experience in JavaScript, able to work with, and/or learn, React, Angular, Meteor or any other library, according to our project’s requirements.
 
 Using open-source technologies we build web applications for international clients. We use Linux, Git, Python, PHP, Drupal, Django, Django REST Framework, Flask, Zope, MongoDB, PostgreSQL.
 
