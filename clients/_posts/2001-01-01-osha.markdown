@@ -8,7 +8,7 @@ teaser: |
   EU OSHA serves the needs of people involved in occupational health and safety across EU countries.
 ---
 
-Together with [Bilbomática][bbm], the main contractor, we have revamped several websites for EU-OSHA,
+Together with [Bilbomatica][bbm], the main contractor, we have revamped several websites for EU-OSHA,
 including their [main website][osha], [Napo's films][napo] and the [Healthy Workplaces Campaign 2015-2016][hwc].
 The websites are build on Drupal 7, responsive and fully translated in all European languages.
 
