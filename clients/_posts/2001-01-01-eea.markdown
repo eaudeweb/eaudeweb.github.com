@@ -12,8 +12,12 @@ teaser: |
 
 ---
 
-We undertake framework contracts for [Zope][] Web developments and for the
-[Shared Environmental Information System (SEIS)][seis] implementation.
+Since 2010 we are in charge of the framework contracts for [Zope][zope]/[Plone][plone] web development,
+including EEA's [main website][eea], the [European Environment Information and Observation Network][eionet]
+and [the European Nature Information System][eunis].
 
 [zope]: http://www.zope.org
-[seis]: http://www.eionet.europa.eu/seis/
+[plone]: https://plone.org/
+[eea]: http://www.eea.europa.eu/
+[eionet]: https://www.eionet.europa.eu/
+[eunis]: http://eunis.eea.europa.eu/
