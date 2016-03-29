@@ -1,0 +1,23 @@
+---
+title: "Plone Conference 2015 - Bucharest, Romania"
+image: /images/news/ploneconf2015.jpeg
+year: 2015
+layout: news
+teaser: "In Octomber 2015, the 13th annual Plone Conference was hosted by Eau de Web in Bucharest, Romania"
+---
+
+The theme was "Plone 5: Built with Passion" to highlight the September release of Plone 5.
+
+There were close to 200 attendees, more than 40 presentations, 3 hours of lightning talks, a sprint for the upcoming new Plone.org, and a lot of sprints around Plone 5 and popular add-ons. 
+
+The official Plone Conference photos are available on [Google+][google]
+
+[See more photos gathered from the conference here][photos] and [videos here][videos]
+
+2016 Plone conference will be in Boston, October 17-23, 2016!
+
+<p><img src="/images/news/ploneconf2015group.jpeg" alt="Plone Conf 2015 Group Photo" /></p>
+
+[google]: https://plus.google.com/103588576492062590995/photos 
+[photos]: https://2015.ploneconf.org/photos
+[videos]: https://2015.ploneconf.org/videos
