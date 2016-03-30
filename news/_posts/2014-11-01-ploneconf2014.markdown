@@ -3,7 +3,7 @@ title: "Plone Conference 2014 - Bristol, U.K"
 image: "https://cloud.githubusercontent.com/assets/2241198/4915989/93209434-64d4-11e4-98aa-27ac352a525c.jpg"
 year: 2014
 layout: news
-teaser: "In November 2014, the city of Bristol was the center of the Plone universe for several days. We've been there and presented some of our work during the past years."
+teaser: "In November 2014, the city of Bristol was the center of the Plone universe for several days. We've been there and presented some of our work during the past years!"
 ---
 
 David presented ["Data visualization in Plone - new features"][david], showcasing DaViz, the first Semantic web data visualisation tool for Plone, entirely web-based!
