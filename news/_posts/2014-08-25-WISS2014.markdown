@@ -1,6 +1,6 @@
 ---
 title: "WISS 2014 - « Web of Data », 25-29 August 2014, Saint-Étienne, France"
-image: "http://www.iuii.ua.es/MLDM/slider/images/webintelligence.jpg"
+image: "https://www.iuii.ua.es/MLDM/slider/images/webintelligence.jpg"
 year: 2014
 layout: news
 teaser: "WISS 2014 was the sixth edition of the Web Intelligence Summer School."
