@@ -43,7 +43,7 @@ useful explanation). The code is sent to GitHub, which will re-generate
 the [draft website][github-draft], so you can see the results.
 
 For a more efficient editing experience, install Jekyll locally, and
-start it in the background with `jekyll --auto --serve`; it will serve
+start it in the background with `jekyll serve`; it will serve
 the website on port 4000 and automatically pick up any changes.
 
 ## Deployment ##
@@ -57,7 +57,7 @@ To update the server:
 2. su -
 3. cd /var/local/edw-website
 4. git pull
-5. jekyll build _config_production.yml
+5. jekyll --user=production
 
 If you have an error like "Could not find a JavaScript runtime" when you build
 you should install a javascript runtime library like nodejs
