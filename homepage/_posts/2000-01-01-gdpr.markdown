@@ -1,4 +1,4 @@
-organization---
+---
 title: GDPR
 date: 2018-05-24
 ---
@@ -236,7 +236,7 @@ If you don’t want to receive cookies that are not strictly necessary to perfor
 
 Most web browsers will accept cookies but if you would rather we didn’t collect data in this way you can choose to accept all or some, or reject cookies in your browser's privacy settings. However, rejecting all cookies means that you may not be able to take full advantage of all our website's features. Each browser is different, so check the "Help" menu of your browser to learn how to change your cookie preferences.
 
-For more information generally on cookies, including how to disable them, please refer to <aboutcookies.org> . You will also find details on how to delete cookies from your computer.
+For more information generally on cookies, including how to disable them, please refer to aboutcookies.org . You will also find details on how to delete cookies from your computer.
 
 **LONG FORM DETAILED SECTIONS**
 
@@ -308,19 +308,18 @@ We collect Candidate personal data in three primary ways:
 1. Personal data that you, the Candidate, give to us;
 1. Personal data that we receive from other sources; and
 1. Personal data that we collect automatically.
-
 1. Personal data you give to us
 
 Eau de Web needs to know certain information about you in order to provide a tailored job offer. This will enable us to provide you with the best opportunities, and should save you time in not having to search through information about jobs and services that are not relevant to you.
 
 There are numerous ways you can share your information with us. It all depends on what suits you. These may include:
 
-    - Entering your details on the Eau de Web website or via an application form, as part of the registration process;
-    - Leaving a hard copy CV at a Eau de Web recruitment event, job fair or office;
-    - Emailing your CV to a Eau de Web employee or being interviewed by them;
-    - Applying for jobs through a job aggregator, or when these aggregators redirects you to the Eau de Web website;
-    - Entering your personal details into a Eau de Web microsite; or
-    - Entering a competition through a social media channel such as Facebook.
+    1. Entering your details on the Eau de Web website or via an application form, as part of the registration process;
+    1. Leaving a hard copy CV at a Eau de Web recruitment event, job fair or office;
+    1. Emailing your CV to a Eau de Web employee or being interviewed by them;
+    1. Applying for jobs through a job aggregator, or when these aggregators redirects you to the Eau de Web website;
+    1. Entering your personal details into a Eau de Web microsite; or
+    1. Entering a competition through a social media channel such as Facebook.
 
 2. Personal data we receive from other sources
 
