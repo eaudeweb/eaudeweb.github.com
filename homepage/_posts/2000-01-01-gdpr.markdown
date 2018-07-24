@@ -308,20 +308,23 @@ We collect Candidate personal data in three primary ways:
 1. Personal data that you, the Candidate, give to us;
 1. Personal data that we receive from other sources; and
 1. Personal data that we collect automatically.
-1. Personal data you give to us
+
+<a/>
+
+1.  Personal data you give to us
 
 Eau de Web needs to know certain information about you in order to provide a tailored job offer. This will enable us to provide you with the best opportunities, and should save you time in not having to search through information about jobs and services that are not relevant to you.
 
 There are numerous ways you can share your information with us. It all depends on what suits you. These may include:
 
-    1. Entering your details on the Eau de Web website or via an application form, as part of the registration process;
-    1. Leaving a hard copy CV at a Eau de Web recruitment event, job fair or office;
-    1. Emailing your CV to a Eau de Web employee or being interviewed by them;
-    1. Applying for jobs through a job aggregator, or when these aggregators redirects you to the Eau de Web website;
-    1. Entering your personal details into a Eau de Web microsite; or
-    1. Entering a competition through a social media channel such as Facebook.
+- Entering your details on the Eau de Web website or via an application form, as part of the registration process;
+- Leaving a hard copy CV at a Eau de Web recruitment event, job fair or office;
+- Emailing your CV to a Eau de Web employee or being interviewed by them;
+- Applying for jobs through a job aggregator, or when these aggregators redirects you to the Eau de Web website;
+- Entering your personal details into a Eau de Web microsite; or
+- Entering a competition through a social media channel such as Facebook.
 
-2. Personal data we receive from other sources
+2.  Personal data we receive from other sources
 
     We also receive personal data about Candidate from other sources. Depending on the relevant circumstances and applicable local laws and requirements, these may include personal data received in the following situations:
 
@@ -331,7 +334,7 @@ There are numerous ways you can share your information with us. It all depends o
     - If you 'like' our page on Facebook or 'follow' us we will receive your personal information from those sites; and
     - If you were referred to us through an RPO or an MSP supplier, they may share personal information about you with us.
 
-3. Personal data we collect automatically
+3.  Personal data we collect automatically
 
     To the extent that you access our website or read or click on an email from us, where appropriate and in accordance with any local laws and requirements, we may also collect your data automatically or through you providing it to us. For more information please send an email to <dpo@eaudeweb.ro>.
 
@@ -342,21 +345,24 @@ We collect Client personal data in three ways:
 1. Personal data that we receive directly from you;
 1. Personal data that we receive from other sources; and
 1. Personal data that we collect automatically.
+ 
+<a/>
 
-1. Personal data that we receive directly from you
+1.  Personal data that we receive directly from you
 
-Both parties we share the same goal – to make sure that you have the best products/services for your organization. We will receive data directly from you in two ways:
+    Both parties we share the same goal – to make sure that you have the best products/services for your organization. We will receive data directly from you in two ways:
+    
 - Where you contact us proactively, usually by phone or email; and/or
 - Where we contact you, either by phone or email, or through our staff activities more generally.
 
-2. Personal data we receive from other sources
+2.  Personal data we receive from other sources
 
 - Where appropriate and in accordance with any local laws and requirements, we may seek more information about you or your colleagues from other sources generally by way of due diligence or other market intelligence including:
 - From third party market research and by analyzing online and offline media (which we may do ourselves, or employ other organizations to do for us);
 - From delegate lists at relevant events; and
 - From other limited sources and third parties (for example from our Candidates to the extent that they provide us with your details to act as a referee for them).
 
-3. Personal data we collect via our website
+3.  Personal data we collect via our website
 
 - To the extent that you access our website or read or click on an email from us, where appropriate and in accordance with any local laws and requirements, we may also collect your data automatically or through you providing it to us. For more information please send an email to <dpo@eaudeweb.ro>.
 
