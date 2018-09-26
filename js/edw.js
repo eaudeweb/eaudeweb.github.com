@@ -208,7 +208,7 @@ $(document).ready(function() {
 	        resize_magic();
         });
 	}
-    
+    /*
     var contact_map = $('#contact-map');
     
     if(contact_map.length) {
@@ -277,18 +277,8 @@ $(document).ready(function() {
                 window.scrollBy( 0,( start - end ) ); 
             }, true);
         }
-        
-		/*var info_window = new google.maps.InfoWindow({
-			content: $('#contact-map-infobox').remove().show()[0]
-		});
-		info_window.open(map, marker);
-		// forcibly remove the close box
-		google.maps.event.addListener(info_window, 'domready', function() {
-			var parent_box = $('#contact-map-infobox').parents('div:has(>img)');
-			$('>img', parent_box).remove();
-		});*/
-        
     }
+    */
 	
 	resize_magic();
 	
