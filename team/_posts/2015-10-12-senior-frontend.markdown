@@ -1,15 +1,19 @@
 ---
-title: Frontend Developer (1)
+title: Senior Frontend Developer (1)
 layout: job
 ---
 
-We are looking for a Frontend Developer, with experience in JavaScript, able to work with, and/or learn, React, Angular, Meteor or similar frameworks.
+We are looking for a Senior Frontend Developer, with 3+ years of experience in JavaScript and some hands-on expertise in Reactjs or Vuejs.
 
-Using open-source technologies we build web applications for international clients. We use Linux, Git, Python, PHP, Drupal, Django, Django REST Framework, Flask, Zope, MongoDB, PostgreSQL.
+Proficiency in ECMAScript, CSS/Less, Nodejs, Bootstrap is highly desirable.
+Understanding of how web applications work and good knowledge of git are a must.
 
-Knowledge about frameworks and plugins will be considered a plus, but we are mostly interested in the ability to develop from scratch. The frontend solution is managed through Grunt, and CSS is put together using LESS or SASS.
+We build web applications for international clients using open-source technologies.
+Our preferred web frameworks for the client side are Vuejs and Reactjs/Redux.
 
-We make code review and use continuous integration in our projects. We work Agile. No overtime.
+For the backend we use Python, PHP, Drupal, Django, Django REST Framework, MongoDB, MySQL, PostgreSQL, Docker, Linux.
+
+We do code reviews and use continuous integration in our projects. We work Agile. No overtime.
 
 See [who we are][] and [what we do][] and, if you want to work with
 us, please send us a cover letter along with your CV, describing the coolest application you had developed lately.
