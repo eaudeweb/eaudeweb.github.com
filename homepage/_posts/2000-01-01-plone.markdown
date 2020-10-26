@@ -20,8 +20,8 @@ Some of our efforts to evolve and promote Plone include:
 * [Plone User's Group Romania founder and coordinator][plone_ro]
 
 [plone]: http://plone.org
-[plone_foundation_member]: http://plone.org/foundation/members
-[plone_core_contributors]: https://github.com/plone
-[plone_collective_contributors]: https://github.com/collective
+[Plone foundation member]: http://plone.org/foundation/members
+[Plone Core contributors]: https://github.com/plone
+[Plone Collective contributors]: https://github.com/collective
 [ploneconf]: http://ploneconf.org
 [plone_ro]: http://plone.ro
