@@ -16,5 +16,5 @@ us, send an email to jobs@eaudeweb.ro and tell us about the most
 interesting thing you built lately.
 
 
-[who_we_are]: http://www.eaudeweb.ro/#work-with-us
-[what_we_do]: http://www.eaudeweb.ro/#we-work-for
+[who we are]: http://www.eaudeweb.ro/#work-with-us
+[what we do]: http://www.eaudeweb.ro/#we-work-for
