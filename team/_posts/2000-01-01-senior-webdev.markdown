@@ -11,7 +11,7 @@ of Linux, Git, Python, Django, Flask, Zope, MongoDB, jQuery, CSS,
 and we don't hesitate to use other packages where needed.
 
 Checkout [who we are][] and [what we do][] and, if you want to work with
-us, send an email to jobs@eaudeweb.ro and tell us about the most 
+us, send an email to jobs@eaudeweb.ro and tell us about the most
 interesting thing you built lately.
 
 [who_we_are]: http://www.eaudeweb.ro/#work-with-us
