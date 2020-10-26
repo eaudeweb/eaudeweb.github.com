@@ -23,14 +23,9 @@ RO19344048
 J40/19978/2006
 
 
-### Registered capital: ###
-
-500 RON
-
-
 ### Bank account: ###
 
-RO26BUCU151401322511RO01
+RO98BUCU2761304240059RON
 
 
 ### Bank: ###
