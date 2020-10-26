@@ -1,4 +1,5 @@
 permalink: none
 user: production
-exclude: fabfile.py
+exclude:
+- fabfile.py
 
