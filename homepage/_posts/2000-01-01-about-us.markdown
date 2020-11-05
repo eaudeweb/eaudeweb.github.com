@@ -3,14 +3,13 @@ title: About us
 date: 2000-01-02
 ---
 
+Established in 2006, Eau de Web (www.eaudeweb.ro) is a Romanian company specialized in web development and digital content publishing. The four founders of our company have been actively involved since the beginning in the core business as managers and/or solution architects.
 
-Established in 2006, Eau de Web (www.eaudeweb.ro) is a Romanian company specialized in web development and digital content publishing. The four founders of our company have been actively involved in the core business as managers and/or solution architects. The organizational structure of Eau de Web is simple but efficient, centred around customers, contracts and technologies.
+The organizational structure of Eau de Web is simple but efficient, centred around customers, contracts and technologies. Project teams are led by highly qualified senior consultants, having solid experience in both software development and project/people management, or by project managers with solid software development know-how.
 
 Most of our work is open-source and some of our code is re-used by other communities. Our team includes contributors to Drupal and Plone core and add-ons.
 
 The areas covered by Eau de Web’s specialists vary from requirements definition, software architecture and system design, modern user interface design, accessibility and usability audits, development of web-based applications, component and system integration, system and data migration, application management, system maintenance, web hosting, helpdesk and support, training services and materials, all done using Agile practices.
-
-Project teams are led by highly qualified senior consultants, having solid experience in both software development and project/people management, or by project managers with solid software development know-how.
 
 The management’s policy towards professional careers is to maintain a highly collaborative work environment which encourages employees to constantly improve their skills and remain up to date with modern tools and technologies, by means of:
 *	Encouraging individual contributions to open-source projects and civic initiatives;
