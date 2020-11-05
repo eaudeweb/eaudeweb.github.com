@@ -274,19 +274,19 @@ header
 	
 		header li
 		{
-			color: #d5fa3b;
+			color: #ffffff;
 		}
 		
 			header a,
 			header a:visited
 			{
-				color: #d5fa3b;
+				color: #ffffff;
 				text-decoration: none;
 				text-transform: uppercase;
 				display: block;
 				margin: 0 16px;
 				padding: 13px 0;
-				border-bottom: 1px solid #aad82f;
+				border-bottom: 1px solid #fff;
 				
 				-webkit-transition: all 0.25s cubic-bezier(0, 0, 0.25, 1);
 			       -moz-transition: all 0.25s cubic-bezier(0, 0, 0.25, 1);
@@ -298,13 +298,13 @@ header
 				html.no-touch header a:hover,
 				html.no-touch header a:visited:hover
 				{
-					color: #fff;
+					color: #151f06;
 				}
 				
                 header a span,
                 h3 span
                 {
-                    background:#425e13;
+                    background:#000;
                     width:18px;
                     height:18px;
                     border-radius:9px;
