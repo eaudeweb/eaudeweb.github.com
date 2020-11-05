@@ -50,7 +50,7 @@
 
         <li class="home{% if current-section == "index" %} selected{% endif %}"
           ><a href="/#index" title="Eau de Web"><img src="/images/edw-logo.png"
-          width="79" height="65" alt="Eau de Web" />Eau de Web</a></li>
+          width="80" height="80" alt="Eau de Web" />Eau de Web</a></li>
 
         {% for section in site.categories.homepage reversed %}
           {% capture section_id %}{{ section.title | downcase | replace: ' ', '-' }}{% endcapture %}

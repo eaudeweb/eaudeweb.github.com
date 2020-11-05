@@ -15,18 +15,18 @@ sub {vertical-align:text-bottom;}
 input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
 legend{color:#000;}
 a,a:hover,a:visited:hover,a:active,a:active:hover{outline:none}
-::selection { background: #cbe2a6; }
-::-moz-selection { background: #cbe2a6; }
-::-webkit-selection { background: #cbe2a6; }
+::selection { background: #a6eda8; }
+::-moz-selection { background: #a6eda8; }
+::-webkit-selection { background: #a6eda8; }
 
 ::-webkit-scrollbar-thumb:vertical
 { 
-    background-color:#7db621;
+    background-color:#109e13;
 	height:100px;
 }
 ::-webkit-scrollbar-thumb:horizontal
 { 
-	background-color:#7db621;
+	background-color:#109e13;
 	height:16px !important;
 }
 
@@ -149,7 +149,7 @@ p,
 a,
 a:visited 
 {
-	color:#7db621;
+	color:#109e13;
 	text-decoration: underline;
 }
 
@@ -327,7 +327,7 @@ header
                     html.no-touch header .selected a span
     				{
     					background: #fff;
-                        color:#7db621;
+                        color:#109e13;
     				}
                 
 				header .selected a
@@ -452,7 +452,7 @@ header
 			padding: 32px;
 			font-weight: bold;
 			color:#fff;
-			background: #7db621;
+			background: #109e13;
 			opacity: 0;
 			z-index: 1;
 			text-decoration: none;
@@ -728,7 +728,7 @@ footer
 	header
 	{
 		width: 100%;
-		background: #7db621;
+		background: #109e13;
 		z-index: 100;
 	}
 	
