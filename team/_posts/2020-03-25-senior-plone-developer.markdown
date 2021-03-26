@@ -13,7 +13,7 @@ Our work is open and shared to many open-source communities.
 **We are hiring:**
 -	Senior Plone developer;
 
-The experience with Unix/Linux systems and the communications and team working skills are highly appreciated.
+The experience with Unix/Linux systems and the communications and team working skills are highly appreciated. Must be able to write and speak English.
 
 **Why work with us:**
 We maintain a highly collaborative work environment which encourages the constant improvement of skills and in close contact with modern tools and technologies.
