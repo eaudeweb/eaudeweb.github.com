@@ -11,11 +11,6 @@ teaser: |
 
 ---
 
-Since 2010 we are in charge of the framework contracts for [Zope][zope]/[Plone][plone] web development,
-including EEA's [main website][eea], the [European Environment Information and Observation Network][eionet]
-and [the European Nature Information System][eunis].
-
-
 Since 2018 we have a long-term agreement for software development services ([Drupal][drupal], [Python/Django][django], front-end development and UX/UI design).
 
 [drupal]: https://www.drupal.org/
