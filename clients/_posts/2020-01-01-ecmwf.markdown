@@ -10,8 +10,6 @@ teaser: |
 
 ---
 
-Since 2020 we provide product design, software development ([Drupal][drupal]), maintenance and support and hosting services for [ITC Benchmarking][itc] solution and portal.
-
 Since 2020 we provice product design, software development ([Drupal][drupal]), maintenance, integration and support services for two Copernicus websites: [Climate Change Service][ccs]  and [Atmosphere Monitoring Service][ams].
 
 
