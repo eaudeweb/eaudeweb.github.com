@@ -62,7 +62,7 @@
           <li {% if current-section == section_id %}
               class="selected"{% endif %}>
             <a href="/#{{ section_id }}"
-               title="{{ section.title }}">{{ menu-label }}{% if section_id contains 'work-with-us' %} <span>4</span>{% endif %}</a></li>
+               title="{{ section.title }}">{{ menu-label }}{% if section_id contains 'work-with-us' %} <span></span>{% endif %}</a></li>
         {% endfor %}
 
       </ul>
