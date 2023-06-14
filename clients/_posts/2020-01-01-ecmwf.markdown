@@ -1,0 +1,20 @@
+---
+title: European Centre for Medium-Range Weather Forecasts (ECMWF)
+homepage: https://www.ecmwf.int/
+logo: /images/client-logos/ecmwf.png
+layout: client
+date: 2020-10-01
+teaser: |
+  The European Centre for Medium-Range Weather Forecasts is an independent
+  intergovernmental organisation supported by most of the nations of Europe.
+
+---
+
+Since 2020 we provide product design, software development ([Drupal][drupal]), maintenance and support and hosting services for [ITC Benchmarking][itc] solution and portal.
+
+Since 2020 we provice product design, software development ([Drupal][drupal]), maintenance, integration and support services for two Copernicus websites: [Climate Change Service][ccs]  and [Atmosphere Monitoring Service][ams].
+
+
+[drupal]: https://www.drupal.org/
+[ccs]: https://climate.copernicus.eu
+[ams]: https://atmosphere.copernicus.eu
