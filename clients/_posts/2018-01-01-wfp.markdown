@@ -1,0 +1,22 @@
+---
+title: World Food Programme
+homepage: https://www.wfp.org/
+logo: /images/client-logos/wfp.png
+layout: client
+date: 2018-10-01
+teaser: |
+  The World Food Programme is an international organization within the United Nations
+  that provides food assistance worldwide. It is the world's largest humanitarian
+  organization and the leading provider of school meals.
+
+---
+
+Since 2010 we are in charge of the framework contracts for [Zope][zope]/[Plone][plone] web development,
+including EEA's [main website][eea], the [European Environment Information and Observation Network][eionet]
+and [the European Nature Information System][eunis].
+
+
+Since 2018 we have a long-term agreement for software development services ([Drupal][drupal], [Python/Django][django], front-end development and UX/UI design).
+
+[drupal]: https://www.drupal.org/
+[django]: https://www.djangoproject.com/
