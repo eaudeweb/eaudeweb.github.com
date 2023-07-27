@@ -17,11 +17,10 @@ Some of our efforts to evolve and promote Plone include:
 * [Plone Core contributors][]
 * [Plone Collective contributors][]
 * [Plone Conference and Sprints attendees][ploneconf]
-* [Plone User's Group Romania founder and coordinator][plone_ro]
+* Plone User's Group Romania founder and coordinator
 
 [plone]: http://plone.org
 [Plone foundation member]: http://plone.org/foundation/members
 [Plone Core contributors]: https://github.com/plone
 [Plone Collective contributors]: https://github.com/collective
 [ploneconf]: http://ploneconf.org
-[plone_ro]: http://plone.ro
