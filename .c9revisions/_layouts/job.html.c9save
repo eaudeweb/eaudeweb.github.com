@@ -1,1 +1,0 @@
-{"ts":1364288645616,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"---\nlayout: base\n---\n\n\n<article class=\"with_padding\">\n\n<h2>Work with us</h2>\n\n<h1>{{ page.title }}</h1>\n\n{{ content }}\n\n</article>\n"]],"start1":0,"start2":0,"length1":0,"length2":131}]],"length":131}
