@@ -12,23 +12,18 @@ layout: base
 
   {% capture section_id %}{{ section.title | downcase | replace: ' ', '-' }}{% endcapture %}
 
-  {% if section_id == "about-us" %}
-    {% assign css_class = "with_padding" %}
-  {% elsif section_id == "naaya" %}
-    {% assign css_class = "with_padding" %}
-  {% elsif section_id == "work-with-us" %}
-    {% assign css_class = "with_padding" %}
-  {% elsif section_id == "plone" %}
+  {% if "about-us,work-with-us,plone,drupal" contains section_id %}
     {% assign css_class = "with_padding" %}
   {% else %}
     {% assign css_class = "" %}
   {% endif %}
 
-  <section id="{{ section_id }}-container" class="{{ css_class }}">
+
+  <section id="{{ section_id }}-container" class="{{ css_class }} {{padding_pages}}">
 
     <a href="/#{{ section_id }}" class="sections"><h2>{{ section.title }}</h2></a>
 
-    {% if section.title == "We work for" %}
+    {% if section_id == "we-work-for" %}
 
       {% for client in site.categories.clients reversed %}
 
@@ -41,14 +36,9 @@ layout: base
 
         <div class="large_box">
 
-          <h3>{{ client.title }}</h3>
-
-          <p><a href="{{ client.homepage }}"
-                rel="external">{{ client.homepage }}</a></p>
+          <h3><a href="{{ client.homepage }}" target="_blank" rel="external">{{ client.title }}</a></h3>
 
           <p>{{ client.teaser }}</p>
-
-          <!-- p><a href="{{ client.url }}">Read more</a></p -->
 
           {{ client.content }}
 
@@ -58,19 +48,19 @@ layout: base
 
       {% endfor %}
 
-    {% elsif section.title == "Work with us" %}
+    {% elsif section_id == "work-with-us" %}
 
       {% capture job_listing %}
       {% if site.categories.team %}
       <div class="jobs-box">
-        <h3>Open positions <span>4</span></h3>
+        <h3>Open positions <span>0</span></h3>
         <ul>
         {% for job in site.categories.team %}
           <li><a href="{{ job.url }}">{{ job.title }}</a></li>
         {% endfor %}
         </ul>
       </div>
-      <p>You may send a resume to jobs@eaudeweb.ro.</p>
+      <p>You may send a resume to jobs&#64;eaudeweb&#46;ro.</p>
       {% endif %}
       {% endcapture %}
       {{ section.content | replace: '<!-- JOB LISTING -->', job_listing }}

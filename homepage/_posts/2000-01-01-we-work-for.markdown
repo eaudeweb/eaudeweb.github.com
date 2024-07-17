@@ -1,7 +1,7 @@
 ---
 title: We work for
-menu-label: Work
-date: 2000-01-01
+menu-label: Clients
+date: 2000-01-02
 ---
 
 List of clients

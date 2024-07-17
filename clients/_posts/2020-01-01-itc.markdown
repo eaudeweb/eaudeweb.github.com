@@ -11,7 +11,7 @@ teaser: |
 
 ---
 
-Since 2020 we provide product design, software development ([Drupal][drupal]), maintenance and support and hosting services for [ITC Benchmarking][itc] solution and portal.
+Since 2020 we provide product design, software development ([Drupal][drupal]), maintenance and support and hosting services for the [Benchmarking for Trade portal][itc].
 
 [drupal]: https://www.drupal.org/
 [itc]: https://www.itcbenchmarking.org/

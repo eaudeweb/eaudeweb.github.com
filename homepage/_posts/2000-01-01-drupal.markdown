@@ -1,0 +1,14 @@
+---
+title: Drupal
+date: 2000-01-08
+---
+
+
+### Drupal expertise ###
+
+In addition to the 60+ medium and complex web portals developed since 2011 using Drupal,
+senior members of our Drupal team have been involved in bringing together the local community,
+organising events, contributing to open-source modules,
+and teaching Drupal development courses at the University of Bucharest.
+
+Find out more about our Drupal team on [drupal.org/eau-de-web](https://www.drupal.org/eau-de-web).

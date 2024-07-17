@@ -1,5 +1,3 @@
 permalink: none
 user: devel
 url: https://www.eaudeweb.ro
-exclude:
-- fabfile.py

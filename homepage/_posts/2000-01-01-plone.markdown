@@ -3,24 +3,22 @@ title: Plone
 date: 2000-01-07
 ---
 
-
 ### Plone Advocacy ###
 
-
-Eau de Web continues to demonstrate a long-term commitment
-to share and contribute the knowledge, software and resources
-to benefit others through Plone's open source community.
+Eau de Web demonstrated long-term commitments
+to contribute and sharethe knowledge, software and resources
+for the benefit of [Plone](https://plone.org)'s open source community.
 
 Some of our efforts to evolve and promote Plone include:
 
-* [Plone foundation member][]
-* [Plone Core contributors][]
-* [Plone Collective contributors][]
-* [Plone Conference and Sprints attendees][ploneconf]
+* [Sposorships](https://plone.org/foundation/sponsorship/sponsors/eau-de-web)
+* [Plone Foundation membership](https://plone.org/foundation/members/current)
+* Contributions to [Plone Core][], [Plone Collective][] and [Volto][]
+* Active involvement during [Plone Conferences][]
 * Plone User's Group Romania founder and coordinator
 
-[plone]: http://plone.org
-[Plone foundation member]: http://plone.org/foundation/members
-[Plone Core contributors]: https://github.com/plone
-[Plone Collective contributors]: https://github.com/collective
-[ploneconf]: http://ploneconf.org
+[Plone]: https://plone.org
+[Plone Core]: https://github.com/plone
+[Plone Collective]: https://github.com/collective
+[Volto]: https://github.com/plone/volto/
+[Plone Conferences]: https://ploneconf.org

@@ -3,31 +3,41 @@ title: Work with us
 date: 2000-01-03
 ---
 
-<!--
-[float slideshow]
--->
+### Our office ###
 
 The office is located near Arcul de Triumf, in a quiet neighborhood,
 some of us even bike to work. There's a fully equipped kitchen, also an
 espresso machine with the best italian coffee, and an exquisite
-selection of teas. We don't cut corners on office furniture and IT -
-dual monitors and your choice of linux, windows or mac.
+selection of teas.
 
-We use any excuse to organize a social evening with poker and board
-games. The company pays for gym membership and the odd wine party. We go
-to conferences and regularly order technical books.
+We don't cut corners on office furniture and IT -
+dual monitors and your choice of Linux, Windows or Mac.
 
-<!-- JOB LISTING -->
+### Employee development ###
 
-Over time we learned to work profesionally. All code is under version
-control ([EEA's GitHub repository][eea_github], [our github
-account][edw_github]), we write unit tests, any important change goes
-through peer code review, and we pair program when it makes sense.
-Deployment to staging and production is automated, and we have
-specialized people for testing and system administration. We also have
-close, long-term relationships with our [clients][] , and we work in
-small iterations with quick feedback.
+Our company helps employees to constantly improve their skills and remain up to date with modern tools and technologies, by means of:
 
-[eea_github]: https://github.com/eea
-[edw_github]: https://github.com/eaudeweb
-[clients]: /#we-work-for
+* Encouraging individual contributions to open-source projects and civic initiatives;
+* Sponsoring active participation in relevant conferences, events, workshops and training courses;
+* Supporting long-term education plans for career development;
+* Providing performant hardware infrastructure;
+
+### Focused technology stack ###
+
+Rather than pursuing a diverse array of technologies, we focus on attaining excellence in:
+
+* Python-based web frameworks (Django, Plone)
+* PHP / Drupal
+* Modern JavaScript frameworks (Node, Vue, React)
+* Automation and infrastructure-as-code tools (Terraform, Ansible)
+* Cloud computing platforms (Amazon AWS, Microsoft Azure, Google Cloud, Kubernetes)
+* Artificial intelligence / machine learning
+
+### Open positions ###
+
+There are no open positions at the moment, but you may still send a resume to jobs&#64;eaudeweb&#46;ro.
+
+<!--
+[float slideshow]
+-->
+

@@ -1,0 +1,16 @@
+---
+title: UN Convention to Combat Desertification
+homepage: https://www.unccd.int/
+logo: /images/client-logos/unccd.jpg
+layout: client
+date: 2023-01-01
+teaser: |
+  The UNCCD is an international convention aimed at addressing land degradation and desertification through sustainable land management and ecosystem restoration.
+
+---
+
+We have been working since 2012 on their corporate [Drupal website][unccd], [PRAIS 4][prais4] (a multilingual platform for reporting geospatial data on land degradation) and the [Data Dashboard][unccd_data_dashboard] (a data visualization portal).
+
+[unccd]: https://www.unccd.int/
+[prais4]: https://www.unccd.int/news-stories/stories/prais-4-reporting-platform-live
+[unccd_data_dashboard]: https://data.unccd.int

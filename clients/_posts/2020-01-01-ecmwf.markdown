@@ -1,5 +1,5 @@
 ---
-title: European Centre for Medium-Range Weather Forecasts (ECMWF)
+title: European Centre for Medium-Range Weather Forecasts
 homepage: https://www.ecmwf.int/
 logo: /images/client-logos/ecmwf.png
 layout: client
@@ -10,8 +10,7 @@ teaser: |
 
 ---
 
-Since 2020 we provice product design, software development ([Drupal][drupal]), maintenance, integration and support services for two Copernicus websites: [Climate Change Service][ccs]  and [Atmosphere Monitoring Service][ams].
-
+Since 2020 we provice product design, software development ([Drupal][drupal]) and technical support for two Copernicus websites: [Climate Change Service][ccs] and [Atmosphere Monitoring Service][ams].
 
 [drupal]: https://www.drupal.org/
 [ccs]: https://climate.copernicus.eu

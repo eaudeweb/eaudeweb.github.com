@@ -1,18 +1,23 @@
 ---
 title: The European Commission
-homepage: http://ec.europa.eu/
+homepage: https://commission.europa.eu/
 logo: /images/client-logos/ec.png
 layout: client
 date: 2011-10-01
 teaser: |
-  The Directorate General for Communications Networks, Content and Technology 
-  is managing the Digital Agenda for Europe.
+  Eau de Web has developed since 2012 digital tools for the European Commission (DG Connect, DG Environment, DG Climate Action, EEA, EASME).
 ---
 
-Under the contract "Publishing, visualising, linking open data, hosting and broadcasting – SMART 2012/0103",
-Eau de Web has developed [digital-agenda-data.eu][dad], an interactive visualisation tool for linked semantic 
-statistical data expressed as [RDF data cubes][qb].
+* The [Digital Decade data visualisation portal][desi]
+* [BISE][bise] - European biodiversity information system
+* [FISE][fise] - European forest information system
+* [WISE][wise] - Water information system for Europe
+* [MSP][msp] - the EU maritime spatial planning platform
+* [Climate-ADAPT][adapt] - the EU climate adaptation platform
 
-[dae]: http://ec.europa.eu/digital-agenda/
-[dad]: http://digital-agenda-data.eu/
-[qb]: http://www.w3.org/TR/vocab-data-cube/
+[desi]: https://digital-decade-desi.digital-strategy.ec.europa.eu/
+[bise]: https://biodiversity.europa.eu/
+[adapt]: https://climate-adapt.eea.europa.eu/
+[fise]: https://forest.eea.europa.eu/
+[wise]: https://water.europa.eu/
+[msp]: https://maritime-spatial-planning.ec.europa.eu/

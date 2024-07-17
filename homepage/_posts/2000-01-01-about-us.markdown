@@ -1,28 +1,43 @@
 ---
 title: About us
-date: 2000-01-02
+date: 2000-01-01
 ---
 
-Established in 2006, Eau de Web (www.eaudeweb.ro) is a Romanian company specialized in web development and digital content publishing. The four founders of our company have been actively involved since the beginning in the core business as managers and/or solution architects.
+### Our journey ###
 
-The organizational structure of Eau de Web is simple but efficient, centred around customers, contracts and technologies. Project teams are led by highly qualified senior consultants, having solid experience in both software development and project/people management, or by project managers with solid software development know-how.
+Established in 2006, Eau de Web is a Romanian private limited liability company specialized in web development, publishing digital content, interactive data visualizations, online reporting tools and decision support systems.
 
-Most of our work is open-source and some of our code is re-used by other communities. Our team includes contributors to Drupal and Plone core and add-ons.
+### Commitment to open-source ###
 
-The areas covered by Eau de Web’s specialists vary from requirements definition, software architecture and system design, modern user interface design, accessibility and usability audits, development of web-based applications, component and system integration, system and data migration, application management, system maintenance, web hosting, helpdesk and support, training services and materials, all done using Agile practices.
+Most of our work is open-source and some of our code is re-used by other communities. Our team includes contributors to open-source software such as [Plone](https://plone.org/sponsors/eau-de-web) and [Drupal](https://drupal.org/eau-de-web) content management systems.
 
-The management’s policy towards professional careers is to maintain a highly collaborative work environment which encourages employees to constantly improve their skills and remain up to date with modern tools and technologies, by means of:
-*	Encouraging individual contributions to open-source projects and civic initiatives;
-*	Sponsoring active participation in relevant national and international conferences, events, workshops and training courses;
-*	Supporting long-term education plans for each employee career development;
-*	Providing performant hardware infrastructure;
-*	Maintaining an environment-friendly workplace for the team.
+### Comprehensive expertise ###
 
-Instead of aiming for a broad range of technologies, we decided to narrow our preferences and focus on high quality and high efficiency in Python (Django, Flask, Plone), PHP (Drupal), HTML5 and JavaScript (Node, Vue, React), Linux and Docker. We have adopted since the beginning an agile delivery model complemented by PMBOK or PM2 project management practices and the use of modern tools, both free and paid, to support the quality assurance and automation. Our tools, knowledge and efficient internal processes allow us to deliver projects faster and using less resources than other vendors, while maintaining high quality standards.
+Eau de Web's expertise spans the entire software development lifecycle, including: product management, software architecture and system design, modern user interface design, accessibility and usability audits, web-based application development, system integration, data migrations, virtualization and private clouds, application management, system maintenance, web hosting, helpdesk and support, training services, and e-learning materials.
+All our services are delivered using Agile practices.
 
-Eau de Web’s know-how and solutions are the result of an extensive international software development experience, comprising of technological platforms for over 20 public EU and UN agencies, used by millions of citizens worldwide.
+### Organizational efficiency ###
 
-Eau de Web is ISO 9001:2015 certified for our quality management system and ISO 14001:2015 certified for our environmental management system.
+Our tools, knowledge and efficient internal processes allow us to deliver projects faster and
+using fewer resources than other vendors, while maintaining high quality standards.
+
+The organizational structure of Eau de Web is designed for efficiency, revolving around customers, contracts, and technologies.
+Our management board includes the five managing partners, a financial director, and a human resource manager.
+Each contract is overseen by a senior manager, accountable for the overall delivery of the services and having solid experience in both software development and project/people management.
+
+### Environmental responsibility ###
+
+Providing an environmentally friendly workplace for our employees has been a top concern since the company's inception. Everyone is encouraged to create new and innovative methods to improve the way we work, think, and approach our projects, our environment, and our lives - not just at work, but also at home.
+
+### Certifications and achievements ###
+
+Eau de Web holds the following certifications:
+
+* SR EN ISO 9001:2015 (quality management system)
+* SR EN ISO 14001:2015 (environmental management system)
+* SR EN ISO/IEC 27001:2023 (information security management system).
+
+Our know-how and solutions are the result of an extensive international software development experience, comprising of technological platforms for over 20 public EU and UN agencies, used by millions of citizens worldwide.
 
 ### The name ###
 
@@ -30,8 +45,11 @@ Eau de Web is a paraphrase of *eau de parfum*, meaning a fragrance of web, close
 
 ### Eau de Web's Manifesto ###
 
-The drives of our activities are the open source culture and the use of open standards in projects worldwide.
+* We actively embrace the open-source culture and take pride in our work.
+* Transparent and honest communication helps making better decisions.
+* We value the subtleties that distinguish between good and excellent.
+* Our mission is to drive sustainability by delivering efficient solutions and by minimizing all forms of wasted resources.
 
 ### Data protection ###
 
-For the purpose of applicable data protection legislation (including but not limited to the EU General Data Protection Regulation, the company responsible for your personal data ("Eau de Web SRL") can be contacted via email at <dpo@eaudeweb.ro>.
+For the purpose of applicable data protection legislation (including but not limited to the EU General Data Protection Regulation, the company responsible for your personal data ("Eau de Web SRL") can be contacted via email (dpo&#64;eaudeweb&#46;ro).

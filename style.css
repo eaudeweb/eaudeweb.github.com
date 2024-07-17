@@ -253,6 +253,7 @@ h3
 	{
 		font-size:30px;
 		line-height: 37px;
+		margin-bottom: 1em;
 		text-transform: none;
 	}
 
@@ -621,6 +622,7 @@ header
 #contact-map {
 	width: 768px;
 	height: 685px;
+	padding: 32px;
 }
 
 footer

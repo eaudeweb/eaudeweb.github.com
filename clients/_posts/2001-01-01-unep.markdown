@@ -8,11 +8,6 @@ teaser: |
   UNEP is the voice for the environment within the United Nations system.
 ---
 
-We build several Web applications for UNEP, from which the [InforMEA][], a platform
-that harvests COP decisions, news, events, membership, national focal points and
-reports from MEAs and the [CITES Virtual College][vc], a learning management system
-containing training courses for CITES Parties.
+Since 2011 we have been developing and hosting Drupal websites, mobile apps and decision support / online reporting systems for UN Environment and secretariats of [global and regional MEAs][meas] - more than 30 Drupal websites and digital tools.
 
-[informea]: http://www.informea.org
-[vc]: http://campusvirtual.unia.es/cites/
-
+[meas]: https://www.unep.org/about-un-environment/why-does-un-environment-matter/secretariats-and-conventions
