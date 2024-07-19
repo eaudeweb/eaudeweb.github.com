@@ -35,9 +35,8 @@ Rather than pursuing a diverse array of technologies, we focus on attaining exce
 
 ### Open positions ###
 
-There are no open positions at the moment, but you may still send a resume to jobs&#64;eaudeweb&#46;ro.
+There are no open positions at the moment, but you may still send us a resume at jobs＠eaudeweb.ro.
 
 <!--
 [float slideshow]
 -->
-
