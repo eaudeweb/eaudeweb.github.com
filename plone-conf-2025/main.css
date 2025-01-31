@@ -8,6 +8,7 @@ html {
   --plone: #0186c4;
   --dark-blue: #1c2332;
   --darker-blue: #141924;
+  --footer: var(--plone);
 }
 body {
   margin: 0;
@@ -1914,9 +1915,17 @@ section h2 {
 .update-icons a {
   height: 2.4em;
 }
-.header-logo {
-  /* background-color: #ff4b6c; */
+
+.header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
+.parallax {
+  margin-top: auto;
+}
+
 .header-logo .logo-wrapper {
   position: relative;
   z-index: 101;
