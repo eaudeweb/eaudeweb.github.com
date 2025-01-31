@@ -1,9 +1,13 @@
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url(//fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,latin-ext);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  --purple: #972a58;
+  --pink: #dd004b;
+  --light-pink: #ff6091;
+  --plone: #0186c4;
+  --dark-blue: #1c2332;
+  --darker-blue: #141924;
 }
 body {
   margin: 0;
@@ -178,15 +182,6 @@ table {
 td,
 th {
   padding: 0;
-}
-@font-face {
-  font-family: "Sprite Graffiti";
-  src: url("../fonts/sprite_graffiti.eot");
-  src: url("../fonts/sprite_graffiti.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/sprite_graffiti.woff") format("woff"),
-    url("../fonts/sprite_graffiti.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
 * {
   box-sizing: border-box;
@@ -1004,11 +999,11 @@ html {
   }
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Assistant", sans-serif;
   line-height: 1.4;
   letter-spacing: 0.02em;
   color: #fff;
-  background-color: #1c2332;
+  background-color: var(--dark-blue);
 }
 a,
 .btn-link {
@@ -1032,7 +1027,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 2px solid #f15a24;
+  border-top: 2px solid var(--pink);
 }
 .uppercase {
   font-size: 90%;
@@ -1053,7 +1048,7 @@ hr {
 strong,
 .strong,
 .slot-when {
-  color: #f15a24;
+  color: var(--pink);
   font-weight: 600;
 }
 h1,
@@ -1157,9 +1152,9 @@ ol ol {
   line-height: 2rem;
   font-size: larger;
   font-weight: 600;
-  color: #f15a24;
+  color: var(--pink);
   text-align: center;
-  border: 2px solid #f15a24;
+  border: 2px solid var(--pink);
   border-radius: 50%;
 }
 .list-numbered > li:after {
@@ -1172,7 +1167,7 @@ dl {
   margin-bottom: 1rem;
 }
 dt {
-  color: #f15a24;
+  color: var(--pink);
   font-weight: 600;
 }
 dd {
@@ -1194,7 +1189,7 @@ dd {
 .page-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #f15a24;
+  color: var(--pink);
   line-height: 1.4;
   font-weight: bold;
   text-transform: uppercase;
@@ -1206,20 +1201,16 @@ dd {
 .section-title {
   margin-top: 0;
   margin-bottom: 2rem;
-  font-family: "Sprite Graffiti", "Roboto", sans-serif;
+  font-family: "Assistant", sans-serif;
   font-size: 50px;
   font-weight: normal;
   color: #fff;
-  text-shadow: 0 0 3px #f15a24;
+  text-shadow: 0 0 3px var(--pink);
 }
-.section-title:before,
-.section-title:after {
-  color: #f15a24;
-  content: "=";
-}
+
 .heading,
 h6 {
-  color: #f15a24;
+  color: var(--pink);
   font-weight: 600;
   margin-top: 0.5rem;
   margin-bottom: 0;
@@ -1239,15 +1230,7 @@ h6 {
 .text-nowrap {
   white-space: nowrap;
 }
-@font-face {
-  font-family: "Plone Conf icons";
-  src: url("../fonts/ploneconf.eot");
-  src: url("../fonts/ploneconf.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/ploneconf.woff") format("woff"),
-    url("../fonts/ploneconf.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
+
 .icon {
   font-family: "Plone Conf icons";
   speak: none;
@@ -1327,18 +1310,18 @@ h6 {
 }
 .table thead tr:last-child th,
 .table thead tr:last-child td {
-  border-bottom: 2px solid #f15a24;
+  border-bottom: 2px solid var(--pink);
 }
 .table tbody th {
   text-align: left;
 }
 .table tfoot tr:first-child th,
 .table tfoot tr:first-child td {
-  border-top: 2px solid #f15a24;
+  border-top: 2px solid var(--pink);
 }
 .table-bordered th,
 .table-bordered td {
-  border: 1px solid #f15a24;
+  border: 1px solid var(--pink);
 }
 .table-condensed th,
 .table-condensed td {
@@ -1383,14 +1366,14 @@ fieldset[disabled] .btn {
 }
 .btn-default {
   color: #fff;
-  background-color: #f15a24;
-  border-color: #f15a24;
+  background-color: var(--pink);
+  border-color: var(--pink);
 }
 .btn-default:hover,
 .btn-default:focus {
   color: #fff;
-  background-color: #ec490f;
-  border-color: #ec490f;
+  background-color: var(--pink);
+  border-color: var(--pink);
 }
 .btn-default.disabled,
 .btn-default[disabled],
@@ -1420,14 +1403,14 @@ fieldset[disabled] .btn-primary {
 .btn-outline {
   color: #fff;
   background-color: transparent;
-  border-color: #f15a24;
+  border-color: var(--pink);
   text-shadow: none;
 }
 .btn-outline:hover,
 .btn-outline:focus {
   color: #fff;
   background-color: rgba(0, 0, 0, 0);
-  border-color: #ec490f;
+  border-color: var(--pink);
 }
 .btn-outline.disabled,
 .btn-outline[disabled],
@@ -1478,7 +1461,7 @@ a.label:focus {
   display: none;
 }
 .label-default {
-  background-color: #f15a24;
+  background-color: var(--pink);
 }
 .label-default[href]:hover,
 .label-default[href]:focus {
@@ -1499,7 +1482,7 @@ a.label:focus {
 .navbar {
   padding-top: 0.25rem;
   padding-bottom: 0.75rem;
-  border-bottom: 2px solid #f15a24;
+  border-bottom: 2px solid var(--pink);
 }
 .navbar-menu {
   padding-left: 0;
@@ -1535,7 +1518,7 @@ a.label:focus {
   color: #0bdc89;
 }
 .navbar-menu > li > a:not(.btn):active {
-  color: #f15a24;
+  color: var(--pink);
 }
 .navbar-menu > li > .btn {
   font-size: 90%;
@@ -1627,7 +1610,7 @@ a.label:focus {
   border-color: #2d1e2f;
 }
 .form-radios label.is_selected .icon {
-  color: #f15a24;
+  color: var(--pink);
 }
 .form-radios label:nth-child(1) .icon {
   font-size: 0.6rem;
@@ -1722,8 +1705,8 @@ label[for]:hover {
 section {
   margin-top: -2px;
   padding: 2rem 0;
-  border-top: 2px solid #f15a24;
-  border-bottom: 2px solid #f15a24;
+  border-top: 2px solid var(--pink);
+  border-bottom: 2px solid var(--pink);
 }
 section:last-child {
   border-bottom: 0;
@@ -1731,17 +1714,13 @@ section:last-child {
 section h2 {
   margin-top: 0;
   margin-bottom: 2rem;
-  font-family: "Sprite Graffiti", "Roboto", sans-serif;
+  font-family: "Assistant", sans-serif;
   font-size: 50px;
   font-weight: normal;
   color: #fff;
-  text-shadow: 0 0 3px #f15a24;
+  text-shadow: 0 0 3px var(--pink);
 }
-section h2:before,
-section h2:after {
-  color: #f15a24;
-  content: "=";
-}
+
 @media (max-width: 639px) {
   #location {
     text-align: center;
@@ -1837,8 +1816,8 @@ section h2:after {
 }
 .parallax {
   position: relative;
-  background-color: #f15a24;
-  background-color: #1c2332;
+  background-color: var(--pink);
+  background-color: var(--dark-blue);
 }
 .parallax img {
   display: block;
@@ -1942,26 +1921,46 @@ section h2:after {
 .header-logo {
   /* background-color: #ff4b6c; */
 }
-.header-logo .logo {
+.header-logo .logo-wrapper {
   position: relative;
   z-index: 101;
 }
 @media (max-width: 1023px) {
-  .header-logo .logo {
-    margin-bottom: -13%;
+  .header-logo .logo-wrapper {
+    margin-bottom: -10%;
   }
 }
 @media (min-width: 1024px) {
-  .header-logo .logo {
-    margin-bottom: -24%;
+  .header-logo .logo-wrapper {
+    margin-bottom: -14%;
   }
 }
 .logo {
   display: block;
   max-width: 35rem;
   margin-left: auto;
+  text-align: center;
   margin-right: auto;
 }
+
+.logo-wrapper {
+  color: #0186c4;
+  text-align: center;
+  max-width: 70%;
+  justify-self: center;
+
+  span {
+    font-family: "Assistant";
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    text-shadow: 2px 2px var(--darker-blue);
+  }
+}
+
 .logo img {
   display: block;
   width: 100%;
@@ -2015,7 +2014,7 @@ section h2:after {
 .sponsors dt {
   display: block;
   margin: 0.25rem 0;
-  color: #f15a24;
+  color: var(--pink);
   white-space: nowrap;
   font-size: 90%;
   text-transform: uppercase;
@@ -2056,7 +2055,7 @@ section h2:after {
 }
 .sponsor-placeholder a {
   line-height: 1;
-  border: 2px dashed #f15a24;
+  border: 2px dashed var(--pink);
   padding: 0.6rem 1rem;
   text-align: center;
   text-transform: uppercase;
@@ -2068,19 +2067,19 @@ section h2:after {
 .sponsor-placeholder a:hover,
 .sponsor-placeholder a:focus {
   border-style: solid;
-  border-color: #f15a24;
+  border-color: var(--pink);
 }
 #map-canvas {
   min-height: 30rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 0.25em;
-  border: 2px solid #f15a24;
+  border: 2px solid var(--pink);
 }
 .media {
   position: relative;
   padding: 0.4rem;
-  border: 2px solid #f15a24;
+  border: 2px solid var(--pink);
   border-radius: 0.25em;
 }
 .media object,
@@ -2184,11 +2183,11 @@ section h2:after {
 }
 .box-transparent {
   padding: 0;
-  color: #f15a24;
+  color: var(--pink);
 }
 .box-outline {
   background-color: transparent;
-  border: 2px solid #f15a24;
+  border: 2px solid var(--pink);
 }
 [data-stars]:before,
 [data-stars]:after {
@@ -2262,7 +2261,7 @@ section h2:after {
 .talk {
   margin: 2rem 0;
   padding-bottom: 2rem;
-  border-bottom: 2px solid #f15a24;
+  border-bottom: 2px solid var(--pink);
 }
 .talk:last-child {
   border-bottom: 0;
@@ -2274,10 +2273,10 @@ section h2:after {
   color: inherit;
   line-height: 1.2;
   letter-spacing: -0.01em;
-  color: #f15a24;
+  color: var(--pink);
 }
 .talk .talk-title a {
-  color: #f15a24;
+  color: var(--pink);
 }
 .talk .talk-description {
   margin-bottom: 1rem;
@@ -2325,7 +2324,7 @@ section h2:after {
 }
 .talk .speaker-avatar {
   border-radius: 50%;
-  border: 2px solid #f15a24;
+  border: 2px solid var(--pink);
   overflow: hidden;
   margin-right: 1rem;
   float: left;
@@ -2364,7 +2363,7 @@ section h2:after {
   padding-left: 5rem;
 }
 .list-slots > .list-slot {
-  border-bottom: 1px solid #f15a24;
+  border-bottom: 1px solid var(--pink);
 }
 .list-slots > .list-slot:last-child {
   border-bottom: none;
@@ -2480,7 +2479,6 @@ section h2:after {
 }
 .welcome li .date {
   font-size: larger;
-  margin-bottom: 0.5em;
 }
 .welcome li .date small {
   display: block;
@@ -2489,7 +2487,7 @@ section h2:after {
 .welcome li .icon {
   font-size: 300%;
   line-height: 1.4;
-  color: #f15a24;
+  color: var(--pink);
 }
 .welcome li .name {
   font-size: larger;
@@ -2527,7 +2525,7 @@ section h2:after {
   }
 }
 .talk .icon {
-  color: #f15a24;
+  color: var(--pink);
 }
 .talk .list-inline > li,
 .talk .talk .speaker-social > li {
@@ -2617,7 +2615,7 @@ tr:hover .remove-from-cart {
   border-radius: 0.25em;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
   left: 0;
-  border: 2px solid #f15a24;
+  border: 2px solid var(--pink);
 }
 .dropdown-options {
   list-style: none;
@@ -2675,7 +2673,7 @@ tr:hover .remove-from-cart {
   height: 2rem;
   line-height: 2rem;
   border-radius: 50%;
-  color: #f15a24;
+  color: var(--pink);
   text-align: center;
   font-size: larger;
   font-weight: 600;
