@@ -1838,6 +1838,7 @@ section h2:after {
 .parallax {
   position: relative;
   background-color: #f15a24;
+  background-color: #1c2332;
 }
 .parallax img {
   display: block;
@@ -1939,7 +1940,7 @@ section h2:after {
   height: 2.4em;
 }
 .header-logo {
-  background-color: #ff4b6c;
+  /* background-color: #ff4b6c; */
 }
 .header-logo .logo {
   position: relative;
