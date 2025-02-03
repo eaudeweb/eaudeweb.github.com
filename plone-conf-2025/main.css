@@ -727,6 +727,13 @@ section h2 {
   }
 }
 
+#signup-2 {
+  text {
+    text-shadow: none;
+    font-weight: 700;
+  }
+}
+
 @keyframes blob {
   33% {
     d: path(

@@ -1,4 +1,4 @@
-<svg width="220" height="70" viewBox="0 0 220 70" xmlns="http://www.w3.org/2000/svg">
+<svg id="signup-2" width="220" height="70" viewBox="0 0 220 70" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Aurora Gradient -->
     <linearGradient id="auroraGradient" x1="0%" y1="0%" x2="100%" y2="100%">
