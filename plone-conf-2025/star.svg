@@ -1,0 +1,43 @@
+<svg version="1.1" id="svg1" xml:space="preserve" width="27.421726" height="33.780712"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <defs id="defs1" />
+  <sodipodi:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0"
+    inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" />
+  <inkscape:clipboard style="
+                      font-variation-settings: normal;
+                      opacity: 1;
+                      vector-effect: none;
+                      fill: #ffffff;
+                      fill-opacity: 1;
+                      stroke: #1c2332;
+                      stroke-width: 2.0952884;
+                      stroke-linecap: butt;
+                      stroke-linejoin: bevel;
+                      stroke-miterlimit: 4;
+                      stroke-dasharray: none;
+                      stroke-dashoffset: 0;
+                      stroke-opacity: 1;
+                      -inkscape-stroke: none;
+                      paint-order: markers stroke fill;
+                      stop-color: #000000;
+                      stop-opacity: 1;
+                    " min="1210.8198,142.61174" max="1238.2415,176.39245" geom-min="1211.8674,143.65938"
+    geom-max="1237.1939,175.3448" />
+  <g id="g1" transform="matrix(8.1822273,0,0,8.1822273,-46.094374,-58.080069)">
+    <path
+      d="m 7.2031593,7.3221843 c 0.034042,-0.1277668 0.1782548,-0.1277668 0.2122965,0 L 7.615064,8.0721367 c 0.089081,0.3342521 0.2988015,0.5964861 0.5660208,0.7077507 l 0.5991341,0.2497259 c 0.1021253,0.042591 0.1021253,0.2230111 0,0.2656005 L 8.1807753,9.5449394 C 7.9136047,9.6563868 7.7039988,9.9187641 7.615064,10.253077 l -0.1996082,0.749566 c -0.033643,0.128247 -0.1786539,0.128247 -0.2122965,0 L 7.0035511,10.25269 C 6.9145339,9.9185249 6.7049409,9.6563071 6.4378398,9.5449394 L 5.8383963,9.2952138 c -0.1025095,-0.042089 -0.1025095,-0.2235112 0,-0.2656005 L 6.4378398,8.7798874 C 6.7049409,8.6685197 6.9145339,8.4063018 7.0035511,8.0721367 Z"
+      id="path1-7" style="
+                        fill: #ffffff;
+                        fill-opacity: 1;
+                        stroke: #1c2332;
+                        stroke-width: 0.256078;
+                        stroke-linecap: butt;
+                        stroke-linejoin: bevel;
+                        stroke-dasharray: none;
+                        stroke-opacity: 1;
+                        paint-order: markers stroke fill;
+                      " sodipodi:nodetypes="ccccccccccccccccc" />
+  </g>
+</svg>
