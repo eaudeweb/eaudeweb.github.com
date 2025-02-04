@@ -595,6 +595,7 @@ section h2 {
 }
 .parallax .layer-3 {
   z-index: 97;
+  height: 400px;
 }
 .parallax .layer-4 {
   z-index: 96;
@@ -728,10 +729,12 @@ section h2 {
 }
 
 #signup-2 {
-  text {
-    text-shadow: none;
-    font-weight: 700;
-  }
+  text-shadow: none;
+  font-weight: 700;
+  background-image: linear-gradient(to bottom, var(--plone), var(--green));
+  padding: 1em 2em;
+  border-radius: 40px;
+  color: var(--dark-blue);
 }
 
 @keyframes blob {
@@ -787,20 +790,20 @@ section h2 {
   }
   .star:nth-child(4) {
     top: 60%;
-    left: 70%;
+    left: 90%;
     animation-delay: 1.5s;
   }
   .star:nth-child(5) {
     top: 83%;
     left: 94%;
     animation-delay: 2s;
-    width: 15px;
+    width: 18px;
   }
   .star:nth-child(6) {
     top: 87%;
     left: 92%;
     animation-delay: 2s;
-    width: 8px;
+    width: 10px;
   }
   .star:nth-child(7) {
     top: 100%;
@@ -828,6 +831,68 @@ section h2 {
   }
 }
 
+#header {
+  .star:nth-child(1) {
+    top: 16%;
+    left: 76%;
+    animation-delay: 0s;
+    width: 30px;
+  }
+  .star:nth-child(2) {
+    top: 16.5%;
+    left: 21.6%;
+    animation-delay: 0.5s;
+    width: 10px;
+  }
+  .star:nth-child(3) {
+    top: 11%;
+    left: 11.1%;
+    animation-delay: 1s;
+    width: 14px;
+  }
+  .star:nth-child(4) {
+    top: 22%;
+    left: 61.5%;
+    animation-delay: 1.5s;
+    width: 15px;
+  }
+  .star:nth-child(5) {
+    top: 40px;
+    left: 71.5%;
+    animation-delay: 2s;
+    width: 10px;
+  }
+  .star:nth-child(6) {
+    top: 87%;
+    left: 92%;
+    animation-delay: 2s;
+    width: 10px;
+  }
+  .star:nth-child(7) {
+    top: 100%;
+    left: 6%;
+    animation-delay: 2s;
+    width: 28px;
+  }
+  .star:nth-child(8) {
+    top: 73%;
+    left: 13%;
+    animation-delay: 2s;
+    width: 17px;
+  }
+  .star:nth-child(9) {
+    top: 100%;
+    left: 6%;
+    animation-delay: 2s;
+    width: 28px;
+  }
+  .star:nth-child(10) {
+    top: 100%;
+    left: 6%;
+    animation-delay: 2s;
+    width: 28px;
+  }
+}
 /* Random positioning using nth-child */
 @keyframes twinkle {
   0%,
@@ -850,8 +915,14 @@ section h2 {
   }
 }
 
-.border-6 {
-  border-width: 6px;
+.border-7 {
+  border-width: 7px;
+}
+.border-9 {
+  border-width: 9px;
+}
+.border-11 {
+  border-width: 11px;
 }
 
 .cursor-default {

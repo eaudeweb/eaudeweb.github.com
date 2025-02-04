@@ -49,38 +49,20 @@
       </div>
 
       <div id="scene-cityscape" class="parallax">
-        <!-- <img
-          id="stars"
-          class="layer-4"
-          src="./plone-conf-2025/stars.svg"
-          alt="Background layer 4"
-        /> -->
-
-        <!-- <img
-          id="background"
-          class="layer-4"
-          src="./plone-conf-2025/graphic-background.svg"
-          alt="Background layer 4"
-          style="top: -48px"
-        /> -->
-        <div id="furthest">
+        <div id="further" class="layer-2">
           <div id="stars">
             <div class="star"></div>
             <div class="star"></div>
             <div class="star"></div>
             <div class="star"></div>
             <div class="star"></div>
-            <div class="star"></div>
-            <div class="star"></div>
           </div>
+          <img
+            src="./plone-conf-2025/graphic-furthest.svg"
+            alt="Background layer 3"
+            style="top: -36px"
+          />
         </div>
-        <img
-          id="further"
-          class="layer-3"
-          src="./plone-conf-2025/graphic-furthest.svg"
-          alt="Background layer 3"
-          style="top: -36px"
-        />
         <!-- <img
           id="further"
           class="layer-2"
@@ -195,24 +177,28 @@
           </div>
         </section>
         <section id="stayupdated" class="text-center mt-md-5">
-          <h2 class="mb-0">Excited to join us?</h2>
+          <h2 class="mb-2">Excited to join us?</h2>
           <div
-            class="h3 d-flex gap-3 justify-content-center align-items-center"
+            class="h3 d-flex gap-3 justify-content-center align-items-center mb-5"
           >
             <a
               href="#"
               rel="external"
               target="_blank"
               title="Mailing list"
+              id="signup-2"
               class="text-decoration-none mt-3"
             >
-              {% include_relative plone-conf-2025/sign-up-2.svg %}
+              SIGN UP
             </a>
           </div>
         </section>
       </div>
     </div>
-    <img class="img-fluid w-100" src="./plone-conf-2025/footer.svg" />
+    <!-- <div class="w-100 text-center my-5">
+      <img src="./plone-conf-2025/star.svg" />
+    </div> -->
+    <img class="img-fluid w-100 mb-5" src="./plone-conf-2025/footer2.svg" />
     <footer class="pb-5">
       <div class="container">
         <section id="upcoming" class="d-flex flex-column align-items-center">
@@ -221,7 +207,7 @@
             <li>
               <a
                 target="_blank"
-                class="btn btn-outline btn-block d-flex flex-column text-center fs-4 border-6 icon icon-questionmark"
+                class="btn btn-outline btn-block d-flex flex-column text-center fs-4 border-11 icon icon-questionmark"
                 href="https://plone.org/news-and-events/events/sprints/alpine-city-sprint-2025"
               >
                 <time class="date">10 - 14 Feb</time>
@@ -232,8 +218,8 @@
             <li>
               <a
                 target="_blank"
-                class="btn btn-outline btn-block d-flex flex-column text-center fs-4 border-5 icon icon-yes"
-                href="https://plone.org/news-and-events/events/plone-conferences/plone-conference-2025"
+                class="btn btn-outline btn-block d-flex flex-column text-center fs-4 border-9 icon icon-yes"
+                href="/plone-bucharest-sprint-2025"
               >
                 <time class="date">24 - 28 Mar</time>
                 <strong class="name">Plone Bucharest Sprint 2025</strong>
@@ -243,7 +229,7 @@
             <li>
               <a
                 target="_blank"
-                class="btn btn-outline btn-block d-flex flex-column text-center fs-4 border-4 icon icon-no"
+                class="btn btn-outline btn-block d-flex flex-column text-center fs-4 border-7 icon icon-no"
                 href="https://plone.org/news-and-events/events/sprints/mexico-sprint-2025"
               >
                 <time class="date">23 - 28 Jun</time>
@@ -254,7 +240,7 @@
             <li>
               <a
                 target="_blank"
-                class="btn btn-outline btn-block d-flex flex-column text-center fs-4 border-3 icon icon-yes"
+                class="btn btn-outline btn-block d-flex flex-column text-center fs-4 border-5 icon icon-yes"
                 href="https://plone.org/news-and-events/events/plone-conferences/plone-conference-2025"
               >
                 <time class="date">13 - 19 Oct</time>
@@ -264,7 +250,7 @@
             </li>
             <li>
               <span
-                class="btn btn-outline btn-block d-flex flex-column text-center fs-4 border-2 w-75 m-auto cursor-default"
+                class="btn btn-outline btn-block d-flex flex-column text-center fs-4 border-3 w-75 m-auto cursor-default"
               >
               </span>
             </li>
