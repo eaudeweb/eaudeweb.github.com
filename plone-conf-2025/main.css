@@ -4,7 +4,6 @@
   --bs-font-sans-serif: var(--font-open-sans);
   --bs-body-font-family: var(--bs-font-sans-serif);
   --headings-font-family: var(--font-lexend);
-  --bs-body-font-size: calc(1.275rem + 0.3vw);
   --purple: #972a58;
   --pink: #dd004b;
   --light-pink: #ff6091;
@@ -16,9 +15,11 @@
   --footer: var(--light-pink);
   --sign-up: var(--pink);
   --btn-outline: var(--light-pink);
+  font-size: 12px;
 
   @media (min-width: 1200px) {
     font-size: 20px;
+    --bs-body-font-size: calc(1.275rem + 0.3vw);
   }
 }
 
@@ -627,9 +628,13 @@ section h2 {
 .header {
   display: flex;
   flex-direction: column;
-  min-height: 550px;
+  min-height: 400px;
 
   @media (min-width: 768px) {
+    min-height: 700px;
+  }
+
+  @media (min-width: 1200px) {
     height: 100vh;
   }
 }
@@ -750,11 +755,16 @@ section h2 {
   }
 }
 
-#stars {
+.stars {
   position: absolute;
   inset: 0;
   pointer-events: none;
   z-index: -1;
+  display: none;
+
+  @media (min-width: 1200px) {
+    display: block;
+  }
 }
 
 .star {
@@ -766,11 +776,11 @@ section h2 {
   animation: twinkle 3s infinite ease-in-out alternate;
 }
 
-#stars .star {
+.stars .star {
   position: absolute;
 }
 
-#stars {
+.stars {
   .star:nth-child(1) {
     top: 5%;
     left: 5%;
