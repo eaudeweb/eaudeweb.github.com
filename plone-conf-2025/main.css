@@ -945,6 +945,7 @@ section h2 {
   }
 }
 
-#footer-svg {
-  /* width: 100%; */
+.cc-aurora-borealis {
+  font-size: 12px;
+  opacity: 0.6;
 }
