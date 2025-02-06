@@ -934,7 +934,9 @@ section h2 {
 .border-11 {
   border-width: 11px;
 }
-
+.border-13 {
+  border-width: 13px;
+}
 .cursor-default {
   cursor: default;
 }
