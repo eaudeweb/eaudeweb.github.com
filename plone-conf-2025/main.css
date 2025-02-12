@@ -18,7 +18,7 @@
   font-size: 12px;
 
   @media (min-width: 1200px) {
-    font-size: 20px;
+    font-size: 18px;
     --bs-body-font-size: calc(1.275rem + 0.3vw);
   }
 }
@@ -29,6 +29,11 @@ body {
   color: #fff;
   background-color: var(--dark-blue);
   background: linear-gradient(to bottom, var(--darker-blue) 0%, #1c2332 20%);
+}
+p {
+  @media (max-width: 767px) {
+    font-size: 16px !important;
+  }
 }
 a,
 .btn-link {
@@ -46,6 +51,11 @@ a:focus {
   h1 {
     font-size: 3rem;
   }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 input,
@@ -804,13 +814,13 @@ section h2 {
     animation-delay: 1.5s;
   }
   .star:nth-child(5) {
-    top: 83%;
+    top: 84%;
     left: 94%;
     animation-delay: 2s;
     width: 18px;
   }
   .star:nth-child(6) {
-    top: 87%;
+    top: 89%;
     left: 92%;
     animation-delay: 2s;
     width: 10px;
@@ -950,4 +960,18 @@ section h2 {
 .cc-aurora-borealis {
   font-size: 12px;
   opacity: 0.6;
+}
+
+#whattodo {
+  padding-block: 3rem;
+  background: var(--darker-blue);
+  margin: 2rem auto;
+}
+
+footer {
+  background-image: linear-gradient(
+    to-bottom,
+    var(--dark-blue),
+    var(--pink)
+  );
 }
