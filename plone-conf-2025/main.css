@@ -969,9 +969,29 @@ section h2 {
 }
 
 footer {
-  background-image: linear-gradient(
-    to-bottom,
-    var(--dark-blue),
-    var(--pink)
-  );
+  background-image: linear-gradient(to-bottom, var(--dark-blue), var(--pink));
+}
+
+.back-to-edw {
+  font-size: 12px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+}
+
+.anagram {
+  background-color: white;
+  border: 20px solid #f8b3b0;
+  display: block;
+
+  img {
+    width: 180px;
+  }
+}
+
+#sponsors {
+  .star {
+    width: 30px;
+  }
 }
