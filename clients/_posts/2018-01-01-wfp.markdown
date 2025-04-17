@@ -11,7 +11,7 @@ teaser: |
 
 ---
 
-Since 2018 we have a long-term agreement for software development services ([Drupal][drupal], [Python/Django][django], front-end development and UX/UI design).
+During 2018-2024 we had a long-term agreement for software development services ([Drupal][drupal], [Python/Django][django], front-end development and UX/UI design).
 
 [drupal]: https://www.drupal.org/
 [django]: https://www.djangoproject.com/

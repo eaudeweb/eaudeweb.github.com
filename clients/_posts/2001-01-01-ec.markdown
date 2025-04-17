@@ -5,7 +5,7 @@ logo: /images/client-logos/ec.png
 layout: client
 date: 2011-10-01
 teaser: |
-  Eau de Web has developed since 2012 digital tools for the European Commission (DG Connect, DG Environment, DG Climate Action, EEA, EASME).
+  Eau de Web has developed since 2012 digital tools for the European Commission (DG Connect, DG Environment, DG Climate Action).
 ---
 
 * The [Digital Decade data visualisation portal][desi]

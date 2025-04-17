@@ -1,7 +1,7 @@
 ---
 title: UN Convention to Combat Desertification
 homepage: https://www.unccd.int/
-logo: /images/client-logos/unccd.jpg
+logo: /images/client-logos/unccd.png
 layout: client
 date: 2023-01-01
 teaser: |
@@ -9,7 +9,7 @@ teaser: |
 
 ---
 
-We have been working since 2012 on their corporate [Drupal website][unccd], [PRAIS 4][prais4] (a multilingual platform for reporting geospatial data on land degradation) and the [Data Dashboard][unccd_data_dashboard] (a data visualization portal).
+We have been working since 2012 on their corporate [Drupal website][unccd], [PRAIS 4][prais4] (a platform for collecting geospatial data on land degradation) and the [Data Dashboard][unccd_data_dashboard] (a data visualization portal).
 
 [unccd]: https://www.unccd.int/
 [prais4]: https://www.unccd.int/news-stories/stories/prais-4-reporting-platform-live
