@@ -30,18 +30,13 @@ layout: base
       <article>
 
         <a href="{{ client.url }}" class="box">
-          <span>{{ client.title }}</span>
+          <span>{{ client.teaser }}</span>
           <img src="{{ client.logo }}" width="256" height="256" />
         </a>
 
         <div class="large_box">
-
           <h3><a href="{{ client.homepage }}" target="_blank" rel="external">{{ client.title }}</a></h3>
-
-          <p>{{ client.teaser }}</p>
-
           {{ client.content }}
-
         </div>
 
       </article>

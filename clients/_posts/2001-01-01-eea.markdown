@@ -3,16 +3,23 @@ title: European Environment Agency
 homepage: https://www.eea.europa.eu/
 logo: /images/client-logos/eea.png
 layout: client
-date: 2011-10-01
+date: 2013-01-01
 teaser: |
-  The EEA is the largest EU agency. Together with the Eionet network, they provide the knowledge and the data needed to achieve sustainability in Europe.
-
+  Python development and IT consultancy
 ---
 
 Since 2010, we've developed hundreds of digital products for EEA, working with a vast array of exciting technology stacks. Among others, their [main website][eea], the [European Environment Information and Observation Network][eionet] and [the e-Reporting system for environmental and climate data][reportnet].
 
-Find out more on [GitHub](https://github.com/eea/).
+A very long list of open source [Plone] add-ons were created over the years to support the development of their websites.
+
+Find out more on [GitHub].
 
 [eea]: http://www.eea.europa.eu/
+{:rel="external"}
 [eionet]: https://www.eionet.europa.eu/
+{:rel="external"}
 [reportnet]: https://reportnet.europa.eu/
+{:rel="external"}
+[github]: https://github.com/eea/
+{:rel="external"}
+[Plone]: https://eaudeweb.ro/#plone

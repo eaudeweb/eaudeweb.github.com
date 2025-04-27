@@ -3,21 +3,40 @@ title: The European Commission
 homepage: https://commission.europa.eu/
 logo: /images/client-logos/ec.png
 layout: client
-date: 2011-10-01
+date: 2010-01-01
 teaser: |
-  Eau de Web has developed since 2012 digital tools for the European Commission (DG Connect, DG Environment, DG Climate Action).
+  Data visualization and environmental information systems
 ---
 
+We have been developing since 2012 digital tools and [thematic portals](https://www.eea.europa.eu/en/information-systems) for DG Connect, DG Environment, DG Climate Action, DG Mare:
+
 * The [Digital Decade data visualisation portal][desi]
-* [BISE][bise] - European biodiversity information system
-* [FISE][fise] - European forest information system
-* [WISE][wise] - Water information system for Europe
-* [MSP][msp] - the EU maritime spatial planning platform
-* [Climate-ADAPT][adapt] - the EU climate adaptation platform
+* [BISE] - European Biodiversity Information System
+* [Climate-ADAPT][adapt] - data on expected climate change
+* [Climate and Energy][energy] - climate neutrality 2030 goals
+* [FISE][fise] - European Forest Information System
+* [WISE][wise] - Water Information System for Europe
+* The [European Industrial Emissions Portal][industry]
+* Copernicus [Land Monitoring][clms] and [In-Situ][insitu]
+* The [European Maritime Spatial Planning Platform][msp]
 
 [desi]: https://digital-decade-desi.digital-strategy.ec.europa.eu/
+{:rel="external"}
 [bise]: https://biodiversity.europa.eu/
+{:rel="external"}
 [adapt]: https://climate-adapt.eea.europa.eu/
+{:rel="external"}
+[energy]: https://climate-energy.eea.europa.eu/
+{:rel="external"}
 [fise]: https://forest.eea.europa.eu/
+{:rel="external"}
 [wise]: https://water.europa.eu/
+{:rel="external"}
+[industry]: https://industry.eea.europa.eu/
+{:rel="external"}
+[clms]: https://land.copernicus.eu/
+{:rel="external"}
+[insitu]: https://insitu.copernicus.eu/
+{:rel="external"}
 [msp]: https://maritime-spatial-planning.ec.europa.eu/
+{:rel="external"}

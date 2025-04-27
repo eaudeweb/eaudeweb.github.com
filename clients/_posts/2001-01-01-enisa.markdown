@@ -3,12 +3,14 @@ title: European Union Agency for Cybersecurity
 homepage: https://enisa.europa.eu/
 logo: /images/client-logos/enisa.png
 layout: client
-date: 2011-10-01
+date: 2012-01-01
 teaser: |
-  ENISA is the EU’s response to cyber security issues of the European Union.
-  As such, it is the pace-setter for Information Security in Europe, and a centre of expertise.
-  ENISA’s website is the European hub for exchange of information, best practices
-  and knowledge in the field of Information Security.
+  Web hosting, Python web development and AI-powered cybersecurity tools
 ---
 
-During 2010-2023 we have been designing, developing and hosting 15+ websites and information systems for ENISA, including their [main website](https://www.enisa.europa.eu).
+During 2010-2023 we have been designing, developing and hosting 15+ information systems for ENISA, including their corporate website and several [cybersecurity tools][tools].
+
+Some of these tools use AI technologies (NLP, ML, KR, GenAI) to harvests data from online sources, classify information using knowledge graphs, and  perform machine translation and summarization.
+
+[tools]: https://www.enisa.europa.eu/tools
+{:rel="external"}

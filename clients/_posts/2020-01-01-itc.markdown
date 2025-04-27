@@ -3,15 +3,13 @@ title: International Trade Centre (ITC)
 homepage: https://intracen.org/
 logo: /images/client-logos/itc.png
 layout: client
-date: 2020-10-01
+date: 2017-01-01
 teaser: |
-  The International Trade Centre is a multilateral agency which has a joint mandate
-  with the World Trade Organization and the United Nations through the
-  United Nations Conference on Trade and Development.
+  Drupal website and Benchmarking for Trade
 
 ---
 
-Since 2020 we provide product design, software development ([Drupal][drupal]), maintenance and support and hosting services for the [Benchmarking for Trade portal][itc].
+The [ITC Benchmarking for Trade][itc] portal is a collaborative digital platform and decision support system in which small and medium enterprises and business support organizations can run assessments to evaluate the business performance in relation to their industry, region, and ecosystem.
 
-[drupal]: https://www.drupal.org/
 [itc]: https://www.itcbenchmarking.org/
+{:rel="external"}

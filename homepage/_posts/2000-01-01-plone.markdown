@@ -16,12 +16,21 @@ Some of our efforts to evolve and promote Plone include:
 - Contributions to [Plone Core][], [Plone Collective][] and [Volto][]
 - Active involvement during [Plone Conferences][]
 - Plone User's Group Romania founder and coordinator
-- [Bucharest Plone Conference 2015](https://2015.ploneconf.org)
-- [Volto team](https://plone.org/community/teams/volto-team)
+- [Bucharest Plone Conference 2015][ploneconf2015]
+- [Volto team]
 - [Bucharest Sprint 2025](/plone-bucharest-sprint-2025)
 
 [Plone]: https://plone.org
+{:rel="external"}
 [Plone Core]: https://github.com/plone
+{:rel="external"}
 [Plone Collective]: https://github.com/collective
+{:rel="external"}
 [Volto]: https://github.com/plone/volto/
+{:rel="external"}
 [Plone Conferences]: https://ploneconf.org
+{:rel="external"}
+[Volto team]: https://plone.org/community/teams/volto-team
+{:rel="external"}
+[ploneconf2015]: https://2015.ploneconf.org
+{:rel="external"}

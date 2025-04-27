@@ -3,15 +3,15 @@ title: World Food Programme
 homepage: https://www.wfp.org/
 logo: /images/client-logos/wfp.png
 layout: client
-date: 2018-10-01
+date: 2014-10-01
 teaser: |
-  The World Food Programme is an international organization within the United Nations
-  that provides food assistance worldwide. It is the world's largest humanitarian
-  organization and the leading provider of school meals.
+  Python/Django, Drupal and React.js development
 
 ---
 
-During 2018-2024 we had a long-term agreement for software development services ([Drupal][drupal], [Python/Django][django], front-end development and UX/UI design).
+During 2018-2024 we had a long-term agreement for UX/UI design and software development services with the World Food Programme, world's largest humanitarian organization and provider of food assistance.
 
-[drupal]: https://www.drupal.org/
-[django]: https://www.djangoproject.com/
+Our colleagues took part in the development of [School Connect][school-connect], a smart decision-support tool for managing and monitoring school feeding programs in more than 20 countries.
+
+[school-connect]: https://innovation.wfp.org/project/school-connect
+{:rel="external"}

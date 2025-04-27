@@ -3,11 +3,13 @@ title: United Nations Environment Programme
 homepage: http://www.unep.org/
 logo: /images/client-logos/unep.png
 layout: client
-date: 2011-10-01
+date: 2011-01-01
 teaser: |
-  UNEP is the voice for the environment within the United Nations system.
+  Thematic portals and data-driven information systems using Drupal and Django
 ---
 
-Since 2011 we have been developing and hosting Drupal websites, mobile apps and decision support / online reporting systems for UN Environment and secretariats of [global and regional MEAs][meas] - more than 30 Drupal websites and digital tools.
+Since 2011 we have been developing and hosting for UN Environment and secretariats of [global MEAs][meas] more than 30 Drupal websites, about 20 digital tools and decision support systems and several mobile apps.
+
 
 [meas]: https://www.unep.org/about-un-environment/why-does-un-environment-matter/secretariats-and-conventions
+{:rel="external"}
