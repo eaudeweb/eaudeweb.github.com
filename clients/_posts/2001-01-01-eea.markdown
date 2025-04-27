@@ -14,7 +14,7 @@ A very long list of open source [Plone] add-ons were created over the years to s
 
 Find out more on [GitHub].
 
-[eea]: http://www.eea.europa.eu/
+[eea]: https://www.eea.europa.eu/
 {:rel="external"}
 [eionet]: https://www.eionet.europa.eu/
 {:rel="external"}

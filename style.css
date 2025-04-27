@@ -267,7 +267,7 @@ html.touch body {
 
 p,
 .content ul {
-  margin: 0 0 31px 0;
+  margin: 0 0 1rem 0;
 }
 
 * p:last-child,
@@ -340,7 +340,7 @@ h1 {
   margin-bottom: 31px;
 }
 
-h1.no_bottom {
+h1.no_bottom, p.no_bottom {
   margin-bottom: 0;
 }
 
@@ -859,11 +859,6 @@ html.no-touch footer a:visited:hover {
     line-height: 26px;
   }
 
-  p,
-  .content ul {
-    margin: 0 0 26px 0;
-  }
-
   .content {
     margin: 0;
     width: 100%;
@@ -967,7 +962,7 @@ html.no-touch footer a:visited:hover {
 
   .content_box {
     padding: 20px;
-    width: 120px;
+    width: 167px;
     min-height: inherit;
   }
 
@@ -1032,6 +1027,7 @@ html.no-touch footer a:visited:hover {
     margin-left: 0;
     padding: 0;
     background: transparent;
+    clear: left;
   }
 
   #edw-news-container article,

@@ -9,7 +9,9 @@ teaser: |
 
 ---
 
-Since 2020 we provice web design, Drupal software development and technical support for Copernicus websites: [Climate Change Service][ccs], [Atmosphere Monitoring Service][ams], [Health Hub][healthhub] and [Energy Hub][energyhub].
+Since 2020 we provide web design, Drupal development and technical support services for Copernicus websites operated by ECMWF:
+
+[Climate Change Service][ccs], [Atmosphere Monitoring Service][ams], [Health Hub][healthhub] and [Energy Hub][energyhub].
 
 [ccs]: https://climate.copernicus.eu
 {:rel="external"}

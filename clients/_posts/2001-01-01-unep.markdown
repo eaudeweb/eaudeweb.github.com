@@ -1,6 +1,6 @@
 ---
 title: United Nations Environment Programme
-homepage: http://www.unep.org/
+homepage: https://www.unep.org/
 logo: /images/client-logos/unep.png
 layout: client
 date: 2011-01-01
