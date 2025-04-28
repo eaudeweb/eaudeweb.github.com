@@ -37,6 +37,8 @@
           {% assign current-section = "edw-news" %}
         {% elsif page.url contains '/team/' %}
           {% assign current-section = "work-with-us" %}
+        {% elsif page.url contains '/clients/' %}
+          {% assign current-section = "we-work-for" %}
         {% else %}
           {% assign current-section = "index" %}
         {% endif %}
@@ -73,7 +75,9 @@
           <li class="details"><strong>Email:</strong> office＠eaudeweb.ro</li>
           <li class="details"><a href="/environmental_policy.html">Environmental policy</a></li>
           <li class="details"><a href="/company.html">Company details</a></li>
+          {% if current-section == "index" %}
           <li class="top"><a href="#top" id="top">Back to top</a></li>
+          {% endif %}
         </ul>
       </nav>
     </footer>

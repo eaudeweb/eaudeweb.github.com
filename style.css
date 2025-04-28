@@ -647,9 +647,9 @@ html.ielt9 .box:hover span {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 32px;
-  width: 448px;
-  height: 448px;
+  padding: 24px;
+  width: 512px;
+  height: 512px;
   background: #fff url("images/box-large-bg.png") 0 0 no-repeat;
   overflow: hidden;
 
@@ -658,6 +658,8 @@ html.ielt9 .box:hover span {
   -ms-transition: opacity 0.25s linear;
   -o-transition: opacity 0.25s cubic-bezier(0, 0, 0.25, 1);
   transition: opacity 0.25s cubic-bezier(0, 0, 0.25, 1);
+  box-sizing: border-box;
+  border: 2px solid #E9ECE4;
 }
 
 html.ielt9 .large_box {
