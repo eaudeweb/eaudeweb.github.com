@@ -19,6 +19,7 @@ Some of our efforts to evolve and promote Plone include:
 - [Bucharest Plone Conference 2015][ploneconf2015]
 - [Volto team]
 - [Bucharest Sprint 2025](/plone-bucharest-sprint-2025)
+- [Bucharest Sprint 2026](/plone-bucharest-sprint-2026)
 
 [Plone]: https://plone.org
 {:rel="external"}
