@@ -995,3 +995,43 @@ footer {
     width: 30px;
   }
 }
+
+#main {
+  z-index: 101;
+}
+
+#upcoming li {
+  display: flex;
+}
+
+#upcoming li > a {
+  height: 100%;
+}
+
+.done,
+.done:hover,
+.done:focus {
+  border-color: var(--green);
+  position: relative;
+}
+
+.done strong {
+  color: var(--green);
+}
+
+.badge-done {
+  font-size: 0.75rem;
+  background-color: var(--green);
+  color: var(--dark-blue);
+  padding: 0.3em 1em;
+  border-radius: 1em;
+  margin-top: auto;
+  font-weight: 700;
+  text-shadow: none;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.done:hover .badge-done {
+  background-color: #09bc75;
+  transform: scale(1.1);
+}
